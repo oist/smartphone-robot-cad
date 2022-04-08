@@ -3377,7 +3377,7 @@
     (property "Reference" "U1" (id 0) (at 118.11 90.5002 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "" (id 1) (at 118.11 93.1926 0)
+    (property "Value" "BQ24179YBGR" (id 1) (at 118.11 93.1926 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Footprint" "custom_modules:BQ24179YBGR" (id 2) (at 118.11 94.234 0)
