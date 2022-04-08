@@ -635,7 +635,7 @@
     (property "Reference" "D1" (id 0) (at 160.02 102.8699 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LTST-C190KGKT" (id 1) (at 149.86 102.87 0)
+    (property "Value" "~" (id 1) (at 149.86 102.87 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "digikey-footprints:LED_0603" (id 2) (at 158.75 107.95 0)
