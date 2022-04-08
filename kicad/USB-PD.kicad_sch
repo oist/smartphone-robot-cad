@@ -255,7 +255,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 042fc097-3cbf-401d-af41-cfc8c9615c09)
     (property "Reference" "C14" (id 0) (at 195.5863 49.53 90))
-    (property "Value" "" (id 1) (at 195.5863 52.07 90))
+    (property "Value" "~" (id 1) (at 195.5863 52.07 90))
     (property "Footprint" "" (id 2) (at 195.58 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -279,7 +279,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0a554864-a559-4c00-9a1d-c4a8820edc49)
     (property "Reference" "R28" (id 0) (at 179.07 64.77 90))
-    (property "Value" "" (id 1) (at 179.07 67.31 90))
+    (property "Value" "~" (id 1) (at 179.07 67.31 90))
     (property "Footprint" "" (id 2) (at 179.07 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -303,7 +303,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 20adf684-7a0e-423d-9c09-13472fb6268f)
     (property "Reference" "C4" (id 0) (at 152.3936 49.53 90))
-    (property "Value" "" (id 1) (at 152.3936 52.07 90))
+    (property "Value" "~" (id 1) (at 152.3936 52.07 90))
     (property "Footprint" "" (id 2) (at 152.4 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -327,7 +327,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2a851093-c2ae-47d6-a077-82f3f946c61b)
     (property "Reference" "R43" (id 0) (at 223.52 64.77 90))
-    (property "Value" "" (id 1) (at 223.52 67.31 90))
+    (property "Value" "~" (id 1) (at 223.52 67.31 90))
     (property "Footprint" "" (id 2) (at 223.52 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -351,7 +351,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2fb413be-5636-4222-bf0c-5dfb989f597b)
     (property "Reference" "R40" (id 0) (at 210.82 64.77 90))
-    (property "Value" "" (id 1) (at 210.82 67.31 90))
+    (property "Value" "~" (id 1) (at 210.82 67.31 90))
     (property "Footprint" "" (id 2) (at 210.82 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -419,7 +419,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3a724ed0-a980-42de-89e1-ae9c0e12a740)
     (property "Reference" "C9" (id 0) (at 186.6836 49.53 90))
-    (property "Value" "" (id 1) (at 186.6836 52.07 90))
+    (property "Value" "~" (id 1) (at 186.6836 52.07 90))
     (property "Footprint" "" (id 2) (at 186.69 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -443,7 +443,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 43684609-bdd5-4bcc-92b4-43a724cb5941)
     (property "Reference" "R37" (id 0) (at 198.12 64.77 90))
-    (property "Value" "" (id 1) (at 198.12 67.31 90))
+    (property "Value" "~" (id 1) (at 198.12 67.31 90))
     (property "Footprint" "" (id 2) (at 198.12 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -467,7 +467,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4af2d240-d2c2-4522-b989-a75432c13dd6)
     (property "Reference" "R30" (id 0) (at 191.77 64.77 90))
-    (property "Value" "" (id 1) (at 191.77 67.31 90))
+    (property "Value" "~" (id 1) (at 191.77 67.31 90))
     (property "Footprint" "" (id 2) (at 191.77 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -491,7 +491,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5722d0c0-bf1a-45e5-aeed-d22add7feb01)
     (property "Reference" "C25" (id 0) (at 231.1336 49.53 90))
-    (property "Value" "" (id 1) (at 231.1336 52.07 90))
+    (property "Value" "~" (id 1) (at 231.1336 52.07 90))
     (property "Footprint" "" (id 2) (at 231.14 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -515,7 +515,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7d466749-2f97-46b1-93d5-e8afaea7630c)
     (property "Reference" "C8" (id 0) (at 177.8063 49.53 90))
-    (property "Value" "" (id 1) (at 177.8063 52.07 90))
+    (property "Value" "~" (id 1) (at 177.8063 52.07 90))
     (property "Footprint" "" (id 2) (at 177.8 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -539,7 +539,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8b749a7d-f966-4c42-ae0d-859e719a1403)
     (property "Reference" "D2" (id 0) (at 233.68 135.89 0))
-    (property "Value" "" (id 1) (at 233.68 147.32 0)
+    (property "Value" "~" (id 1) (at 233.68 147.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "" (id 2) (at 238.76 138.43 0)
@@ -583,7 +583,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 950cb00e-7e9d-4d69-9212-be9550a88196)
     (property "Reference" "C24" (id 0) (at 222.2436 49.53 90))
-    (property "Value" "" (id 1) (at 222.2436 52.07 90))
+    (property "Value" "~" (id 1) (at 222.2436 52.07 90))
     (property "Footprint" "" (id 2) (at 222.25 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -607,7 +607,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 969e805b-f61e-483f-9562-ec1e5290c796)
     (property "Reference" "R39" (id 0) (at 204.47 64.77 90))
-    (property "Value" "" (id 1) (at 204.47 67.31 90))
+    (property "Value" "~" (id 1) (at 204.47 67.31 90))
     (property "Footprint" "" (id 2) (at 204.47 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -631,7 +631,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 995c44ee-6133-4e88-af52-eddd63b33f74)
     (property "Reference" "R42" (id 0) (at 217.17 64.77 90))
-    (property "Value" "" (id 1) (at 217.17 67.31 90))
+    (property "Value" "~" (id 1) (at 217.17 67.31 90))
     (property "Footprint" "" (id 2) (at 217.17 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -655,7 +655,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9a7aace5-2eeb-4460-bbcb-98f9d18add96)
     (property "Reference" "R15" (id 0) (at 166.37 64.77 90))
-    (property "Value" "" (id 1) (at 166.37 67.31 90))
+    (property "Value" "~" (id 1) (at 166.37 67.31 90))
     (property "Footprint" "" (id 2) (at 166.37 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -679,7 +679,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9f3ca1b0-03f9-4cd4-9092-755ddaa92d78)
     (property "Reference" "C5" (id 0) (at 161.2836 49.53 90))
-    (property "Value" "" (id 1) (at 161.2836 52.07 90))
+    (property "Value" "~" (id 1) (at 161.2836 52.07 90))
     (property "Footprint" "" (id 2) (at 161.29 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -703,7 +703,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c3c45441-47fb-447e-b5d6-adc23a744fcc)
     (property "Reference" "R24" (id 0) (at 172.72 64.77 90))
-    (property "Value" "" (id 1) (at 172.72 67.31 90))
+    (property "Value" "~" (id 1) (at 172.72 67.31 90))
     (property "Footprint" "" (id 2) (at 172.72 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -727,7 +727,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c8349be0-9d31-4533-85d0-48c928365410)
     (property "Reference" "R11" (id 0) (at 158.75 64.77 90))
-    (property "Value" "" (id 1) (at 158.75 67.31 90))
+    (property "Value" "~" (id 1) (at 158.75 67.31 90))
     (property "Footprint" "" (id 2) (at 158.75 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -751,7 +751,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cec13372-b1c7-4750-91b9-64567f30a1cd)
     (property "Reference" "C23" (id 0) (at 213.3536 49.53 90))
-    (property "Value" "" (id 1) (at 213.3536 52.07 90))
+    (property "Value" "~" (id 1) (at 213.3536 52.07 90))
     (property "Footprint" "" (id 2) (at 213.36 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -775,7 +775,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d376545b-433b-4ad5-98e4-32b179bf62b5)
     (property "Reference" "C7" (id 0) (at 168.9036 49.53 90))
-    (property "Value" "" (id 1) (at 168.9036 52.07 90))
+    (property "Value" "~" (id 1) (at 168.9036 52.07 90))
     (property "Footprint" "" (id 2) (at 168.91 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -799,7 +799,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3f57cd0-313d-4666-b763-42bed432220d)
     (property "Reference" "C15" (id 0) (at 204.4636 49.53 90))
-    (property "Value" "" (id 1) (at 204.4636 52.07 90))
+    (property "Value" "~" (id 1) (at 204.4636 52.07 90))
     (property "Footprint" "" (id 2) (at 204.47 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -823,7 +823,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f6c92ab3-5374-4879-bfee-4b11363c8bb5)
     (property "Reference" "R29" (id 0) (at 185.42 64.77 90))
-    (property "Value" "" (id 1) (at 185.42 67.31 90))
+    (property "Value" "~" (id 1) (at 185.42 67.31 90))
     (property "Footprint" "" (id 2) (at 185.42 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -908,6 +908,173 @@
     )
     (property "Sheet file" "loadswitch.kicad_sch" (id 1) (at 95.25 55.1946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0" (page "2"))
+    (path "/cd32cd90-8de0-4db8-9f2d-67489e40d3d9" (page "3"))
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71" (page "4"))
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/0d147b06-f0e6-4003-8016-e6bdcbc33528"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/17a1c8e3-964a-4be8-8302-8f4dfaa93142"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/21048ee6-ec86-4d26-98e3-7368ddf6c568"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/2fe36554-8029-4f30-ba0b-e92b965bdcf0"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/6099f224-f419-47cb-8cee-72b44893fdaa"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/60cd049d-9700-40c7-9522-4abde624229d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/9814b68b-2a0a-46cc-9be5-af4224beedd2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/a124e08c-1044-4a1f-a5ed-7ea8999bfafa"
+      (reference "#PWR?") (unit 1) (value "~") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/d89b8371-e553-4b8c-a832-19addb9ac5db"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/da6de533-f50a-4c45-86a1-53e798ac139c"
+      (reference "C1") (unit 1) (value "~") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/5652573c-6253-44b5-9476-2a6f6afe3d95"
+      (reference "C2") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/20adf684-7a0e-423d-9c09-13472fb6268f"
+      (reference "C4") (unit 1) (value "~") (footprint "")
+    )
+    (path "/9f3ca1b0-03f9-4cd4-9092-755ddaa92d78"
+      (reference "C5") (unit 1) (value "~") (footprint "")
+    )
+    (path "/d376545b-433b-4ad5-98e4-32b179bf62b5"
+      (reference "C7") (unit 1) (value "~") (footprint "")
+    )
+    (path "/7d466749-2f97-46b1-93d5-e8afaea7630c"
+      (reference "C8") (unit 1) (value "~") (footprint "")
+    )
+    (path "/3a724ed0-a980-42de-89e1-ae9c0e12a740"
+      (reference "C9") (unit 1) (value "~") (footprint "")
+    )
+    (path "/042fc097-3cbf-401d-af41-cfc8c9615c09"
+      (reference "C14") (unit 1) (value "~") (footprint "")
+    )
+    (path "/e3f57cd0-313d-4666-b763-42bed432220d"
+      (reference "C15") (unit 1) (value "~") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/b2781602-8598-494f-8e04-7e9240db03ea"
+      (reference "C16") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/d6c38bef-d9b8-4525-a3ea-f803c94ee8ae"
+      (reference "C17") (unit 1) (value "DNP") (footprint "custom_passives:C_0402_1005Metric_DNP")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/f67b5860-28d4-4c6e-abb4-fc07710bf1fd"
+      (reference "C18") (unit 1) (value "DNP") (footprint "custom_passives:C_0402_1005Metric_DNP")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/5ba8af48-6f08-41b9-8e90-a622a90f14dd"
+      (reference "C19") (unit 1) (value "DNP") (footprint "custom_passives:C_0402_1005Metric_DNP")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/3c916b1f-88a8-4eab-a262-18c95381a73b"
+      (reference "C20") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/238eacb6-ebe1-4484-82f1-760bc5651377"
+      (reference "C21") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/0ce07e43-d97f-456b-84ce-84846d348ccb"
+      (reference "C22") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/cec13372-b1c7-4750-91b9-64567f30a1cd"
+      (reference "C23") (unit 1) (value "~") (footprint "")
+    )
+    (path "/950cb00e-7e9d-4d69-9212-be9550a88196"
+      (reference "C24") (unit 1) (value "~") (footprint "")
+    )
+    (path "/5722d0c0-bf1a-45e5-aeed-d22add7feb01"
+      (reference "C25") (unit 1) (value "~") (footprint "")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/a20bf5ea-aa47-462f-9d0c-120f7037b07a"
+      (reference "D1") (unit 1) (value "~") (footprint "")
+    )
+    (path "/8b749a7d-f966-4c42-ae0d-859e719a1403"
+      (reference "D2") (unit 1) (value "~") (footprint "")
+    )
+    (path "/39d25dc2-7b52-448e-8ecc-ff271a1181cc"
+      (reference "D3") (unit 1) (value "~") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/b1a6f8d4-1319-4fef-92d9-f01e6c54ed27"
+      (reference "J2") (unit 1) (value "SS-52400-003") (footprint "Connector_USB:BELFUSE_SS-52400-003")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/272702bc-2a72-4c1c-aec3-546d4e02b42c"
+      (reference "R3") (unit 1) (value "100") (footprint "")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/4a289482-84ad-406b-9b25-9d18d5569480"
+      (reference "R4") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/18281f36-c6ba-4005-bf96-802f399a861b"
+      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/85f9b609-7a5e-4742-a466-d57d0d51015e"
+      (reference "R6") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/62e08fa4-3cdb-4d16-aa71-62d1f7e10440"
+      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/63562aca-c264-4e26-8ea6-d1cc7897374f"
+      (reference "R8") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/f9e9ce06-06fc-438e-9c72-462409ea9e11/efa6f5cf-ce99-4c1a-8e77-2b2cecbdc4d3"
+      (reference "R9") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/c8349be0-9d31-4533-85d0-48c928365410"
+      (reference "R11") (unit 1) (value "~") (footprint "")
+    )
+    (path "/92b7695f-648f-4067-b899-1a089e6454e0/2c18b929-276a-446d-9334-7e46ecd7be61"
+      (reference "R13") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/9a7aace5-2eeb-4460-bbcb-98f9d18add96"
+      (reference "R15") (unit 1) (value "~") (footprint "")
+    )
+    (path "/c3c45441-47fb-447e-b5d6-adc23a744fcc"
+      (reference "R24") (unit 1) (value "~") (footprint "")
+    )
+    (path "/0a554864-a559-4c00-9a1d-c4a8820edc49"
+      (reference "R28") (unit 1) (value "~") (footprint "")
+    )
+    (path "/f6c92ab3-5374-4879-bfee-4b11363c8bb5"
+      (reference "R29") (unit 1) (value "~") (footprint "")
+    )
+    (path "/4af2d240-d2c2-4522-b989-a75432c13dd6"
+      (reference "R30") (unit 1) (value "~") (footprint "")
+    )
+    (path "/43684609-bdd5-4bcc-92b4-43a724cb5941"
+      (reference "R37") (unit 1) (value "~") (footprint "")
+    )
+    (path "/969e805b-f61e-483f-9562-ec1e5290c796"
+      (reference "R39") (unit 1) (value "~") (footprint "")
+    )
+    (path "/2fb413be-5636-4222-bf0c-5dfb989f597b"
+      (reference "R40") (unit 1) (value "~") (footprint "")
+    )
+    (path "/995c44ee-6133-4e88-af52-eddd63b33f74"
+      (reference "R42") (unit 1) (value "~") (footprint "")
+    )
+    (path "/2a851093-c2ae-47d6-a077-82f3f946c61b"
+      (reference "R43") (unit 1) (value "~") (footprint "")
+    )
+    (path "/9e90d05e-f149-427f-8b23-4f293cf5bb71/401f9862-cd5f-42c8-8037-5d0eac1658f8"
+      (reference "U2") (unit 1) (value "RT9069-33GB") (footprint "SOIC_053AGB_RIT")
     )
   )
 )
