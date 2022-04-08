@@ -1,0 +1,9 @@
+[submodule "kicad/kicad-symbols"]
+	path = kicad/kicad-symbols
+	url = git@gitlab.com:topherbuckley/kicad-symbols.git
+[submodule "kicad/kicad-footprints"]
+	path = kicad/kicad-footprints
+	url = git@gitlab.com:topherbuckley/kicad-footprints.git
+[submodule "kicad/kicad-packages3D"]
+	path = kicad/kicad-packages3D
+	url = git@gitlab.com:topherbuckley/kicad-packages3D.git

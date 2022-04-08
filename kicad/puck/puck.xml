@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/christopher/git/smartphone-robot/hardware/kicad/puck/puck.sch</source>
+    <date>Wed 17 Mar 2021 06:21:30 PM JST</date>
+    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>puck.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/12vRegulator/" tstamps="/603CA733/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>12vRegulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/currentSense/" tstamps="/60606CBE/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>currentSense.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>SeeeduinoXIAO</value>
+      <footprint>custom_modules:Seeeduino_XIAO-MOUDLE14P-2p54-21X17p8MM</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Seeed%20Technology/102010328_Web.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">1597-102010328-ND</field>
+      </fields>
+      <libsource lib="Seeeduino_XIAO" part="SeeeduinoXIAO_puck" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60406E21</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN3018SSD-13</value>
+      <footprint>SOIC127P600X170-8N</footprint>
+      <fields>
+        <field name="A1_MIN">0.1</field>
+        <field name="A_MAX">1.7</field>
+        <field name="A_MIN">1.7</field>
+        <field name="A_NOM">1.7</field>
+        <field name="B_MAX">0.5</field>
+        <field name="B_MIN">0.3</field>
+        <field name="B_NOM">0.4</field>
+        <field name="D2_MAX">0.0</field>
+        <field name="D_MAX">4.95</field>
+        <field name="D_MIN">4.85</field>
+        <field name="D_NOM">4.9</field>
+        <field name="Digi-Key Part Number">DMN3018SSD-13DICT-ND</field>
+        <field name="E1_MAX">3.9</field>
+        <field name="E1_MIN">3.8</field>
+        <field name="E1_NOM">3.85</field>
+        <field name="E2_MAX">0.0</field>
+        <field name="ENOM">1.27</field>
+        <field name="E_MAX">6.1</field>
+        <field name="E_MIN">5.9</field>
+        <field name="E_NOM">6.0</field>
+        <field name="L_MAX">0.82</field>
+        <field name="L_MIN">0.62</field>
+        <field name="L_NOM">0.72</field>
+        <field name="MANUFACTURER">Diodes</field>
+        <field name="PARTREV">5-2</field>
+        <field name="PIN_COUNT">8.0</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="custom_transistors" part="DMN3018SSD-13" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6042723C</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>DMN3018SSD-13</value>
+      <footprint>SOIC127P600X170-8N</footprint>
+      <fields>
+        <field name="A1_MIN">0.1</field>
+        <field name="A_MAX">1.7</field>
+        <field name="A_MIN">1.7</field>
+        <field name="A_NOM">1.7</field>
+        <field name="B_MAX">0.5</field>
+        <field name="B_MIN">0.3</field>
+        <field name="B_NOM">0.4</field>
+        <field name="D2_MAX">0.0</field>
+        <field name="D_MAX">4.95</field>
+        <field name="D_MIN">4.85</field>
+        <field name="D_NOM">4.9</field>
+        <field name="Digi-Key Part Number">DMN3018SSD-13DICT-ND</field>
+        <field name="E1_MAX">3.9</field>
+        <field name="E1_MIN">3.8</field>
+        <field name="E1_NOM">3.85</field>
+        <field name="E2_MAX">0.0</field>
+        <field name="ENOM">1.27</field>
+        <field name="E_MAX">6.1</field>
+        <field name="E_MIN">5.9</field>
+        <field name="E_NOM">6.0</field>
+        <field name="L_MAX">0.82</field>
+        <field name="L_MIN">0.62</field>
+        <field name="L_NOM">0.72</field>
+        <field name="MANUFACTURER">Diodes</field>
+        <field name="PARTREV">5-2</field>
+        <field name="PIN_COUNT">8.0</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="custom_transistors" part="DMN3018SSD-13" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604491CB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PicoBlade_5Pin_SMD_Horizontal</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/532610571_sd.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">WM7623CT-ND</field>
+      </fields>
+      <libsource lib="custom_connectors" part="PicoBlade_5Pin_SMD_Horizontal" description="Connector Header Surface Mount, Right Angle 5 position 0.049&quot; (1.25mm)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605C2A9C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>PicoBlade_2Pin_SMD_Horizontal</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">WM7620CT-ND</field>
+      </fields>
+      <libsource lib="custom_connectors" part="PicoBlade_2Pin_SMD_Horizontal" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E8B8A</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint_CurrentShunt</value>
+      <footprint>custom_connectors:SAMTEC_TSM-102-01-T-SH</footprint>
+      <datasheet>https://www.digikey.jp/product-detail/en/kycon-inc/SX1100-B/2092-SX1100-B-ND/9990206</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">SAM10785-ND</field>
+      </fields>
+      <libsource lib="custom_connectors" part="TestPoint_CurrentShunt_SMD" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605291A2</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRLR6225TRPBF</value>
+      <footprint>digikey-footprints:TO-252-3</footprint>
+      <datasheet>https://www.infineon.com/dgdl/irlr6225pbf.pdf?fileId=5546d462533600a40153566d99bc26c1</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">IRLR6225TRPBFCT-ND</field>
+      </fields>
+      <libsource lib="custom_transistors" part="IRLR6225TRPBF" description="N-Channel 20V 100A (Tc) 63W (Tc) Surface Mount D-Pak"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049EA42</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint_CurrentShunt</value>
+      <footprint>custom_connectors:SAMTEC_TSM-102-01-T-SH</footprint>
+      <datasheet>https://www.digikey.jp/product-detail/en/kycon-inc/SX1100-B/2092-SX1100-B-ND/9990206</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">SAM10785-ND</field>
+      </fields>
+      <libsource lib="custom_connectors" part="TestPoint_CurrentShunt_SMD" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6053F8EC</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint_CurrentShunt</value>
+      <footprint>custom_connectors:SAMTEC_TSM-102-01-T-SH</footprint>
+      <datasheet>https://www.digikey.jp/product-detail/en/kycon-inc/SX1100-B/2092-SX1100-B-ND/9990206</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">SAM10785-ND</field>
+      </fields>
+      <libsource lib="custom_connectors" part="TestPoint_CurrentShunt_SMD" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60542488</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TestPoint_CurrentShunt</value>
+      <footprint>custom_connectors:SAMTEC_TSM-102-01-T-SH</footprint>
+      <datasheet>https://www.digikey.jp/product-detail/en/kycon-inc/SX1100-B/2092-SX1100-B-ND/9990206</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">SAM10785-ND</field>
+      </fields>
+      <libsource lib="custom_connectors" part="TestPoint_CurrentShunt_SMD" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6055FC8D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10u</value>
+      <footprint>custom_inductors:IND_LQH43PN100M26L</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">490-12780-1-ND</field>
+        <field name="MANUFACTURER">Murata</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.8mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="custom_inductors" part="10u" description=""/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603E4725</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>69.8</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RMCF0603FT69K8CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603D3C22</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP3012KTR-G1</value>
+      <footprint>custom_modules:SOT95P280X145-5N</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">AP3012KTR-G1DICT-ND</field>
+        <field name="MANUFACTURER">Diodes Inc.</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45 mm</field>
+        <field name="PARTREV">1.6</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="custom_modules" part="AP3012KTR-G1" description=""/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603D58CB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>6.65k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RMCF0603FT6K65CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603D1F4F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>63.4k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">RMCF0603FT63K4CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603D1A75</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">1N5819HW-FDICT-ND </field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603D13BD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">1276-1102-1-ND </field>
+      </fields>
+      <libsource lib="custom_passives" part="C_1uF" description="Capacitor 0.1 uF 1608 25V"/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603CF79B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">1276-1102-1-ND </field>
+      </fields>
+      <libsource lib="custom_passives" part="C_1uF" description="Capacitor 0.1 uF 1608 25V"/>
+      <sheetpath names="/12vRegulator/" tstamps="/603CA733/"/>
+      <tstamp>603CEE15</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>INA250A3PWR</value>
+      <footprint>custom_modules:SOP65P640X120-16N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ina250.pdf?ts=1615261358271&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA250</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">296-43803-1-ND</field>
+      </fields>
+      <libsource lib="custom_modules" part="INA250A3PWR" description="IC CURR SENSE 1 CIRCUIT 16TSSOP"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6060750A</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint_SMDpad</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_connectors" part="TestPoint_SMDpad" description="test point"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6060BD77</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint_SMDpad</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_connectors" part="TestPoint_SMDpad" description="test point"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6060F3E8</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>DNP</value>
+      <footprint>custom_passives:C_0603_1608Metric_DNP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_passives" part="DNP" description="Capacitor DNP 1608 footprint"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6061DD91</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>DNP</value>
+      <footprint>custom_passives:C_0603_1608Metric_DNP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_passives" part="DNP" description="Capacitor DNP 1608 footprint"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6061E50E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>DNP</value>
+      <footprint>custom_passives:C_0603_1608Metric_DNP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_passives" part="DNP" description="Capacitor DNP 1608 footprint"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6061F0A8</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint_SMDpad</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_connectors" part="TestPoint_SMDpad" description="test point"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>60620797</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint_SMDpad</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_connectors" part="TestPoint_SMDpad" description="test point"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>60620C32</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_SMDpad</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_connectors" part="TestPoint_SMDpad" description="test point"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>606266F1</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint_SMDpad</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_connectors" part="TestPoint_SMDpad" description="test point"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6062754B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Digi-Key Part Number">1276-1006-1-ND</field>
+      </fields>
+      <libsource lib="custom_passives" part="C_0.1uF" description="Capacitor 0.1 uF 1608"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6062D415</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part Number">1276-1102-1-ND </field>
+      </fields>
+      <libsource lib="custom_passives" part="C_1uF" description="Capacitor 0.1 uF 1608 25V"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>60638C39</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint_SMDpad</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="custom_connectors" part="TestPoint_SMDpad" description="test point"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>6063E834</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>NetTie</value>
+      <footprint>custom_passives:R_0603_1608Metric_NetTie</footprint>
+      <libsource lib="custom_passives" part="NetTie" description="R_0603_1608Metric_NetTie"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>604B6A74</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>NetTie</value>
+      <footprint>custom_passives:R_0603_1608Metric_NetTie</footprint>
+      <libsource lib="custom_passives" part="NetTie" description="R_0603_1608Metric_NetTie"/>
+      <sheetpath names="/currentSense/" tstamps="/60606CBE/"/>
+      <tstamp>604C311E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SB120">
+      <aliases>
+        <alias>SB130</alias>
+        <alias>SB140</alias>
+        <alias>SB150</alias>
+        <alias>SB160</alias>
+        <alias>1N5817</alias>
+        <alias>1N5818</alias>
+        <alias>1N5819</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds23022.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SB120</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Seeeduino_XIAO" part="SeeeduinoXIAO_puck">
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Seeed%20Technology/102010328_Web.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SeeeduinoXIAO_puck</field>
+        <field name="Footprint">custom_modules:Seeeduino_XIAO-MOUDLE14P-2p54-21X17p8MM</field>
+        <field name="Digi-Key Part Number">1597-102010328-ND</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PA02_A0_D0" type="output"/>
+        <pin num="1" name="PA4_A1_D1" type="output"/>
+        <pin num="2" name="PA10_A2_D2" type="output"/>
+        <pin num="3" name="PA11_A3_D3" type="output"/>
+        <pin num="4" name="PA8_A4_D4_SDA" type="unspc"/>
+        <pin num="5" name="PA9_A5_D5_SCL" type="unspc"/>
+        <pin num="6" name="PB08_A6_D6_TX" type="output"/>
+        <pin num="7" name="PB09_A7_D7_RX" type="input"/>
+        <pin num="8" name="PA7_A8_D8_SCK" type="unspc"/>
+        <pin num="9" name="PA5_A9_D9_MISO" type="unspc"/>
+        <pin num="10" name="PA6_A10_D10_MOSI" type="output"/>
+        <pin num="11" name="3V3" type="unspc"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="5V" type="power_in"/>
+        <pin num="16" name="PA31_SWDIO" type="input"/>
+        <pin num="17" name="PA30_SWCLK" type="input"/>
+        <pin num="18" name="RESET" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_connectors" part="PicoBlade_2Pin_SMD_Horizontal">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>https://www.molex.com/pdm_docs/sd/532610271_sd.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PicoBlade_2Pin_SMD_Horizontal</field>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal</field>
+        <field name="Digi-Key Part Number">WM7620CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_connectors" part="PicoBlade_5Pin_SMD_Horizontal">
+      <description>Connector Header Surface Mount, Right Angle 5 position 0.049" (1.25mm)</description>
+      <docs>https://www.molex.com/pdm_docs/sd/532610571_sd.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PicoBlade_5Pin_SMD_Horizontal</field>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53261-0571_1x05-1MP_P1.25mm_Horizontal</field>
+        <field name="Digi-Key Part Number">WM7623CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_connectors" part="TestPoint_CurrentShunt_SMD">
+      <description>2-polar test point</description>
+      <docs>https://www.digikey.jp/product-detail/en/kycon-inc/SX1100-B/2092-SX1100-B-ND/9990206</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_CurrentShunt_SMD</field>
+        <field name="Footprint">custom_connectors:SAMTEC_TSM-102-01-T-SH</field>
+        <field name="Digi-Key Part Number">SAM10785-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_connectors" part="TestPoint_SMDpad">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_SMDpad</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D2.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_inductors" part="10u">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">10u</field>
+        <field name="Footprint">custom_inductors:IND_LQH43PN100M26L</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.8mm</field>
+        <field name="MANUFACTURER">Murata</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Digi-Key Part Number">490-12780-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_modules" part="AP3012KTR-G1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP3012KTR-G1</field>
+        <field name="Footprint">custom_modules:SOT95P280X145-5N</field>
+        <field name="PARTREV">1.6</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.45 mm</field>
+        <field name="MANUFACTURER">Diodes Inc.</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="~SHDN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_modules" part="INA250A3PWR">
+      <description>IC CURR SENSE 1 CIRCUIT 16TSSOP</description>
+      <docs>https://www.ti.com/lit/ds/symlink/ina250.pdf?ts=1615261358271&amp;ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA250</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA250A3PWR</field>
+        <field name="Footprint">custom_modules:SOP65P640X120-16N</field>
+        <field name="Digi-Key Part Number">296-43803-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN–" type="input"/>
+        <pin num="2" name="IN–" type="input"/>
+        <pin num="3" name="IN–" type="input"/>
+        <pin num="4" name="SH–" type="output"/>
+        <pin num="5" name="VIN–" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="REF" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="OUT" type="output"/>
+        <pin num="10" name="VS" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="VIN+" type="input"/>
+        <pin num="13" name="SH+" type="output"/>
+        <pin num="14" name="IN+" type="input"/>
+        <pin num="15" name="IN+" type="input"/>
+        <pin num="16" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_passives" part="C_0.1uF">
+      <description>Capacitor 0.1 uF 1608</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Digi-Key Part Number">1276-1006-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_passives" part="C_1uF">
+      <description>Capacitor 0.1 uF 1608 25V</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Digi-Key Part Number">1276-1102-1-ND </field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_passives" part="DNP">
+      <description>Capacitor DNP 1608 footprint</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">DNP</field>
+        <field name="Footprint">custom_passives:C_0603_1608Metric_DNP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_passives" part="NetTie">
+      <description>R_0603_1608Metric_NetTie</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">NetTie</field>
+        <field name="Footprint">custom_passives:R_0603_1608Metric_NetTie</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_transistors" part="DMN3018SSD-13">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMN3018SSD-13</field>
+        <field name="Footprint">SOIC127P600X170-8N</field>
+        <field name="L_MIN">0.62</field>
+        <field name="E1_NOM">3.85</field>
+        <field name="PARTREV">5-2</field>
+        <field name="D_MAX">4.95</field>
+        <field name="L_NOM">0.72</field>
+        <field name="B_NOM">0.4</field>
+        <field name="E1_MIN">3.8</field>
+        <field name="A_MIN">1.7</field>
+        <field name="D_MIN">4.85</field>
+        <field name="A_NOM">1.7</field>
+        <field name="E2_MAX">0.0</field>
+        <field name="A1_MIN">0.1</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="E_MIN">5.9</field>
+        <field name="D2_MAX">0.0</field>
+        <field name="L_MAX">0.82</field>
+        <field name="A_MAX">1.7</field>
+        <field name="B_MIN">0.3</field>
+        <field name="B_MAX">0.5</field>
+        <field name="E_NOM">6.0</field>
+        <field name="D_NOM">4.9</field>
+        <field name="ENOM">1.27</field>
+        <field name="MANUFACTURER">Diodes</field>
+        <field name="E_MAX">6.1</field>
+        <field name="E1_MAX">3.9</field>
+        <field name="PIN_COUNT">8.0</field>
+        <field name="Digi-Key Part Number">DMN3018SSD-13DICT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S2" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+        <pin num="3" name="S1" type="passive"/>
+        <pin num="4" name="G1" type="input"/>
+        <pin num="5" name="D1" type="passive"/>
+        <pin num="6" name="D1" type="passive"/>
+        <pin num="7" name="D2" type="passive"/>
+        <pin num="8" name="D2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="custom_transistors" part="IRLR6225TRPBF">
+      <description>N-Channel 20V 100A (Tc) 63W (Tc) Surface Mount D-Pak</description>
+      <docs>https://www.infineon.com/dgdl/irlr6225pbf.pdf?fileId=5546d462533600a40153566d99bc26c1</docs>
+      <footprints>
+        <fp>Infineon*PG*HDSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLR6225TRPBF</field>
+        <field name="Footprint">digikey-footprints:TO-252-3</field>
+        <field name="Digi-Key Part Number">IRLR6225TRPBFCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Seeeduino_XIAO">
+      <uri>/home/christopher/git/smartphone-robot/hardware/kicad/kicad-symbols/Seeeduino XIAO.lib</uri>
+    </library>
+    <library logical="custom_connectors">
+      <uri>/home/christopher/git/smartphone-robot/hardware/kicad/kicad-symbols/custom_connectors.lib</uri>
+    </library>
+    <library logical="custom_inductors">
+      <uri>/home/christopher/git/smartphone-robot/hardware/kicad/kicad-symbols/custom_inductors.lib</uri>
+    </library>
+    <library logical="custom_modules">
+      <uri>/home/christopher/git/smartphone-robot/hardware/kicad/kicad-symbols/custom_modules.lib</uri>
+    </library>
+    <library logical="custom_passives">
+      <uri>/home/christopher/git/smartphone-robot/hardware/kicad/kicad-symbols/custom_passives.lib</uri>
+    </library>
+    <library logical="custom_transistors">
+      <uri>/home/christopher/git/smartphone-robot/hardware/kicad/kicad-symbols/custom_transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="WirelssModule_Vin">
+      <node ref="TP5" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="2" name="LED_G">
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="3" name="LED_B">
+      <node ref="J1" pin="4"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="Q2" pin="5"/>
+    </net>
+    <net code="4" name="LED_R">
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="5" name="LED_W">
+      <node ref="J1" pin="5"/>
+      <node ref="Q2" pin="8"/>
+      <node ref="Q2" pin="7"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="7" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="8" name="/currentSense/OUT">
+      <node ref="U2" pin="7"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="9" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="10" name="Net-(Q3-Pad3)">
+      <node ref="TP9" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="U3" pin="8"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="11"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="17" name="+5V">
+      <node ref="Q3" pin="4"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="18" name="/12vRegulator/Vin">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="L1" pin="1"/>
+      <node ref="TP11" pin="2"/>
+    </net>
+    <net code="19" name="/currentSense/IN+">
+      <node ref="TP9" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="14"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="20" name="/currentSense/VS">
+      <node ref="TP10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="21" name="/12vRegulator/Vout">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="TP8" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="22" name="LED_W_IO">
+      <node ref="U2" pin="3"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="23" name="LED_G_IO">
+      <node ref="Q1" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="24" name="LED_B_IO">
+      <node ref="Q2" pin="4"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="25" name="LED_R_IO">
+      <node ref="U2" pin="0"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="27" name="SHDN">
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="28" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="29" name="Net-(R2-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="33" name="Net-(R5-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="34" name="Net-(C4-Pad2)">
+      <node ref="C7" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="35" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+  </nets>
+</export>

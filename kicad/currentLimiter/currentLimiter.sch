@@ -1,0 +1,202 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5F6ABE1B
+P 8450 1250
+F 0 "R1" V 8243 1250 50  0000 C CNN
+F 1 "0.287" V 8334 1250 50  0000 C CNN
+F 2 "" V 8380 1250 50  0001 C CNN
+F 3 "~" H 8450 1250 50  0001 C CNN
+F 4 "R" H 8450 1250 50  0001 C CNN "Spice_Primitive"
+F 5 "100" H 8450 1250 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 8450 1250 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    8450 1250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F6AC549
+P 9850 2000
+F 0 "R2" H 9780 1954 50  0000 R CNN
+F 1 "1k" H 9780 2045 50  0000 R CNN
+F 2 "" V 9780 2000 50  0001 C CNN
+F 3 "~" H 9850 2000 50  0001 C CNN
+	1    9850 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F6AC99D
+P 10350 1650
+F 0 "R3" H 10280 1604 50  0000 R CNN
+F 1 "0.0084" H 10280 1695 50  0000 R CNN
+F 2 "" V 10280 1650 50  0001 C CNN
+F 3 "~" H 10350 1650 50  0001 C CNN
+	1    10350 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F6B77B5
+P 9850 2250
+F 0 "#PWR0101" H 9850 2000 50  0001 C CNN
+F 1 "GND" H 9855 2077 50  0000 C CNN
+F 2 "" H 9850 2250 50  0001 C CNN
+F 3 "" H 9850 2250 50  0001 C CNN
+	1    9850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F6B7FFA
+P 10350 1900
+F 0 "#PWR0102" H 10350 1650 50  0001 C CNN
+F 1 "GND" H 10355 1727 50  0000 C CNN
+F 2 "" H 10350 1900 50  0001 C CNN
+F 3 "" H 10350 1900 50  0001 C CNN
+	1    10350 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 2150 9850 2250
+Wire Wire Line
+	10350 1800 10350 1900
+Wire Wire Line
+	7650 2250 7650 2150
+$Comp
+L power:GND #PWR0103
+U 1 1 5F6BD6CE
+P 7650 2250
+F 0 "#PWR0103" H 7650 2000 50  0001 C CNN
+F 1 "GND" H 7655 2077 50  0000 C CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:VSOURCE V1
+U 1 1 5F6BB10A
+P 7650 1750
+F 0 "V1" H 6550 1450 50  0000 L CNN
+F 1 "Pulse(0 10 0 10)" H 6550 1350 50  0000 L CNN
+F 2 "" H 7650 1750 50  0001 C CNN
+F 3 "~" H 7650 1750 50  0001 C CNN
+	1    7650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F6D8473
+P 7800 2150
+F 0 "#FLG0101" H 7800 2225 50  0001 C CNN
+F 1 "PWR_FLAG" V 7800 2278 50  0000 L CNN
+F 2 "" H 7800 2150 50  0001 C CNN
+F 3 "~" H 7800 2150 50  0001 C CNN
+	1    7800 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 2150 7650 2150
+Connection ~ 7650 2150
+Wire Wire Line
+	7650 2150 7650 2050
+Wire Wire Line
+	7650 1250 8150 1250
+Wire Wire Line
+	8950 1300 8950 1250
+Wire Wire Line
+	8750 1600 8150 1600
+Wire Wire Line
+	8150 1600 8150 1250
+Connection ~ 8150 1250
+Wire Wire Line
+	8150 1250 8300 1250
+Text GLabel 7550 1250 0    50   Input ~ 0
+in
+Wire Wire Line
+	7550 1250 7650 1250
+Connection ~ 7650 1250
+Text GLabel 10750 1250 2    50   Input ~ 0
+out
+Wire Wire Line
+	10350 1250 10350 1500
+Wire Wire Line
+	10750 1250 10350 1250
+Wire Wire Line
+	7650 1250 7650 1450
+Text Notes 6800 2650 0    50   ~ 0
+.tran 100m 10 0
+Wire Wire Line
+	9850 1600 9850 1850
+Wire Wire Line
+	9150 1600 9450 1600
+Connection ~ 8950 1250
+Connection ~ 9450 1600
+Wire Wire Line
+	9450 1600 9850 1600
+Text GLabel 8950 1050 1    50   Input ~ 0
+QB
+Wire Wire Line
+	8950 1050 8950 1250
+Text GLabel 9450 1850 3    50   Input ~ 0
+QC
+Wire Wire Line
+	9450 1850 9450 1600
+Wire Wire Line
+	8600 1250 8950 1250
+$Comp
+L custom_transistors:SQP90P06-07L Q2
+U 1 1 5F6DDE14
+P 9850 1350
+F 0 "Q2" V 10192 1350 50  0000 C CNN
+F 1 "SQP90P06-07L" V 10101 1350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 10045 1275 50  0001 L CIN
+F 3 "" H 9850 1350 50  0001 C CNN
+F 4 "X" H 9850 1350 50  0001 C CNN "Spice_Primitive"
+F 5 "SQP90P06-07L" H 9850 1350 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 9850 1350 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "2 1 3" H 9850 1350 50  0001 C CNN "Spice_Node_Sequence"
+F 8 "/home/christopher/kicad/spice/SQP90P06-07L_PS_spice.lib" H 9850 1350 50  0001 C CNN "Spice_Lib_File"
+	1    9850 1350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3906 Q1
+U 1 1 5F6DED75
+P 8950 1500
+F 0 "Q1" V 9185 1500 50  0000 C CNN
+F 1 "2N3906" V 9276 1500 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9150 1425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 8950 1500 50  0001 L CNN
+F 4 "Q" H 8950 1500 50  0001 C CNN "Spice_Primitive"
+F 5 "q2n3906" H 8950 1500 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 8950 1500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "3 2 1" H 8950 1500 50  0001 C CNN "Spice_Node_Sequence"
+F 8 "/home/christopher/kicad/spice/2N3906.LIB" H 8950 1500 50  0001 C CNN "Spice_Lib_File"
+	1    8950 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 1250 9650 1250
+Wire Wire Line
+	9850 1550 9850 1600
+Connection ~ 9850 1600
+Wire Wire Line
+	10050 1250 10350 1250
+Connection ~ 10350 1250
+$EndSCHEMATC

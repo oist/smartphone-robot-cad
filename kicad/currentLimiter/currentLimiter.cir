@@ -1,0 +1,9 @@
+.title KiCad schematic
+.include "SQP/SQP_spice.lib"
+R1 in QB 100
+R2 QC GND 5k
+R3 QB GND 16
+V1 in GND Pulse(0 20 0 20)
+XQ1 QC QB in SQP90P06-07L
+.tran 1m 10 0 
+.end

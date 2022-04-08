@@ -1,0 +1,199 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3750 3000 0    50   Input ~ 0
+Vin
+Text HLabel 7250 3000 2    50   Input ~ 0
+Vout
+Text HLabel 3800 3850 0    50   Input ~ 0
+SHDN
+Wire Wire Line
+	3800 3850 4550 3850
+Wire Wire Line
+	4250 3000 4250 4250
+Wire Wire Line
+	6200 4800 6200 4650
+Wire Wire Line
+	5150 4200 5150 4800
+Wire Wire Line
+	5150 4800 6200 4800
+Wire Wire Line
+	6050 3000 6200 3000
+Wire Wire Line
+	6200 3000 6200 3250
+Wire Wire Line
+	6200 3550 6200 3850
+Wire Wire Line
+	5750 3850 6200 3850
+Connection ~ 6200 3850
+Wire Wire Line
+	6200 3850 6200 3950
+Wire Wire Line
+	6200 4250 6200 4350
+Wire Wire Line
+	6200 3000 6900 3000
+Wire Wire Line
+	6900 3000 6900 3750
+Connection ~ 6200 3000
+Wire Wire Line
+	6900 3950 6900 4800
+Wire Wire Line
+	6900 4800 6200 4800
+Connection ~ 6200 4800
+Wire Wire Line
+	7250 3000 6900 3000
+Connection ~ 6900 3000
+Wire Wire Line
+	4250 4450 4250 4800
+Wire Wire Line
+	4250 4800 5150 4800
+Connection ~ 5150 4800
+Text Notes 5800 2500 0    50   ~ 0
+VOUT=1.25*(1+R1/(R2+R3))=1.25*(1+8.6)=12V\nDiode rated for 1A\nRegulator rated for 500mA
+Wire Wire Line
+	4250 3000 4650 3000
+Connection ~ 4250 3000
+Wire Wire Line
+	5700 3000 5750 3000
+Wire Wire Line
+	5000 3300 4650 3300
+Wire Wire Line
+	4650 3300 4650 3000
+Connection ~ 4650 3000
+Wire Wire Line
+	4650 3000 4700 3000
+Wire Wire Line
+	5350 3300 5700 3300
+Wire Wire Line
+	5700 3300 5700 3000
+Connection ~ 5700 3000
+Wire Wire Line
+	3750 3000 4250 3000
+$Comp
+L custom_inductors:10u L1
+U 1 1 603E4725
+P 5200 3000
+F 0 "L1" H 5200 3181 50  0000 C CNN
+F 1 "10u" H 5200 3090 50  0000 C CNN
+F 2 "custom_inductors:IND_LQH43PN100M26L" H 5200 3000 50  0001 L BNN
+F 3 "" H 5200 3000 50  0001 L BNN
+F 4 "2.8mm" H 5200 3000 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "Murata" H 5200 3000 50  0001 L BNN "MANUFACTURER"
+F 6 "N/A" H 5200 3000 50  0001 L BNN "PARTREV"
+F 7 "Manufacturer Recommendations" H 5200 3000 50  0001 L BNN "STANDARD"
+F 8 "490-12780-1-ND" H 5200 2900 50  0001 C CNN "Digi-Key Part Number"
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 603D3C22
+P 6200 4500
+F 0 "R3" H 6270 4546 50  0000 L CNN
+F 1 "1.13k" H 6270 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 4500 50  0001 C CNN
+F 3 "~" H 6200 4500 50  0001 C CNN
+F 4 "RMCF0603FT1K13CT-ND" H 6200 4500 50  0001 C CNN "Digi-Key Part Number"
+	1    6200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 603EB665
+P 5150 4800
+F 0 "#PWR01" H 5150 4550 50  0001 C CNN
+F 1 "GND" H 5155 4627 50  0000 C CNN
+F 2 "" H 5150 4800 50  0001 C CNN
+F 3 "" H 5150 4800 50  0001 C CNN
+	1    5150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_modules:AP3012KTR-G1 U1
+U 1 1 603D58CB
+P 5150 3700
+F 0 "U1" H 5150 3750 50  0000 C CNN
+F 1 "AP3012KTR-G1" H 5150 3650 50  0000 C CNN
+F 2 "custom_modules:SOT95P280X145-5N" H 5150 3700 50  0001 L BNN
+F 3 "" H 5150 3700 50  0001 L BNN
+F 4 "1.6" H 5150 3700 50  0001 L BNN "PARTREV"
+F 5 "1.45 mm" H 5150 3700 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Diodes Inc." H 5150 3700 50  0001 L BNN "MANUFACTURER"
+F 7 "IPC 7351B" H 5150 3700 50  0001 L BNN "STANDARD"
+F 8 "AP3012KTR-G1DICT-ND" H 5150 3700 50  0001 C CNN "Digi-Key Part Number"
+	1    5150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 603D1F4F
+P 6200 4100
+F 0 "R2" H 6270 4146 50  0000 L CNN
+F 1 "1.37k" H 6270 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 4100 50  0001 C CNN
+F 3 "~" H 6200 4100 50  0001 C CNN
+F 4 "RMCF0603FT1K37CT-ND" H 6200 4100 50  0001 C CNN "Digi-Key Part Number"
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 603D1A75
+P 6200 3400
+F 0 "R1" H 6270 3446 50  0000 L CNN
+F 1 "21.5k" H 6270 3355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 3400 50  0001 C CNN
+F 3 "~" H 6200 3400 50  0001 C CNN
+F 4 "1276-4771-1-ND" H 6200 3400 50  0001 C CNN "Digi-Key Part Number"
+	1    6200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5819 D1
+U 1 1 603D13BD
+P 5900 3000
+F 0 "D1" H 5900 2784 50  0000 C CNN
+F 1 "1N5819" H 5900 2875 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5900 2825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 5900 3000 50  0001 C CNN
+F 4 "1N5819HW-FDICT-ND " H 5900 3000 50  0001 C CNN "Digi-Key Part Number"
+	1    5900 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L custom_passives:C_1uF C2
+U 1 1 603CF79B
+P 6900 3850
+F 0 "C2" H 7015 3896 50  0000 L CNN
+F 1 "C_1uF" H 7015 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 3700 50  0001 C CNN
+F 3 "~" H 6900 3850 50  0001 C CNN
+F 4 "1276-1102-1-ND " H 6900 3850 50  0001 C CNN "Digi-Key Part Number"
+	1    6900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom_passives:C_1uF C1
+U 1 1 603CEE15
+P 4250 4350
+F 0 "C1" H 4365 4396 50  0000 L CNN
+F 1 "C_1uF" H 4365 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 4200 50  0001 C CNN
+F 3 "~" H 4250 4350 50  0001 C CNN
+F 4 "1276-1102-1-ND " H 4250 4350 50  0001 C CNN "Digi-Key Part Number"
+	1    4250 4350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

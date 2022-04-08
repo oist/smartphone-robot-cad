@@ -1,0 +1,5 @@
+.~lock*
+*.zip
+.venv/
+\#auto_saved_files\#
+robot-backups/
