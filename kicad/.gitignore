@@ -1,4 +1,5 @@
 .~lock*
+*.bak
 *.zip
 .venv/
 \#auto_saved_files\#
