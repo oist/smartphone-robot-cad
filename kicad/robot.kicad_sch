@@ -1090,11 +1090,11 @@
     (path "/2f94c21b-8ac9-49be-9c9c-8fb973aeba99/9e90d05e-f149-427f-8b23-4f293cf5bb71/a20bf5ea-aa47-462f-9d0c-120f7037b07a"
       (reference "D1") (unit 1) (value "LTST-C190KGKT") (footprint "digikey-footprints:LED_0603")
     )
-    (path "/2f94c21b-8ac9-49be-9c9c-8fb973aeba99/2a6839e2-56f3-46d6-b5cb-64b856355451"
-      (reference "D2") (unit 1) (value "LTST-C190KGKT") (footprint "digikey-footprints:LED_0603")
+    (path "/2f94c21b-8ac9-49be-9c9c-8fb973aeba99/8b749a7d-f966-4c42-ae0d-859e719a1403"
+      (reference "D2") (unit 1) (value "~") (footprint "")
     )
-    (path "/2f94c21b-8ac9-49be-9c9c-8fb973aeba99/afbec94b-d243-410e-8d06-87e2cee2ba9a"
-      (reference "D3") (unit 1) (value "LTST-C190KGKT") (footprint "digikey-footprints:LED_0603")
+    (path "/2f94c21b-8ac9-49be-9c9c-8fb973aeba99/39d25dc2-7b52-448e-8ecc-ff271a1181cc"
+      (reference "D3") (unit 1) (value "~") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000616ecb9c/00000000-0000-0000-0000-000062249392"
       (reference "J2") (unit 1) (value "I2C") (footprint "")
