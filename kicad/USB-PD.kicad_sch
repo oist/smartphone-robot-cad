@@ -948,7 +948,7 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/92b7695f-648f-4067-b899-1a089e6454e0/da6de533-f50a-4c45-86a1-53e798ac139c"
-      (reference "C1") (unit 1) (value "~") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C1") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/92b7695f-648f-4067-b899-1a089e6454e0/5652573c-6253-44b5-9476-2a6f6afe3d95"
       (reference "C2") (unit 1) (value "220pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
