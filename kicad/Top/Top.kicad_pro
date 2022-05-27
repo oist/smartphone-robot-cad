@@ -323,47 +323,47 @@
     ],
     [
       "0664208c-c607-43b5-96bb-08336db0191c",
-      "Designator"
+      "USB-PD_Circuit"
     ],
     [
       "b4fe2a0a-cfa7-4a36-9d54-4758c9a9aa10",
-      "Designator"
+      "USB-PD_Msc"
     ],
     [
       "da4c5de5-04eb-4ccc-b0f6-016491dcced8",
-      "U_Charger_Circuit"
+      "Charger_Circuit"
     ],
     [
       "fb848c64-9464-4e4f-bd22-f326d515aea3",
-      "U_InputSourceSelection"
+      "InputSourceSelection"
     ],
     [
       "3d2ce442-963e-42a3-b5a2-91e2768e9cd4",
-      "U_LDO"
+      "LDO"
     ],
     [
       "4b2aa915-8ecf-40ba-a2ad-1b9d45c06c4d",
-      "U_HostInterface"
+      "HostInterface"
     ],
     [
       "e45cd675-399a-49d4-aa4a-4b66851ef9a4",
-      "U_Charger_Msc"
+      "Charger_Msc"
     ],
     [
       "3fab603d-ed65-41bd-8de1-51639e39cb06",
-      "Designator"
+      "USB-PD"
     ],
     [
       "5cfd064b-7ba7-4b1d-86f4-2029c6286535",
-      "Designator"
+      "Hardware"
     ],
     [
       "3b7e5198-fb12-4059-9002-c176f652e784",
-      "Designator"
+      "Charger"
     ],
     [
       "aaf20b87-68dc-43c9-a7d3-4ceda8b87424",
-      "Designator"
+      "Protection"
     ]
   ],
   "text_variables": {
