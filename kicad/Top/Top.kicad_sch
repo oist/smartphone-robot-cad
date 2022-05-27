@@ -154,9 +154,6 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0664208c-c607-43b5-96bb-08336db0191c/84bf6696-12e7-4092-ac30-c94a311674eb"
       (reference "#PWR0108") (unit 1) (value "~") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0664208c-c607-43b5-96bb-08336db0191c/f71391c7-f5fd-4b04-b3d2-fccaa0e79cb2"
-      (reference "#PWR0109") (unit 1) (value "~") (footprint "")
-    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0664208c-c607-43b5-96bb-08336db0191c/e40b6814-9a9a-4e0d-af53-0391163c48ea"
       (reference "#PWR0110") (unit 1) (value "~") (footprint "")
     )
@@ -814,9 +811,6 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/3d2ce442-963e-42a3-b5a2-91e2768e9cd4/6f81ce41-300a-4558-82f3-12c719227159"
       (reference "C43") (unit 1) (value "GRM155R61E104KA87D") (footprint "AltiumImports:0402L")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0664208c-c607-43b5-96bb-08336db0191c/8c078975-edb3-41a6-a89d-740364d36ef1"
-      (reference "C44") (unit 1) (value "CAP1337") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0402.PcbLib_CAP_C_0402")
-    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0664208c-c607-43b5-96bb-08336db0191c/d390c650-2539-46c7-9a54-29f65ee4c44b"
       (reference "C45") (unit 1) (value "CAP1337") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0402.PcbLib_CAP_C_0402")
     )
@@ -1188,9 +1182,6 @@
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0664208c-c607-43b5-96bb-08336db0191c/aa0489f3-2da9-4f72-a37f-2aa582d32ca6"
       (reference "R35") (unit 1) (value "CRGP0402F10K") (footprint "AltiumImports:FP-CRGP0402-IPC_A")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0664208c-c607-43b5-96bb-08336db0191c/fd71dcf4-e0c7-4043-ac24-06bd5e32ebba"
-      (reference "R36") (unit 1) (value "CMP-2002-07613-1") (footprint "AltiumImports:RESC1005X40X25LL05T10")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/3d2ce442-963e-42a3-b5a2-91e2768e9cd4/b5d15c76-be07-4334-a10f-8672cb3aff68"
       (reference "R37") (unit 1) (value "ERJ-8ENF10R0V") (footprint "AltiumImports:1206")
