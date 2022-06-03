@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name "Top-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Top-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "snapeda")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Snapeda.kicad_sym")(options "")(descr ""))
+  (lib (name "ultralibrarian")(type "Legacy")(uri "${KICAD6_SYMBOL_DIR}/Ultra_Librarian.lib")(options "")(descr ""))
+  (lib (name "snapeda_legacy")(type "Legacy")(uri "${KICAD6_SYMBOL_DIR}/Snapeda.lib")(options "")(descr ""))
 )
