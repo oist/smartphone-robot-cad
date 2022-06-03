@@ -886,6 +886,9 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/4020f190-cce6-41bd-922e-9b65e869ba6f"
       (reference "JP?") (unit 1) (value "3-pad-selection") (footprint "")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/42f59cad-e5d8-4a0e-a548-d916be18035e"
+      (reference "JP?") (unit 1) (value "Jumper_2_Bridged") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/cc9e6d23-914f-4039-be45-9c4d9ea96768"
       (reference "JP?") (unit 1) (value "3-pad-selection") (footprint "")
     )
