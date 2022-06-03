@@ -716,17 +716,29 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/e45cd675-399a-49d4-aa4a-4b66851ef9a4/13be21e1-4e89-4068-8172-40a328bb6d90"
       (reference "D14") (unit 1) (value "LTST-C190GKT") (footprint "AltiumImports:LED_LTST-C190")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0dd7b002-389a-46e1-a490-217fb0808b87"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/66154318-531a-4be6-860f-6d78475dc4ad"
       (reference "D?") (unit 1) (value "ESDA25P35-1U1M") (footprint "custom_modules:ESDA25P35-1U1M")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/68e59f3e-089b-42dd-aba8-c526ee021a3c"
       (reference "D?") (unit 1) (value "LED_green") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_LED_0603_Green.PcbLib_LED_0603_GREEN")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/8093f800-7ea1-43bb-acce-d6eb92fd17f6"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9a7413ac-923b-4bf7-afaf-717aec0e3ad5"
       (reference "D?") (unit 1) (value "ESDA25W") (footprint "custom_modules:ESDA25W")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9b72e3ef-25b8-4e0b-b62b-91a7f7e85a97"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/c75929f8-d809-4017-bc2b-1525714c9dec"
       (reference "D?") (unit 1) (value "ESDA25P35-1U1M") (footprint "custom_modules:ESDA25P35-1U1M")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/fd328305-cedc-441b-8c4a-9527bb201abb"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
     )
     (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/a396edf8-12c4-485e-bdd1-3962954977fe"
       (reference "FID1") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
