@@ -420,22 +420,6 @@
       "LDO"
     ],
     [
-      "da4c5de5-04eb-4ccc-b0f6-016491dcced8",
-      "Charger_Circuit"
-    ],
-    [
-      "fb848c64-9464-4e4f-bd22-f326d515aea3",
-      "InputSourceSelection"
-    ],
-    [
-      "4b2aa915-8ecf-40ba-a2ad-1b9d45c06c4d",
-      "HostInterface"
-    ],
-    [
-      "e45cd675-399a-49d4-aa4a-4b66851ef9a4",
-      "Charger_Msc"
-    ],
-    [
       "b17a9dbb-4562-473a-b13f-bbad723355f8",
       "MCU"
     ],
