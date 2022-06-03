@@ -737,6 +737,9 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/c75929f8-d809-4017-bc2b-1525714c9dec"
       (reference "D?") (unit 1) (value "ESDA25P35-1U1M") (footprint "custom_modules:ESDA25P35-1U1M")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/e24b7042-1317-4485-a685-eaef0359b3e8"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/fd328305-cedc-441b-8c4a-9527bb201abb"
       (reference "D?") (unit 1) (value "LED") (footprint "")
     )
