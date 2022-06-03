@@ -740,9 +740,6 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/e24b7042-1317-4485-a685-eaef0359b3e8"
       (reference "D?") (unit 1) (value "LED") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/fd328305-cedc-441b-8c4a-9527bb201abb"
-      (reference "D?") (unit 1) (value "LED") (footprint "")
-    )
     (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/a396edf8-12c4-485e-bdd1-3962954977fe"
       (reference "FID1") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
     )
