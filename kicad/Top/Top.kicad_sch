@@ -538,14 +538,8 @@
     (path "/3b094808-5035-436e-9542-e9e286dde93f/64544cdc-492b-419d-9251-1f781dd1fa59"
       (reference "#PWR?") (unit 1) (value "3V3_U2") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/b32086a3-76d4-4032-b286-608cc580fc41"
-      (reference "#PWR?") (unit 1) (value "~") (footprint "")
-    )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/f007edde-6633-4b09-8ce7-ba34d0df442d"
       (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f664f90a-4fbf-4cdd-b34d-05c41c7ee381"
-      (reference "#PWR?") (unit 1) (value "~") (footprint "")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/fb848c64-9464-4e4f-bd22-f326d515aea3/a1c1b10d-1ede-4245-95a0-ca9873f6ced2"
       (reference "C1") (unit 1) (value "CMP-0008217-2") (footprint "AltiumImports:0805L")
