@@ -1,6 +1,8 @@
 (sym_lib_table
   (lib (name "Top-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Top-altium-import.kicad_sym")(options "")(descr ""))
-  (lib (name "snapeda")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Snapeda.kicad_sym")(options "")(descr ""))
-  (lib (name "ultralibrarian")(type "Legacy")(uri "${KICAD6_SYMBOL_DIR}/Ultra_Librarian.lib")(options "")(descr ""))
-  (lib (name "snapeda_legacy")(type "Legacy")(uri "${KICAD6_SYMBOL_DIR}/Snapeda.lib")(options "")(descr ""))
+  (lib (name "snapeda")(type "KiCad")(uri "${KICAD6_SYMBOL_DIR}/Snapeda.kicad_sym")(options "")(descr "")(disabled))
+  (lib (name "ultralibrarian")(type "Legacy")(uri "${KICAD6_SYMBOL_DIR}/Ultra_Librarian.lib")(options "")(descr "")(disabled))
+  (lib (name "snapeda_legacy")(type "Legacy")(uri "${KICAD6_SYMBOL_DIR}/Snapeda.lib")(options "")(descr "")(disabled))
+  (lib (name "MCU_RaspberryPi_RP2040")(type "KiCad")(uri "${KIPRJMOD}/mcu/RP2040_minimal/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
+  (lib (name "RP2040_minimal-rescue")(type "KiCad")(uri "${KIPRJMOD}/mcu/RP2040_minimal/RP2040_minimal-rescue.kicad_sym")(options "")(descr ""))
 )
