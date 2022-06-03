@@ -1055,6 +1055,9 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5a2304e0-3f4e-4ac5-883c-715826fb4543"
       (reference "R?") (unit 1) (value "100k") (footprint "")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5d3d4de5-cddd-4db6-9ea0-e922b7af1087"
+      (reference "R?") (unit 1) (value "4.7k") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/61067c5d-bc36-478d-a1ea-e5156beea1e2"
       (reference "R?") (unit 1) (value "Resistor") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_RES_C_0402.PcbLib_RES_C_0402")
     )
@@ -1064,11 +1067,17 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/894529fa-8b38-4e1f-b639-9098a1f5f5cd"
       (reference "R?") (unit 1) (value "?") (footprint "")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9a4496e2-b415-42a9-9c59-4c8c58db2d4f"
+      (reference "R?") (unit 1) (value "4.7k") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9bcc00df-a7be-43ab-a8db-54385c75dbe8"
       (reference "R?") (unit 1) (value "22k") (footprint "")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9e52597f-3195-4218-8251-e291a2753a9d"
       (reference "R?") (unit 1) (value "?") (footprint "")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/b5a588a9-e19f-471a-bd0a-a1bb0b231a0e"
+      (reference "R?") (unit 1) (value "4.7k") (footprint "")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/c1a6b25e-4b0e-4f51-b9f5-eb3ba7ad2047"
       (reference "R?") (unit 1) (value "?") (footprint "")
