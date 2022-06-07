@@ -723,14 +723,14 @@
     (path "/3b094808-5035-436e-9542-e9e286dde93f/5fb2c80b-b391-4b4d-8eff-fc3131e26f6d"
       (reference "U3") (unit 1) (value "TLV76033DBZR") (footprint "AltiumImports:DBZ0003A_N")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/31f5b877-99d6-426a-8498-ee4cb7fea7a7"
-      (reference "U4") (unit 1) (value "STUSB4500BJR") (footprint "custom_modules:STUSB4500BJR")
-    )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/3650e070-aa04-4d94-b885-de9cab4553e7"
       (reference "U5") (unit 1) (value "EFC8811R-TF") (footprint "AltiumImports:CSP6_568AL")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/6eb310a6-ced6-48dc-8c75-0e13e008eb20"
       (reference "U6") (unit 1) (value "BQ2980RUG") (footprint "AltiumImports:RUG0008A")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/73949633-0a34-40d2-acdb-a1c9012d7304"
+      (reference "U?") (unit 1) (value "STUSB4500QTR") (footprint "Ultra_Librarian:QFN24EP_4X4_STM")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
