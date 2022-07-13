@@ -1,4 +1,4 @@
-21161594709168159
+21164906974656672
 AltiumImports
 0402
 
@@ -85301,6 +85301,13 @@ MAX77818EWZ&plus_T
 0
 72
 72
+Ultra_Librarian
+STUSB4500QTR
+
+
+0
+25
+25
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -86246,6 +86253,13 @@ LED_UHD1110-FKA-CL1A13R3Q1BBQFMF3
 0
 4
 4
+custom_modules
+NCP3901
+
+
+0
+28
+28
 custom_modules
 RT9069-33GB
 
