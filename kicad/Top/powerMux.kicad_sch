@@ -474,6 +474,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 74591a0f-3dcf-43fc-96f3-6b0ce96e5841)
   )
+  (text "Priority given to VIN_A\nso place USB-C on VIN_A\nand wireless on VIN_B"
+    (at 59.69 107.95 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid da929ed5-d6c2-4012-8b21-8cad48ff1954)
+  )
   (text "Turn on/off USB-OTG. OTG on when pin HIGH. High betwen 1.2 and 5.5V"
     (at 190.5 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
