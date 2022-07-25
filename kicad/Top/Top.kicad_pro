@@ -420,6 +420,10 @@
       "LDO"
     ],
     [
+      "682bfd9a-06ea-4239-a569-efb470bd2019",
+      "USB-C"
+    ],
+    [
       "b17a9dbb-4562-473a-b13f-bbad723355f8",
       "MCU"
     ],
@@ -428,16 +432,16 @@
       "USB-PD"
     ],
     [
+      "5cfd064b-7ba7-4b1d-86f4-2029c6286535",
+      "Hardware"
+    ],
+    [
       "3b7e5198-fb12-4059-9002-c176f652e784",
       "Charger"
     ],
     [
       "aaf20b87-68dc-43c9-a7d3-4ceda8b87424",
       "Protection"
-    ],
-    [
-      "5cfd064b-7ba7-4b1d-86f4-2029c6286535",
-      "Hardware"
     ]
   ],
   "text_variables": {
