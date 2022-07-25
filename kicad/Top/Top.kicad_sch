@@ -201,10 +201,51 @@
     )
   )
 
+  (sheet (at 58.42 104.14) (size 27.94 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e17fda7c-211f-4188-9d42-b948f78009dd)
+    (property "Sheet name" "PowerMux" (id 0) (at 58.42 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "powerMux.kicad_sch" (id 1) (at 58.42 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (pin "VIN_A" input (at 58.42 106.68 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 58daaf71-5abc-4ac4-a1d5-2ac0f4bf01bc)
+    )
+    (pin "VIN_B" input (at 58.42 109.22 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 7f6fee7e-b3b4-4e6c-9073-8654881bcc57)
+    )
+    (pin "GND" input (at 58.42 114.3 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2c4514cf-4f01-48fb-aee1-04b5d9d53f00)
+    )
+    (pin "VOUT" input (at 86.36 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4b0404d8-6f5b-473a-b7c3-853ce0a530a2)
+    )
+    (pin "VIN_B_EN{slash}FLAG" input (at 86.36 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 794a7858-344d-4d3c-bb29-d47c1661f055)
+    )
+    (pin "VIN_A_EN{slash}OTG_EN" input (at 86.36 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 9b8bb84d-cbf8-4f83-8a9f-e67dae6616f4)
+    )
+    (pin "VINA_S" input (at 86.36 116.84 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 933dbaa7-8c70-43a0-9627-6f8b6e87688f)
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/3b094808-5035-436e-9542-e9e286dde93f" (page "2"))
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019" (page "8"))
+    (path "/e17fda7c-211f-4188-9d42-b948f78009dd" (page "9"))
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8" (page "11"))
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06" (page "#"))
     (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535" (page "#"))
@@ -345,11 +386,20 @@
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/1229bc89-e021-4473-9b3f-f236bd395c89"
       (reference "C?") (unit 1) (value "2.2uF") (footprint "")
     )
+    (path "/e17fda7c-211f-4188-9d42-b948f78009dd/1f468384-5e51-4e4b-afa6-0236cb8d1093"
+      (reference "C?") (unit 1) (value "4.7uF") (footprint "")
+    )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/68bc63b2-bef6-4541-a557-67ecebeda82a"
       (reference "C?") (unit 1) (value "100uF") (footprint "")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/722aa293-c27c-4e65-846d-30136295f1be"
       (reference "C?") (unit 1) (value "27pF") (footprint "")
+    )
+    (path "/e17fda7c-211f-4188-9d42-b948f78009dd/9893cb48-85d5-4f9d-8fce-bbc9116c8ca8"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/e17fda7c-211f-4188-9d42-b948f78009dd/bd3fa1b2-2c5c-4953-a19c-e25185455cd8"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/f75960c2-547b-4fcf-b700-6e1f788767ff"
       (reference "C?") (unit 1) (value "27pF") (footprint "")
@@ -680,6 +730,9 @@
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/73949633-0a34-40d2-acdb-a1c9012d7304"
       (reference "U?") (unit 1) (value "STUSB4500QTR") (footprint "Ultra_Librarian:QFN24EP_4X4_STM")
+    )
+    (path "/e17fda7c-211f-4188-9d42-b948f78009dd/f92128d7-4486-4481-92d5-2f7afc595dd6"
+      (reference "U?") (unit 1) (value "NCP3901") (footprint "")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
