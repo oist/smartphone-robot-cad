@@ -490,7 +490,7 @@
     (uuid f2b7868a-60f1-4fb5-9c6d-b8465cecf4e3)
   )
 
-  (hierarchical_label "GND" (shape input) (at 90.17 124.46 180)
+  (hierarchical_label "PGND" (shape input) (at 90.17 124.46 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 03617bb0-eb25-4e26-b007-7a2eba6f86cb)
   )

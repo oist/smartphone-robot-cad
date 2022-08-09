@@ -1135,7 +1135,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3deb47a3-b73f-4453-a67e-0256c7f91db0)
   )
-  (hierarchical_label "5V" (shape input) (at 166.37 185.42 180)
+  (hierarchical_label "VIN_5V" (shape input) (at 166.37 185.42 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 42776f74-883f-4fa7-9f92-d8e90df25fcf)
   )
