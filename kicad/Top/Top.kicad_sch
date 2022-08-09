@@ -1013,29 +1013,38 @@
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/633e8a27-5746-40a4-88bf-cb7359013979"
       (reference "TP62") (unit 1) (value "CTR") (footprint "AltiumImports:Keystone5012")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/010f043d-f32c-447d-81f0-9751a3960a0d"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/00d3fbad-6fe9-4921-bd0b-c18a8b3e96a7"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/1932f3e1-28da-4d99-b5e6-f71c39c1d584"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/1d4f9a8f-0d7d-4f81-91e4-b61cc8a0ca74"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/1e15e122-0b7e-4707-8822-fd187458c9e6"
       (reference "TP?") (unit 1) (value "D+") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/22faf559-7574-4bb3-b19c-b962374668a0"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/2d853fc0-793f-4994-9852-d4646db00864"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/3685d0c7-9559-484b-8e3a-a742cad7cd46"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/4c684768-6bf1-4c64-82dc-de99e90c442a"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/4d6cdf68-d1e4-4f9e-b055-77b9c682a810"
       (reference "TP?") (unit 1) (value "TestPoint_CurrentShunt") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/54e1c628-0de4-4510-8839-eedd1449f562"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5b49f1bb-2d5b-4a99-9ddc-a49738043b90"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/6216cf3d-25c5-4ed5-b35f-04cfa55dc2a0"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/6ded31c3-4f76-4697-b333-16bf77a83934"
       (reference "TP?") (unit 1) (value "CC1") (footprint "")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/779698d8-ff59-4aeb-85d2-21739d608238"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/77a5cc8d-9d7a-4ebc-b9c7-815a60536618"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/7e5e093a-d460-4389-a5b7-6ca4dd8fe745"
       (reference "TP?") (unit 1) (value "TestPoint_CurrentShunt") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
@@ -1043,23 +1052,17 @@
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/7eb9e85e-5d30-4a3e-9f83-e5e9345c26a4"
       (reference "TP?") (unit 1) (value "VBUS") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/7fb306f7-6a07-4455-83fd-5cfedaf9d398"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/8dc70a18-5fda-4581-b669-edd631e32e32"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9647938d-bc42-4918-ab3a-42242dfd8b09"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
-    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/964d0efc-36f4-4e66-b2ad-d22fa129022b"
       (reference "TP?") (unit 1) (value "TestPoint_CurrentShunt") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/99bec56a-a074-47e4-8a82-f6a61fa22570"
       (reference "TP?") (unit 1) (value "D-") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/aa323db7-5520-4f9a-bae9-91dca70a32a0"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9c3ea97f-3a16-435e-abe0-77fabde6d5d1"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/a2476ddb-f0ba-4e85-8689-a8ed48353b1d"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/bb31c041-e240-4949-8c2a-adb5a3516291"
       (reference "TP?") (unit 1) (value "CC2") (footprint "")
@@ -1067,26 +1070,23 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/c6dd26dd-f91e-46bb-89ac-c734dd96bb36"
       (reference "TP?") (unit 1) (value "TestPoint_CurrentShunt") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/d6a8df45-b4b0-43d3-98a1-b277029354d3"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/cbdae035-4758-4684-97a7-dfbc3b02de65"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/db8a4729-b065-4dea-a97d-d2f2857d99bb"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/d3a61fb2-7805-46ac-956a-411e4eb0d027"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/ee95b66a-9676-4f6b-92d2-635f2df9c490"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/ef26f612-3b82-46b6-94c0-06bfdb94abe9"
       (reference "TP?") (unit 1) (value "TestPoint_CurrentShunt") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f4960066-327c-40d0-8d94-75098a626a6f"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f5f81ee6-7481-4ca5-ba44-a4d965ab4587"
       (reference "TP?") (unit 1) (value "TestPoint_CurrentShunt") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/fbad6f6f-b32e-454a-af9d-f69e5ef071c1"
       (reference "TP?") (unit 1) (value "TestPoint_CurrentShunt") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/fcf9fd50-8f42-4acd-a24e-3c7ef552a1ab"
-      (reference "TP?") (unit 1) (value "TestPoint_keystone") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005eda5f2c"
       (reference "U2") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
