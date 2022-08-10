@@ -85,17 +85,13 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 3b224cc9-bd0c-4e9d-bfb8-14dfaef332dd)
   )
-  (wire (pts (xy 127 87.63) (xy 140.97 87.63))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 485dee14-6b2c-41bd-8b3d-f2ce8bd8aaf5)
-  )
   (wire (pts (xy 138.43 97.79) (xy 140.97 97.79))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4cf6cbb0-ab1e-4a65-8c7d-5ecaf14a2f02)
   )
-  (wire (pts (xy 127 85.09) (xy 140.97 85.09))
+  (wire (pts (xy 160.02 85.09) (xy 166.37 85.09))
     (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5a595a05-3e4d-4122-a706-6b30177a8489)
+    (uuid 51a6be65-5a1f-47ae-a1ee-a6188416c069)
   )
   (wire (pts (xy 160.02 48.26) (xy 168.91 48.26))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -105,6 +101,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 669f1753-9477-45b0-b8e9-6449e08d0663)
   )
+  (wire (pts (xy 160.02 87.63) (xy 166.37 87.63))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 699181a6-b8cf-4144-9f16-8016d02c6293)
+  )
   (wire (pts (xy 86.36 85.09) (xy 99.06 85.09))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 70e2e857-2f40-4bf2-baa3-4d8552a6d4b8)
@@ -112,10 +112,6 @@
   (wire (pts (xy 36.83 21.59) (xy 40.64 21.59))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 71818f01-5ba2-4f87-81d7-728658911be8)
-  )
-  (wire (pts (xy 127 82.55) (xy 140.97 82.55))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 791d5a84-996f-48e5-aa5b-8c6aaf32c1b2)
   )
   (wire (pts (xy 40.64 21.59) (xy 40.64 12.7))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -231,6 +227,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 7281fd97-13ce-462e-92d8-ffcb19046383)
   )
+  (label "SCL" (at 166.37 85.09 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 76f28acd-1579-4873-8197-7121a99642b1)
+  )
   (label "PGND" (at 43.18 43.18 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8d0bfe27-6dc4-44e6-a865-139fbce537ba)
@@ -242,6 +242,10 @@
   (label "AGND" (at 43.18 45.72 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 950b201f-588a-4139-8800-17759c416640)
+  )
+  (label "SDA" (at 166.37 87.63 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b170f2a9-6f11-40f8-b797-fc8141b91afb)
   )
   (label "PD_INT" (at 132.08 92.71 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -292,21 +296,21 @@
     (pin "3" (uuid 2abb3ad1-917f-4df6-99c8-5f2df790e41e))
   )
 
-  (sheet (at 113.03 189.23) (size 43.18 10.16) (fields_autoplaced)
+  (sheet (at 102.87 111.76) (size 43.18 10.16) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 128 0 0 1))
-    (fill (color 128 255 128 1.0000))
+    (fill (color 0 0 0 0.0000))
     (uuid 3b094808-5035-436e-9542-e9e286dde93f)
-    (property "Sheet name" "LDO" (id 0) (at 113.03 188.5184 0)
+    (property "Sheet name" "LDO" (id 0) (at 102.87 111.0484 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "LDO.kicad_sch" (id 1) (at 113.03 199.9746 0)
+    (property "Sheet file" "LDO.kicad_sch" (id 1) (at 102.87 122.5046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "Power_External" passive (at 113.03 194.31 180)
+    (pin "Power_External" passive (at 102.87 116.84 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e7a9095c-ee8c-4717-862d-2f068700d23f)
     )
-    (pin "Power_Charger" passive (at 156.21 194.31 0)
+    (pin "Power_Charger" passive (at 146.05 116.84 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 45c11181-2fb1-4aa1-a239-771a5558dd12)
     )
@@ -538,10 +542,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 74e8a21f-8619-4915-b55d-36c514d56a2f)
     )
-    (pin "1v1" input (at 140.97 78.74 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid b8a30461-30ea-4942-ab3e-7839be0144ae)
-    )
     (pin "SCL" input (at 160.02 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8c8f118f-b4fa-440f-8ecf-ab0426f8861e)
@@ -573,6 +573,14 @@
     (pin "GPIO3" input (at 140.97 90.17 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid df704da6-29d1-4b58-b872-2f34d73350e0)
+    )
+    (pin "I2C1_SDA" input (at 160.02 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 62fe4c9f-e3e7-478d-b9c3-aa1a784c90b6)
+    )
+    (pin "I2C1_SCL" input (at 160.02 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3e4d2e4f-2b75-4034-9a09-e783b4af9560)
     )
   )
 
@@ -634,33 +642,6 @@
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f1af967"
       (reference "#PWR024") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/556e07ac-3021-40be-a95b-3362e8015d1e"
-      (reference "#PWR0101") (unit 1) (value "BAT_U1") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/03c3929a-bbd4-44ae-a1e9-64bb8d755118"
-      (reference "#PWR0102") (unit 1) (value "3V3_U2") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/f007edde-6633-4b09-8ce7-ba34d0df442d"
-      (reference "#PWR0103") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/0916f423-1277-4c41-8392-b91073781742"
-      (reference "#PWR0104") (unit 1) (value "BAT_U1") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/27387f18-fc99-471d-a424-19a729957638"
-      (reference "#PWR0105") (unit 1) (value "PGND") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/556a28aa-b597-46e4-bc45-3f84637f950f"
-      (reference "#PWR0106") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/463e650d-5aa2-49e6-aa61-5c663bc168ee"
-      (reference "#PWR0107") (unit 1) (value "PGND") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/31a7c410-4c2c-4a45-b800-c5ff70930aa4"
-      (reference "#PWR0108") (unit 1) (value "PGND") (footprint "")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/64544cdc-492b-419d-9251-1f781dd1fa59"
-      (reference "#PWR0109") (unit 1) (value "3V3_U2") (footprint "")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/976e6910-d854-4e40-90f4-a45cf0ae8719"
       (reference "#PWR0278") (unit 1) (value "AGND") (footprint "")
@@ -727,18 +708,6 @@
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f1af96d"
       (reference "C17") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/d2610988-8118-4cba-a529-23ae2c036f44"
-      (reference "C18") (unit 1) (value "Capacitor NP") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0603.PcbLib_CAP_C_0603")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/ed4398fd-d34e-4cfe-b2fb-9401c279cb12"
-      (reference "C19") (unit 1) (value "GRM155R61E104KA87D") (footprint "AltiumImports:0402L")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/be5b2123-bb32-4338-a973-b0b22031b00c"
-      (reference "C20") (unit 1) (value "Capacitor NP") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_CAP_C_0603.PcbLib_CAP_C_0603")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/6f81ce41-300a-4558-82f3-12c719227159"
-      (reference "C25") (unit 1) (value "GRM155R61E104KA87D") (footprint "AltiumImports:0402L")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/d554c2a1-e9d1-4d56-b866-09a92bba98a3"
       (reference "C54") (unit 1) (value "GRM188R71H104KA93D") (footprint "AltiumImports:0603L")
@@ -851,15 +820,6 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/fe5534a2-add6-4624-b5b7-4e9624420f7d"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/69ae67e7-a8d0-4054-935f-e67eba4725b4"
-      (reference "D11") (unit 1) (value "BAT54HT1G") (footprint "AltiumImports:SOD-323")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/041efd85-430c-43ca-ba02-58c4ee05ffa6"
-      (reference "D12") (unit 1) (value "BAT54HT1G") (footprint "AltiumImports:SOD-323")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/27133c70-e0b4-4aa7-a8c1-8c08b3e14c61"
-      (reference "D15") (unit 1) (value "LED_green") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_.._Footprints_LED_0603_Green.PcbLib_LED_0603_GREEN")
-    )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/207b83eb-3a06-4244-ba84-98c1d5f62a8e"
       (reference "D?") (unit 1) (value "PTVS20VS1UR") (footprint "")
     )
@@ -923,12 +883,6 @@
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f30f0ba"
       (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f4b4ce4"
-      (reference "J3") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
-    )
-    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f4b0bc9"
-      (reference "J4") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
-    )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/704addaf-f30e-42d2-bc36-5ec7a497b98b"
       (reference "J14") (unit 1) (value "PACK CONNECT") (footprint "AltiumImports:TERM_BLK_ED555-2DS")
     )
@@ -937,9 +891,6 @@
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/981760ba-3055-4a1e-aa29-3c7e6db1232a"
       (reference "J?") (unit 1) (value "USBC_Receptacle_SMD_RA") (footprint "AltiumImports:CON_USB3.1-C_RCPT_SMD_RA_ACP_12401610E4#2A")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/063cf998-b4a2-42bc-a5c7-a7030eaab0f1"
-      (reference "JP7") (unit 1) (value "Header_2x1") (footprint "AltiumImports:CONN_PEC02SAAN")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/971cc263-c87e-44f5-900a-d9f34f13c796"
       (reference "L?") (unit 1) (value "0.47uH") (footprint "")
@@ -961,18 +912,6 @@
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0d8ebf"
       (reference "R5") (unit 1) (value "1k") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/79f14183-b9e8-403f-81ed-966dc460fd2f"
-      (reference "R11") (unit 1) (value "CRGP0402F10K") (footprint "AltiumImports:FP-CRGP0402-IPC_A")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/b5d15c76-be07-4334-a10f-8672cb3aff68"
-      (reference "R23") (unit 1) (value "ERJ-8ENF10R0V") (footprint "AltiumImports:1206")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/ab2888fd-00b7-4642-bc6f-4dfe256f95a0"
-      (reference "R24") (unit 1) (value "Resistor") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_Resistor_RES_C_0402")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/02dc5e92-0842-4d6f-ad0a-567afa53a6e5"
-      (reference "R27") (unit 1) (value "5106") (footprint "AltiumImports:5106")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/e9b72aa3-f48b-4726-a573-aae86f2e6535"
       (reference "R59") (unit 1) (value "CRCW04025M10JNED") (footprint "AltiumImports:0402L")
@@ -1241,14 +1180,8 @@
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005eda5f2c"
       (reference "U2") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
     )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/a1921bdf-f2fb-4be5-9e3b-ddfec34e034e"
-      (reference "U2") (unit 1) (value "MCP1804 SOT-23-5") (footprint "AltiumImports:_ALTIUM_WORK_00001_MCHP-CDB_Library_Database_MCHP-CDB.DbLib_MCHP-Analog_SOT-23-5")
-    )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005ed8f5d6"
       (reference "U3") (unit 1) (value "RP2040") (footprint "RP2040_minimal:RP2040-QFN-56")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/5fb2c80b-b391-4b4d-8eff-fc3131e26f6d"
-      (reference "U3") (unit 1) (value "TLV76033DBZR") (footprint "AltiumImports:DBZ0003A_N")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/3650e070-aa04-4d94-b885-de9cab4553e7"
       (reference "U5") (unit 1) (value "EFC8811R-TF") (footprint "AltiumImports:CSP6_568AL")
