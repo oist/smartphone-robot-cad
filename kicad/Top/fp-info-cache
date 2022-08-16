@@ -1,4 +1,4 @@
-21169884922152903
+21171545045713787
 AltiumImports
 0402
 
@@ -62180,6 +62180,13 @@ BGA 9 0.4
 0
 9
 9
+Package_BGA
+WLP-35_7x5_2.828x2.028mm
+
+
+0
+35
+35
 Package_BGA
 XBGA-121_10x10mm_Layout11x11_P0.8mm
 XBGA-121, 11x11 raster, 10x10mm package, pitch 0.6mm; http://ww1.microchip.com/downloads/en/DeviceDoc/39969b.pdf

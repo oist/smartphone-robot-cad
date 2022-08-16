@@ -428,6 +428,10 @@
       "PowerMux"
     ],
     [
+      "427922e5-a943-4728-8788-709c0c3b2395",
+      "BoostRegulator"
+    ],
+    [
       "b17a9dbb-4562-473a-b13f-bbad723355f8",
       "MCU"
     ],
