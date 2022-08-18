@@ -540,7 +540,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 77e4839f-8d73-4089-ad48-baa2aa01dcf8)
   )
-  (hierarchical_label "VINA_S" (shape input) (at 209.55 148.59 0)
+  (hierarchical_label "USB_V" (shape input) (at 209.55 148.59 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8df81873-ef72-4e1c-aa21-20436761b115)
   )
