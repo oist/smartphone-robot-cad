@@ -8,10 +8,6 @@
   )
 
 
-  (hierarchical_label "5V" (shape input) (at 132.08 104.14 0)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 06f94cba-505f-4614-b15e-d762c64a6fe1)
-  )
   (hierarchical_label "1V8" (shape input) (at 132.08 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 15ef052f-8d35-426b-9d7d-c09ff719b6d5)
