@@ -593,7 +593,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9041551f-6f52-48d5-a3fe-22cabde2bb27)
   )
-  (polyline (pts (xy 3.81 125.73) (xy 3.81 214.63))
+  (polyline (pts (xy 3.81 160.02) (xy 3.81 214.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 95436292-e6f1-4d5d-8d80-eb96d725f65c)
   )
@@ -610,7 +610,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9b35bb94-3524-4c1d-a0c7-05b3d1d4882a)
   )
-  (polyline (pts (xy 3.81 125.73) (xy 96.52 125.73))
+  (polyline (pts (xy 3.81 160.02) (xy 96.52 160.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a12bdfd6-4c48-46ca-8170-f56e48e1f1dc)
   )
@@ -724,7 +724,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f9047843-42ad-4fd6-9e48-dfa6c443a405)
   )
-  (polyline (pts (xy 96.52 214.63) (xy 96.52 125.73))
+  (polyline (pts (xy 96.52 214.63) (xy 96.52 160.02))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid fa9d14b5-0476-45d1-80d7-0d78205dfffe)
   )
@@ -1925,15 +1925,6 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/fe5534a2-add6-4624-b5b7-4e9624420f7d"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
-    (path "/3b7e5198-fb12-4059-9002-c176f652e784/0159c735-8608-4844-aed3-02002049f625"
-      (reference "CHG_DISQBAT") (unit 1) (value "DISCONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3b7e5198-fb12-4059-9002-c176f652e784/f025b69e-af26-4731-a467-828d93c6c776"
-      (reference "CHG_SUSPND") (unit 1) (value "DISCONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3b7e5198-fb12-4059-9002-c176f652e784/d42d41a9-9649-4f0d-8fdc-8d6b684f1164"
-      (reference "CHG_VIO") (unit 1) (value "CONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/207b83eb-3a06-4244-ba84-98c1d5f62a8e"
       (reference "D?") (unit 1) (value "PTVS20VS1UR") (footprint "")
     )
@@ -2012,6 +2003,30 @@
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/981760ba-3055-4a1e-aa29-3c7e6db1232a"
       (reference "J?") (unit 1) (value "USBC_Receptacle_SMD_RA") (footprint "AltiumImports:CON_USB3.1-C_RCPT_SMD_RA_ACP_12401610E4#2A")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/028e6c91-a411-44bc-8bc4-230f797de12f"
+      (reference "JP?") (unit 1) (value "58VIO2") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0fddb74a-33df-4ecf-9cb3-a638b3b2f951"
+      (reference "JP?") (unit 1) (value "58VCIN") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5bd2b59c-f254-4d1b-b9bb-8c988126b190"
+      (reference "JP?") (unit 1) (value "58VIO1") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/8ca33ab1-086d-4cb0-89ba-7464682bd876"
+      (reference "JP?") (unit 1) (value "58SYS") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/3b7e5198-fb12-4059-9002-c176f652e784/903e8352-2258-4f09-88aa-864818afe061"
+      (reference "JP?") (unit 1) (value "76SUSPND") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/3b7e5198-fb12-4059-9002-c176f652e784/92bf32ab-a2c9-4863-9dbf-2be5183c7aa2"
+      (reference "JP?") (unit 1) (value "76DISQBAT") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/3b7e5198-fb12-4059-9002-c176f652e784/a48aac76-a51a-45ea-ac25-d2c6e7dfa121"
+      (reference "JP?") (unit 1) (value "76VIO") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f1067074-7f4e-47ee-b0a4-77f2d28b950a"
+      (reference "JP?") (unit 1) (value "58VBUS") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/971cc263-c87e-44f5-900a-d9f34f13c796"
       (reference "L?") (unit 1) (value "0.47uH") (footprint "")
     )
@@ -2023,21 +2038,6 @@
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/64d58bc4-c057-45da-871d-55e2c950fb27"
       (reference "OUT") (unit 1) (value "TestPoint") (footprint "")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/df81db40-58d3-4c7e-a90d-1b0d1da51b16"
-      (reference "PD_VBUS") (unit 1) (value "CONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/0826f9ec-89a5-432e-994f-588ef9d109d4"
-      (reference "PD_VCIN") (unit 1) (value "CONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/411096cd-9733-4a85-9895-9ee5ff7c7bd1"
-      (reference "PD_VIO1") (unit 1) (value "CONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/68d641bd-6aa8-4bfa-831e-4c20b13c28e5"
-      (reference "PD_VIO2") (unit 1) (value "CONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f338119e-89ec-4bd3-815e-87a12c3c6b07"
-      (reference "PD_VSYS") (unit 1) (value "CONNECTED") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/69270d4c-4c67-4c80-a3b3-7a099e15b818"
       (reference "PGND") (unit 1) (value "TestPoint") (footprint "")
@@ -2244,7 +2244,7 @@
       (reference "SH-JP37") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/f4114fd8-0985-4ae1-afb0-a0b8017bc246"
-      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW?") (unit 1) (value "76EXTSM") (footprint "")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/ea8de69d-213e-455e-9b57-7d9341e27ae9"
       (reference "TH?") (unit 1) (value "10k") (footprint "")
