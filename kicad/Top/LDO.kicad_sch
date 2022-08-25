@@ -8,19 +8,21 @@
   )
 
 
-  (text "MAX77958 VBus Supply Current @ 4.2V = 150 uA\nMAX77976 SCL/SDA Logic Input Current = 10 uA"
-    (at 11.43 12.7 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 53306099-98ff-4bcf-a905-7e819dea8c18)
-  )
-
-  (hierarchical_label "VBUS" (shape input) (at 87.63 73.66 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 14b4ed63-ebce-41f4-898d-91a41bb2f2a0)
-  )
-  (hierarchical_label "3V3" (shape input) (at 175.26 73.66 0)
+  (hierarchical_label "5V" (shape input) (at 132.08 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 77ab443e-0daa-4926-8474-a67c5b701247)
+    (uuid 06f94cba-505f-4614-b15e-d762c64a6fe1)
+  )
+  (hierarchical_label "1V8" (shape input) (at 132.08 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 15ef052f-8d35-426b-9d7d-c09ff719b6d5)
+  )
+  (hierarchical_label "3V3" (shape input) (at 132.08 99.06 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 278b0553-cfe0-42d0-b201-37acdfb104a0)
+  )
+  (hierarchical_label "SYS" (shape input) (at 81.28 96.52 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d148325f-40be-4875-a3ae-cbd03822744f)
   )
 
   (sheet_instances
