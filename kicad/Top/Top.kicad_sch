@@ -1058,7 +1058,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5a90929d-4689-4d6c-9512-9cac1ae59541)
   )
-  (label "1V8" (at 74.93 50.8 180)
+  (label "3V3" (at 74.93 50.8 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6071a01a-c34b-4bbe-a902-eb33b26bdee7)
   )
@@ -1070,11 +1070,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 67f62ec7-1535-4e99-963a-3b526a14f835)
   )
-  (label "1V8" (at 74.93 58.42 180)
+  (label "3V3" (at 74.93 58.42 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6d301656-39e9-497d-9235-1ccd5c62212b)
   )
-  (label "1V8" (at 196.85 49.53 180)
+  (label "3V3" (at 196.85 49.53 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6d540e98-4e77-4cc2-970c-b1920c967cb5)
   )
@@ -1142,7 +1142,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b1f8d19e-5831-43f6-81d0-d622d329ca14)
   )
-  (label "1V8" (at 219.71 49.53 0)
+  (label "3V3" (at 219.71 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b273243a-3849-43b7-ab6d-9cb5f4127f2f)
   )
@@ -1194,7 +1194,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e0704a8a-224a-4188-ba83-16da1ab7e3cf)
   )
-  (label "1V8" (at 29.21 165.1 0)
+  (label "3V3" (at 29.21 165.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ed4f3ce5-226e-440e-a4d3-e22d75170a15)
   )
@@ -2112,6 +2112,9 @@
     (path "/427922e5-a943-4728-8788-709c0c3b2395/5c802776-019d-4191-be26-e60766a7622c"
       (reference "C?") (unit 1) (value "10uF") (footprint "")
     )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/5d13af0d-42d0-4782-b6ee-314c6d1cfbb2"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5ee408e5-80b8-4610-93d2-4e2f2df68415"
       (reference "C?") (unit 1) (value "1uF") (footprint "")
     )
@@ -2430,6 +2433,9 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/c32529ed-2e3f-4222-8218-5bfe464f4728"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
     )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/c7bbe81d-4ba6-4d74-8a17-2b2f96653644"
+      (reference "R?") (unit 1) (value "200k") (footprint "")
+    )
     (path "/cf042496-53c2-48a0-b4b6-3c4d09f80429"
       (reference "R?") (unit 1) (value "0") (footprint "")
     )
@@ -2473,10 +2479,10 @@
       (reference "S?") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/5348c353-2ef7-4ba8-ba47-d79055695ce1"
-      (reference "SCL") (unit 1) (value "TestPoint") (footprint "")
+      (reference "SCL1V8") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/fbb619e1-549c-4d98-b2ee-dc8dd38c3940"
-      (reference "SDA") (unit 1) (value "TestPoint") (footprint "")
+      (reference "SDA1V8") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/eeeeb389-9db9-44a7-8727-e16efa7a725a"
       (reference "SH-JP1") (unit 1) (value "ACDRV1 to _acdrv1") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
@@ -2663,6 +2669,9 @@
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/242a1338-7bc6-4caa-952a-cdca6e10244e"
       (reference "U?") (unit 1) (value "MCP6004T-I{slash}ST") (footprint "custom_amplifiers:MCP6004T-I&slash_ST")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/2f6a9a9b-88fc-481c-92cf-ee894efc5f1f"
+      (reference "U?") (unit 1) (value "LSF0102DCTR") (footprint "Snapeda:SOP65P400X130-8N")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/6a34cc5d-bb52-400f-93cd-0b434e28ff22"
       (reference "U?") (unit 1) (value "MAX77976EFD+") (footprint "Ultra_Librarian:MAX77976")
