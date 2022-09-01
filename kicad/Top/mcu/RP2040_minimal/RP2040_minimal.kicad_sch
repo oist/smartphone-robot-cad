@@ -2159,7 +2159,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2db1af0b-a910-46ed-a870-4233ab73296b)
   )
-  (hierarchical_label "1V8" (shape input) (at 215.9 58.42 90)
+  (hierarchical_label "3V3" (shape input) (at 215.9 58.42 90)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 39f26a36-97dc-4759-9b69-a757e8c4ce71)
   )
