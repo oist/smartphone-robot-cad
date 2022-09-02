@@ -1,4 +1,4 @@
-21174867259890202
+21180607594845770
 AltiumImports
 0402
 
@@ -72247,6 +72247,13 @@ tison
 34
 8
 Package_SON
+LSF0102DQER
+
+
+0
+8
+8
+Package_SON
 NXP_XSON-16
 http://www.nxp.com/documents/outline_drawing/SOT1341-1.pdf
 NXP XSON SOT-1341
@@ -79491,6 +79498,13 @@ IC_DRV8830DRCR
 0
 15
 15
+Snapeda
+SOP65P400X130-8N
+
+
+0
+8
+8
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -85329,6 +85343,13 @@ MAX77976
 0
 32
 32
+Ultra_Librarian
+SN74AHC125RGYR
+
+
+0
+19
+15
 Ultra_Librarian
 STUSB4500QTR
 
