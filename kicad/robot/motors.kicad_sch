@@ -898,6 +898,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 309f9928-5d3e-458e-b6c5-78c52055f563)
   )
+  (text "This must be held at VIO during startup\nto prevent floating pins from\ndisrupting startup routine"
+    (at 146.05 144.78 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3df55b8e-7f76-48a9-800a-f4ac0b32db52)
+  )
   (text "Bulk capacitance must \nbe close to Pin 4" (at 143.51 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 40075a4a-34e2-4995-8b56-5ca73452d2e0)

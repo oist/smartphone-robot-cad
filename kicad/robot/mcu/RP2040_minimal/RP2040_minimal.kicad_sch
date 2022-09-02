@@ -1817,6 +1817,11 @@
     (uuid fda7bfbb-f8ef-4a94-b8d2-e039ac2b1cbf)
   )
 
+  (text "This must be held at 3V3 during startup\nto prevent floating pins from\ndisrupting startup routine"
+    (at 218.44 229.87 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0393a482-c006-4032-a125-eefad6cceb11)
+  )
   (text "Make sure C8 is close to pin 45 of RP2040" (at 120.65 82.55 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 17123106-1261-4e8d-bee8-01ad77ddb217)
