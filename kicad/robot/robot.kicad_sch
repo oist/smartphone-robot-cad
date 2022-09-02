@@ -2437,6 +2437,9 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/e3287b08-aec7-4b30-8ace-0adb03e5832b"
       (reference "C?") (unit 1) (value "10nF") (footprint "")
     )
+    (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/e768e159-c591-4a1b-9e82-d3414ab4874d"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/f147c89c-1eb3-4bed-90e8-126acad15e7d"
       (reference "C?") (unit 1) (value "DNP") (footprint "")
     )
