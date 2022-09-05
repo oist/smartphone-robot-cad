@@ -7,3 +7,6 @@
 [submodule "kicad/kicad-packages3D"]
 	path = kicad/kicad-packages3D
 	url = git@gitlab.com:topherbuckley/kicad-packages3D.git
+[submodule "kicad/digikey-kicad-library"]
+	path = kicad/digikey-kicad-library
+	url = git@github.com:topherbuckley/digikey-kicad-library.git
