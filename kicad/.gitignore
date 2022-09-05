@@ -4,3 +4,4 @@
 .venv/
 \#auto_saved_files\#
 robot-backups/
+**/fp-info-cache
