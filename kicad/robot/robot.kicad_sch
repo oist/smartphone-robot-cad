@@ -2533,8 +2533,8 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/fe5534a2-add6-4624-b5b7-4e9624420f7d"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
-    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/87985685-0183-4857-8a2a-8fdf510c41b7"
-      (reference "CR?") (unit 1) (value "ESDA25W") (footprint "custom_modules:ESDA25W")
+    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/1294d141-faad-415a-9a9c-512b5eef85bd"
+      (reference "D?") (unit 1) (value "AZ23C5V6-7-F") (footprint "Package_TO_SOT_SMD:Diodes_Inc-SOT23-01_2017-0-MFG")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/207b83eb-3a06-4244-ba84-98c1d5f62a8e"
       (reference "D?") (unit 1) (value "PTVS20VS1UR") (footprint "")
