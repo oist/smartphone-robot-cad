@@ -2032,18 +2032,6 @@
     )
   )
 
-  (sheet (at 242.57 187.96) (size 33.02 22.86) (fields_autoplaced)
-    (stroke (width 0) (type solid) (color 128 0 0 1))
-    (fill (color 128 255 128 1.0000))
-    (uuid 5cfd064b-7ba7-4b1d-86f4-2029c6286535)
-    (property "Sheet name" "Hardware" (id 0) (at 242.57 187.2484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "Hardware.kicad_sch" (id 1) (at 242.57 211.4046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet (at 7.62 19.05) (size 21.59 29.21) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -2293,13 +2281,9 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06" (page "#"))
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424" (page "#"))
     (path "/3b7e5198-fb12-4059-9002-c176f652e784" (page "#"))
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535" (page "#"))
   )
 
   (symbol_instances
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/20055d26-5768-4697-93a8-eb318e986e21"
-      (reference "!PCB1") (unit 1) (value "~") (footprint "")
-    )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f1af967"
       (reference "#PWR024") (unit 1) (value "+3V3") (footprint "")
     )
@@ -2573,47 +2557,17 @@
     (path "/427922e5-a943-4728-8788-709c0c3b2395/39474e3f-ebe0-4519-bba2-66d8bc6f5d23"
       (reference "EN") (unit 1) (value "TestPoint") (footprint "")
     )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/a396edf8-12c4-485e-bdd1-3962954977fe"
-      (reference "FID1") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/3b0d8a32-7a81-4cbd-a79c-5220f416e59a"
-      (reference "FID2") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/3e9bd8c0-8247-4662-a989-3c2d9f53e72e"
-      (reference "FID3") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/2fcba40f-5de1-4690-a298-7e52e3f272b9"
-      (reference "FID4") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/331a8872-a051-43ed-9132-9519c0472dce"
-      (reference "FID5") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/ce2fecb9-80d0-4b16-9da4-fece696e0194"
-      (reference "FID6") (unit 1) (value "CMP-0077181-1") (footprint "AltiumImports:Fiducial10-20")
-    )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005ef4c292"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/d72b07d3-47f8-444a-9c92-c8a5e7a12ee6"
-      (reference "H1") (unit 1) (value "SJ-5303 (CLEAR)") (footprint "AltiumImports:Bumpon_SJ5003Transparent")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005ef4cf1f"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/93a3895e-556a-4073-890f-dee2a5b67629"
-      (reference "H2") (unit 1) (value "SJ-5303 (CLEAR)") (footprint "AltiumImports:Bumpon_SJ5003Transparent")
-    )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005ef4d323"
       (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/f0f0e48c-c75a-4065-a7a4-915195435bf7"
-      (reference "H3") (unit 1) (value "SJ-5303 (CLEAR)") (footprint "AltiumImports:Bumpon_SJ5003Transparent")
-    )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005ef4d57b"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/9b33961d-36a2-4759-9365-d6c7eb4d27fc"
-      (reference "H4") (unit 1) (value "SJ-5303 (CLEAR)") (footprint "AltiumImports:Bumpon_SJ5003Transparent")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/2057dbd8-50b3-4cef-9fcf-01b47e34cb17"
       (reference "IN") (unit 1) (value "TestPoint") (footprint "")
@@ -2656,9 +2610,6 @@
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/aea1956d-9cee-4f5b-8f3a-6963f38ee79b"
       (reference "L?") (unit 1) (value "1.5uH") (footprint "")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/bdfec520-21b5-4edf-8080-f99fa0075b45"
-      (reference "LOGO5") (unit 1) (value "CAUTION HOT SURFACE") (footprint "AltiumImports:IEC_HotSurface_Small")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/64d58bc4-c057-45da-871d-55e2c950fb27"
       (reference "OUT") (unit 1) (value "TestPoint") (footprint "")
@@ -2822,78 +2773,6 @@
     (path "/427922e5-a943-4728-8788-709c0c3b2395/fbb619e1-549c-4d98-b2ee-dc8dd38c3940"
       (reference "SDA1V8") (unit 1) (value "TestPoint") (footprint "")
     )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/eeeeb389-9db9-44a7-8727-e16efa7a725a"
-      (reference "SH-JP1") (unit 1) (value "ACDRV1 to _acdrv1") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/39483742-2a63-413b-920a-e4a68ba7dd0f"
-      (reference "SH-JP2") (unit 1) (value "ACDRV2 to _acdrv2") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/be31fea6-e913-4c5d-b42f-d8342556bfde"
-      (reference "SH-JP3") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/3e5a3131-c25f-4754-8f21-4dc192c676d4"
-      (reference "SH-JP4") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/4d2432d9-c85f-4c4e-b6d1-de06ad3cc694"
-      (reference "SH-JP5") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/6b4aab49-f073-4185-97f8-7ce8d2e497d7"
-      (reference "SH-JP6") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/00b53149-9c77-4b18-936a-8774facccaf2"
-      (reference "SH-JP9") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/9c2e1850-3caf-45c4-bb8d-239b9e8f50a0"
-      (reference "SH-JP10") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/0f9e90d5-ff16-4cf9-8ab4-199eb508ea7d"
-      (reference "SH-JP11") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/123fe0f6-55be-4c1c-aee3-42a08e79bd80"
-      (reference "SH-JP12") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/ee36eeef-1041-48e1-98f5-07a985598c76"
-      (reference "SH-JP13") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/e412fa2b-ac2a-40df-9513-cc6df0d9ba43"
-      (reference "SH-JP14") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/2e6162cc-c238-41eb-be29-010ea0ec9830"
-      (reference "SH-JP15") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/2ddfb663-5606-4ea1-bbc1-42d71b4852e2"
-      (reference "SH-JP16") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/ab9f3ef4-fe00-49cd-a1ae-a119d61215c8"
-      (reference "SH-JP19") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/3d72d68e-a5ab-47ea-a3db-ccab2068858b"
-      (reference "SH-JP23") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/48e68e0a-f402-4867-a2db-aea3a910ad84"
-      (reference "SH-JP24") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/cf27d407-2f1a-4f4f-adfc-2a5a9c6a5e95"
-      (reference "SH-JP25") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/646c5add-b9f5-495b-b16f-d38e47cc4169"
-      (reference "SH-JP32") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/fae85ccf-1650-4e08-9948-4b67a9d24e58"
-      (reference "SH-JP33") (unit 1) (value "Not Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/5abf283f-7296-4e1e-a2cc-314aa63c0563"
-      (reference "SH-JP34") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/65c76298-1db0-48f4-90f0-7c082350c406"
-      (reference "SH-JP35") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/170fa28e-3204-4f93-9151-89a4a86a1f96"
-      (reference "SH-JP36") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/16855eea-63f2-4d35-872f-14e0ab29cb61"
-      (reference "SH-JP37") (unit 1) (value "Installed") (footprint "AltiumImports:FP-SNT-100-BK-G-MFG")
-    )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/f4114fd8-0985-4ae1-afb0-a0b8017bc246"
       (reference "SW?") (unit 1) (value "76EXTSM") (footprint "")
     )
@@ -3022,15 +2901,6 @@
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/83718a56-c567-4bda-a549-7f998f0e4425"
-      (reference "ZZ1") (unit 1) (value "These assemblies are ESD sensitive, ESD precautions shall be observed.") (footprint "AltiumImports:AssemblyNote")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/a2362bd4-99e8-40ec-b34c-f0737c05a380"
-      (reference "ZZ2") (unit 1) (value "These assemblies must be clean and free from flux and all contaminants. Use of no clean flux is not acceptable.") (footprint "AltiumImports:AssemblyNote")
-    )
-    (path "/5cfd064b-7ba7-4b1d-86f4-2029c6286535/24de7112-3e8d-488d-a456-bf765075278d"
-      (reference "ZZ3") (unit 1) (value "These assemblies must comply with workmanship standards IPC-A-610 Class 2, unless otherwise specified.") (footprint "AltiumImports:AssemblyNote")
     )
   )
 )
