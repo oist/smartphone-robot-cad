@@ -2676,7 +2676,7 @@
       (reference "J?") (unit 1) (value "USBC_Receptacle_SMD_RA") (footprint "AltiumImports:CON_USB3.1-C_RCPT_SMD_RA_ACP_12401610E4#2A")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/ecc897b0-6ac4-49be-bbc9-30d61dbfb43b"
-      (reference "J?") (unit 1) (value "67996-412HLF") (footprint "digikey-footprints:PinHeader_6x2_P2.54mm_Horizontal")
+      (reference "J?") (unit 1) (value "67996-412HLF") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/028e6c91-a411-44bc-8bc4-230f797de12f"
       (reference "JP?") (unit 1) (value "58VIO2") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")

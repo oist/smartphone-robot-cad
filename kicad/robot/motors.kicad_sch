@@ -1399,7 +1399,7 @@
     (property "Value" "67996-412HLF" (id 1) (at 237.49 48.26 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "digikey-footprints:PinHeader_6x2_P2.54mm_Horizontal" (id 2) (at 242.57 50.8 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" (id 2) (at 242.57 50.8 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" (id 3) (at 242.57 48.26 0)
