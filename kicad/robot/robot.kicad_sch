@@ -3429,11 +3429,17 @@
     (path "/427922e5-a943-4728-8788-709c0c3b2395/4dc3c631-a50a-49e3-aa61-98793940b588"
       (reference "R?") (unit 1) (value "2.2k") (footprint "")
     )
+    (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/679fa874-9cdd-4814-a83c-3ca58328dc18"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
+    )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/6eb8a384-c383-45b3-b471-2f252e76a5f8"
       (reference "R?") (unit 1) (value "DNP") (footprint "")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/6f0b7c3e-9ef5-44fb-a4ac-1b7545eedb7d"
       (reference "R?") (unit 1) (value "1") (footprint "")
+    )
+    (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/783bdc6d-796b-40b8-bd63-6fa5918d22e8"
+      (reference "R?") (unit 1) (value "10k") (footprint "")
     )
     (path "/786607ea-b9bc-4ee6-bc85-467baed50b0d"
       (reference "R?") (unit 1) (value "100") (footprint "")
