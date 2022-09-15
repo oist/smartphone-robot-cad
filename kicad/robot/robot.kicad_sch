@@ -3318,9 +3318,6 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/eaa9feaa-7330-423e-bfa2-be79e4e148f4"
       (reference "D?") (unit 1) (value "D_Schottky") (footprint "")
     )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/39474e3f-ebe0-4519-bba2-66d8bc6f5d23"
-      (reference "EN") (unit 1) (value "TestPoint") (footprint "")
-    )
     (path "/1a606569-f8d7-4bec-95df-06e55eba6c4b"
       (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
