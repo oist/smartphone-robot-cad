@@ -1814,7 +1814,7 @@
     (property "Footprint" "Ultra_Librarian:MAX77958EWV&plus_T" (id 2) (at 290.83 178.054 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 328.93 194.31 0)
+    (property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX77958.pdf" (id 3) (at 328.93 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
     (pin "A1" (uuid 35b4c1b4-e310-4367-a2f8-daa6257ed356))

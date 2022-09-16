@@ -1726,7 +1726,7 @@
     (property "Footprint" "Ultra_Librarian:MAX77976" (id 2) (at 121.92 77.724 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 96.52 86.36 0)
+    (property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX77975-MAX77976.pdf" (id 3) (at 96.52 86.36 0)
       (effects (font (size 1.524 1.524)))
     )
     (pin "1" (uuid 0d64066b-b66e-4fb8-b60d-eab5e6fc5502))

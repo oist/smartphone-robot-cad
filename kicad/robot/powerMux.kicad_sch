@@ -918,7 +918,7 @@
     (property "Footprint" "" (id 2) (at 142.24 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 142.24 93.98 0)
+    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp3901-d.pdf" (id 3) (at 142.24 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid dfaa1b83-20c4-40d8-b25c-066731efa248))
