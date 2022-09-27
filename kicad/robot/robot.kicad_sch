@@ -927,10 +927,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1fd715e6-1260-447b-9fb6-77bb8ed08f5a)
   )
-  (wire (pts (xy 149.86 116.84) (xy 158.75 116.84))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 208866d5-9377-4a3e-af5a-afa23a3fbeba)
-  )
   (wire (pts (xy 73.66 138.43) (xy 125.73 138.43))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 26692c3c-c128-4908-be81-d1c01baf968d)
@@ -1091,10 +1087,6 @@
   (wire (pts (xy 163.83 40.64) (xy 154.94 40.64))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6320b6e0-3034-4555-ad94-53e1661f7160)
-  )
-  (wire (pts (xy 269.24 44.45) (xy 259.08 44.45))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6475e368-2e1b-413d-a81f-46315cb54944)
   )
   (wire (pts (xy 29.21 43.18) (xy 35.56 43.18))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1533,10 +1525,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 240bb6ed-49f5-4f53-a134-e1b84a8acce9)
   )
-  (text "Input" (at 270.51 44.45 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 39b34171-b7c0-4cfe-9689-1d32800f3d41)
-  )
   (text "Output" (at 219.71 93.98 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3a4822cf-a86a-4f82-b82c-ca542d833f35)
@@ -1556,10 +1544,6 @@
   (text "Input" (at 148.59 127 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 5aa76b93-8d9a-41fc-a471-276b2a8d2bea)
-  )
-  (text "Output" (at 148.59 116.84 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 5d4df165-650c-4884-afe5-03f69ec9e734)
   )
   (text "Input" (at 148.59 106.68 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -1718,10 +1702,6 @@
   (label "GPIO16" (at 149.86 137.16 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 41c87cf5-961c-4bdd-a7e3-3f87b800ab4f)
-  )
-  (label "GPIO8" (at 269.24 44.45 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 428f0434-ba40-4b6a-a624-60d111ed941d)
   )
   (label "GPIO16" (at 220.98 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1958,10 +1938,6 @@
   (label "AGND" (at 157.48 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f2d16fd0-e851-41c1-83c6-67b7676e6c24)
-  )
-  (label "GPIO8" (at 149.86 116.84 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f35a3065-dad0-4df6-9fd0-27591af04aa0)
   )
   (label "ADC0" (at 193.04 121.92 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2718,10 +2694,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 128710e1-6860-4949-9bc4-d538d3eea124)
     )
-    (pin "EN" input (at 259.08 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e3f91d23-a686-468f-9b49-151e71556271)
-    )
     (pin "IN" input (at 229.87 34.29 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid d692c983-04c0-4d20-8027-36c5310038b0)
@@ -3135,6 +3107,9 @@
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/37cb38f9-3d6e-41dd-aec2-018c01de198b"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/38a8cf5a-9c9a-4772-810c-c33322de00ab"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/3b84df3b-2741-49de-a43f-9f09b71c4d6f"
       (reference "C?") (unit 1) (value "DNP") (footprint "")
     )
@@ -3169,7 +3144,7 @@
       (reference "C?") (unit 1) (value "10uF") (footprint "")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/5d13af0d-42d0-4782-b6ee-314c6d1cfbb2"
-      (reference "C?") (unit 1) (value "C") (footprint "")
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5ee408e5-80b8-4610-93d2-4e2f2df68415"
       (reference "C?") (unit 1) (value "1uF") (footprint "")
@@ -3193,6 +3168,9 @@
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/6bcf5bdb-da0c-4e05-bffd-19d19593a3c7"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/6e40a191-897a-4919-b141-fc9cb6e49c15"
       (reference "C?") (unit 1) (value "100nF") (footprint "")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/722aa293-c27c-4e65-846d-30136295f1be"
@@ -3537,11 +3515,11 @@
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S?") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
     )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/5348c353-2ef7-4ba8-ba47-d79055695ce1"
-      (reference "SCL1V8") (unit 1) (value "TestPoint") (footprint "")
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/af34423b-1d05-461f-a4c3-d5021b8f860b"
+      (reference "SCL1V?") (unit 1) (value "TestPoint") (footprint "")
     )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/fbb619e1-549c-4d98-b2ee-dc8dd38c3940"
-      (reference "SDA1V8") (unit 1) (value "TestPoint") (footprint "")
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/62046766-46b8-4b53-9988-e0b81dd2e455"
+      (reference "SDA1V?") (unit 1) (value "TestPoint") (footprint "")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/f4114fd8-0985-4ae1-afb0-a0b8017bc246"
       (reference "SW?") (unit 1) (value "76EXTSM") (footprint "")
