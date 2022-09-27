@@ -3367,7 +3367,7 @@
       (reference "R5") (unit 1) (value "1k") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e17fda7c-211f-4188-9d42-b948f78009dd/0cea1315-6c66-4c7d-babe-09dc48335b98"
-      (reference "R?") (unit 1) (value "4.84M") (footprint "")
+      (reference "R?") (unit 1) (value "510k") (footprint "")
     )
     (path "/1b68207c-a3e4-4032-ba38-c3ca2a512d4b"
       (reference "R?") (unit 1) (value "1k") (footprint "")
@@ -3499,7 +3499,7 @@
       (reference "R?") (unit 1) (value "100") (footprint "")
     )
     (path "/e17fda7c-211f-4188-9d42-b948f78009dd/fb5ff5e7-45b6-4903-ab08-36293b183844"
-      (reference "R?") (unit 1) (value "1M") (footprint "")
+      (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S?") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
