@@ -704,7 +704,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 87c4caa0-5257-4524-a4db-07f667269eae)
   )
-  (text "Can range from 0V - V_USB_BUS_MAX (5V?). \nAlthough with USB-PD this could go up to 20V,\nThe USB-PD chip should limit this to 5V\nas there is no reason to have higher voltages\nfor a wired charger on a single 4.2V LiPo Cell.\nDivider to scale down to 1.8V.\n"
+  (text "Can range from 0V - V_USB_BUS_MAX (5V?). \nAlthough with USB-PD this could go up to 20V,\nThe USB-PD chip should limit this to 5V\nas there is no reason to have higher voltages\nfor a wired charger on a single 4.2V LiPo Cell.\nDivider to scale down to 3.3V.\n"
     (at 185.42 134.62 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c291a56e-043c-4153-91dd-925b108f94a9)
@@ -759,7 +759,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 81ae18cc-a32d-42d9-94e1-e4b4d056da4e)
   )
-  (hierarchical_label "VINA_S" (shape input) (at 176.53 129.54 0)
+  (hierarchical_label "USB_V" (shape input) (at 176.53 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8df81873-ef72-4e1c-aa21-20436761b115)
   )
