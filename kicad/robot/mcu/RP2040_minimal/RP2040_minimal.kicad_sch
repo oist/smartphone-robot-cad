@@ -1028,6 +1028,8 @@
     (uuid ff637ded-a748-469a-8295-d7ee7c5ea33f)
   )
 
+  (no_connect (at 231.14 132.08) (uuid 2bf73be0-7938-4d22-b810-805f9a6415be))
+
   (wire (pts (xy 186.69 93.98) (xy 186.69 81.28))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0055a4cd-73c6-4133-9784-f4be4b5e51ca)
