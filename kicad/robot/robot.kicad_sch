@@ -801,6 +801,10 @@
     (uuid fae4e6a3-eb2b-41b5-91f6-1f8debcb8640)
   )
 
+  (no_connect (at 182.88 124.46) (uuid 3f3c0d9f-072d-44e6-acf6-6c229b1c7f3d))
+  (no_connect (at 182.88 127) (uuid 3f3c0d9f-072d-44e6-acf6-6c229b1c7f3e))
+  (no_connect (at 182.88 129.54) (uuid 3f3c0d9f-072d-44e6-acf6-6c229b1c7f3f))
+
   (bus_entry (at 219.71 86.36) (size -2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 26dabb8c-472f-4be4-a56e-b4fa63834b1c)
