@@ -2907,14 +2907,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 74e8a21f-8619-4915-b55d-36c514d56a2f)
     )
-    (pin "SCL" input (at 182.88 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 8c8f118f-b4fa-440f-8ecf-ab0426f8861e)
-    )
-    (pin "SWD" input (at 182.88 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid a0ce6a9c-caf8-41b7-8229-d43b052ba76e)
-    )
     (pin "ADC0" input (at 182.88 121.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8ff7c6b2-198e-4945-8d12-785ff888bfa3)
@@ -3656,6 +3648,9 @@
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/ba276703-5fec-4c6e-93a9-9193878314f7"
       (reference "TP26") (unit 1) (value "TestPoint") (footprint "")
+    )
+    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/8d6caad4-5954-4121-bf86-440ba64403f5"
+      (reference "TP27") (unit 1) (value "SWD") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
     (path "/0f485ebf-7ed5-45c2-912c-d54f221cae44"
       (reference "U1") (unit 1) (value "WRM483265-10F5-12V-G") (footprint "custom_modules:WRM483265-10F5-12V-G")
