@@ -743,6 +743,9 @@
   (junction (at 116.84 111.76) (diameter 0) (color 0 0 0 0)
     (uuid 14f29898-b335-41f4-9a19-a0bd6c13515a)
   )
+  (junction (at 33.02 10.16) (diameter 0) (color 0 0 0 0)
+    (uuid 23b587e6-6b1f-43dc-9ba7-7ef3969c7d14)
+  )
   (junction (at 33.02 21.59) (diameter 0) (color 0 0 0 0)
     (uuid 27f743c0-b18b-4f73-bf63-ea5ea99c4bbd)
   )
@@ -2553,6 +2556,22 @@
     (pin "2" (uuid c20ae4f6-6eda-41d1-a39c-2c3345b2fa5b))
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 33.02 10.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid cfea7f51-34fe-4e81-9ed0-5127241a4d8e)
+    (property "Reference" "#FLG0102" (id 0) (at 33.02 8.255 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (id 1) (at 33.02 5.08 0))
+    (property "Footprint" "" (id 2) (at 33.02 10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 33.02 10.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d71da36-304d-49ed-862c-434ff8c05a46))
+  )
+
   (symbol (lib_id "Device:R") (at 77.47 143.51 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e4aaa279-a80f-4f87-8c42-26f8d01631ff)
@@ -3132,6 +3151,9 @@
   (symbol_instances
     (path "/ea6fa375-aa3c-4710-b778-fd3631c96707"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/cfea7f51-34fe-4e81-9ed0-5127241a4d8e"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f1af967"
       (reference "#PWR024") (unit 1) (value "+3V3") (footprint "")
