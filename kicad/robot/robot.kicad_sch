@@ -3159,6 +3159,12 @@
     (path "/cfea7f51-34fe-4e81-9ed0-5127241a4d8e"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/410e4b11-1824-42a0-a06a-edd9e76a1ea8"
+      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/0f790f8b-f1e5-4845-8d64-f382415df02b"
+      (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f1af967"
       (reference "#PWR024") (unit 1) (value "+3V3") (footprint "")
     )
