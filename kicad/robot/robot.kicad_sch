@@ -3208,8 +3208,11 @@
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/f8d116f4-4078-40e3-8462-b60a813b8ccb"
       (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/8c870b01-38d5-4742-b525-e0b198f5d2d2"
+      (reference "BT1") (unit 2) (value "Battery_Cell_WithThermistor") (footprint "")
+    )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/996250ef-4317-4766-9480-1bb0621fa127"
-      (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "custom_modules:battery26650")
+      (reference "BT?") (unit 1) (value "Battery_Cell_WithThermistor") (footprint "custom_modules:battery26650_themistor")
     )
     (path "/b1561f5a-81ce-4cd6-855d-7a819176b7c3"
       (reference "C1") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -3762,9 +3765,6 @@
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/d4339947-f4e3-4678-b4db-f0ac47a9ed9f"
       (reference "SW2") (unit 1) (value "SW_Push_SPDT") (footprint "")
-    )
-    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/32f8192e-3a6c-4dac-ad9b-5110a67d0599"
-      (reference "TH1") (unit 1) (value "10k") (footprint "")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/ea8de69d-213e-455e-9b57-7d9341e27ae9"
       (reference "TH2") (unit 1) (value "10k") (footprint "")
