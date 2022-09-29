@@ -3569,7 +3569,7 @@
       (reference "L2") (unit 1) (value "0.47uH") (footprint "")
     )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/f84f41d7-d467-4b7c-865f-99e5ffdb0ecf"
-      (reference "L?") (unit 1) (value "1.5uH") (footprint "")
+      (reference "L?") (unit 1) (value "1.5uH") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/64d58bc4-c057-45da-871d-55e2c950fb27"
       (reference "OUT1") (unit 1) (value "TestPoint") (footprint "")
