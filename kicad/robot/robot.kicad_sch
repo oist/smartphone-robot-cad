@@ -3168,6 +3168,9 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/09db6c26-f327-4430-aedb-9e2c72873ff9"
       (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/f8d116f4-4078-40e3-8462-b60a813b8ccb"
+      (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/996250ef-4317-4766-9480-1bb0621fa127"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "custom_modules:battery26650")
     )
