@@ -349,7 +349,6 @@
     )
   )
 
-
   (junction (at 171.45 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 04436ec0-48bc-4c29-b785-bef4fb6275c8)
   )
@@ -388,7 +387,7 @@
   )
 
   (no_connect (at 96.52 104.14) (uuid feafdffb-0e36-4231-9540-6242b129b645))
-  (no_connect (at 137.16 91.44) (uuid feafdffb-0e36-4231-9540-6242b129b645))
+  (no_connect (at 137.16 91.44) (uuid feafdffb-0e36-4231-9540-6242b129b646))
 
   (wire (pts (xy 220.98 88.9) (xy 220.98 93.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -691,7 +690,7 @@
     (property "Value" "113K" (id 1) (at 71.12 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 66.802 118.11 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 66.802 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 68.58 118.11 0)
@@ -990,7 +989,7 @@
     (property "Value" "80.6k" (id 1) (at 81.28 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 76.962 118.11 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 76.962 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 78.74 118.11 0)
@@ -1010,7 +1009,7 @@
     (property "Value" "0" (id 1) (at 91.44 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 87.122 118.11 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 87.122 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 88.9 118.11 0)
@@ -1070,7 +1069,7 @@
     (property "Value" "768k" (id 1) (at 60.96 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 56.642 118.11 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 56.642 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 58.42 118.11 0)
