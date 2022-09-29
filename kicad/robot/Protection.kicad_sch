@@ -6,11 +6,11 @@
 
   (lib_symbols
     (symbol "Battery_Management:BQ27742YZFR-G1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U?" (id 0) (at 19.05 7.62 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Reference" "U" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "BQ27742YZFR-G1" (id 1) (at 19.05 5.08 0)
-        (effects (font (size 1.27 1.27)))
+      (property "Value" "BQ27742YZFR-G1" (id 1) (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "Package_BGA:Texas_Instruments-YZF0015-0-0-MFG" (id 2) (at 0 10.16 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
