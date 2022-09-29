@@ -3672,6 +3672,9 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/f4114fd8-0985-4ae1-afb0-a0b8017bc246"
       (reference "SW1") (unit 1) (value "76EXTSM") (footprint "")
     )
+    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/d4339947-f4e3-4678-b4db-f0ac47a9ed9f"
+      (reference "SW2") (unit 1) (value "SW_Push_SPDT") (footprint "")
+    )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/32f8192e-3a6c-4dac-ad9b-5110a67d0599"
       (reference "TH1") (unit 1) (value "10k") (footprint "")
     )
