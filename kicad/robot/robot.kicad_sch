@@ -3872,10 +3872,10 @@
       (reference "U7") (unit 1) (value "SN74AHC125RGYR") (footprint "Ultra_Librarian:SN74AHC125RGYR")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/df6ae306-f524-4c53-b3ce-1940358a563f"
-      (reference "U8") (unit 1) (value "Motor1") (footprint "Snapeda:IC_DRV8830DRCR")
+      (reference "U8") (unit 1) (value "DRV8830DRCR") (footprint "Snapeda:IC_DRV8830DRCR")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/c2cb58a1-4de0-47ee-88c2-79ba45123197"
-      (reference "U9") (unit 1) (value "Motor2") (footprint "Snapeda:IC_DRV8830DRCR")
+      (reference "U9") (unit 1) (value "DRV8830DRCR") (footprint "Snapeda:IC_DRV8830DRCR")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/12cfa333-3ffc-4011-bca3-4bf5aadf8313"
       (reference "U10") (unit 1) (value "SN74AHC125RGYR") (footprint "Ultra_Librarian:SN74AHC125RGYR")
