@@ -3208,11 +3208,11 @@
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/f8d116f4-4078-40e3-8462-b60a813b8ccb"
       (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/8c870b01-38d5-4742-b525-e0b198f5d2d2"
-      (reference "BT1") (unit 2) (value "Battery_Cell_WithThermistor") (footprint "")
-    )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/996250ef-4317-4766-9480-1bb0621fa127"
-      (reference "BT?") (unit 1) (value "Battery_Cell_WithThermistor") (footprint "custom_modules:battery26650_themistor")
+      (reference "BT1") (unit 1) (value "Battery_Cell_WithThermistor") (footprint "custom_modules:battery26650_themistor")
+    )
+    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/8c870b01-38d5-4742-b525-e0b198f5d2d2"
+      (reference "BT1") (unit 2) (value "DNP") (footprint "")
     )
     (path "/b1561f5a-81ce-4cd6-855d-7a819176b7c3"
       (reference "C1") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
