@@ -3860,7 +3860,7 @@
       (reference "U3") (unit 1) (value "RP2040") (footprint "RP2040_minimal:RP2040-QFN-56")
     )
     (path "/e17fda7c-211f-4188-9d42-b948f78009dd/f92128d7-4486-4481-92d5-2f7afc595dd6"
-      (reference "U4") (unit 1) (value "NCP3901") (footprint "")
+      (reference "U4") (unit 1) (value "NCP3901") (footprint "custom_modules:NCP3901")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/2f6a9a9b-88fc-481c-92cf-ee894efc5f1f"
       (reference "U5") (unit 1) (value "LSF0102DCTR") (footprint "Snapeda:SOP65P400X130-8N")
