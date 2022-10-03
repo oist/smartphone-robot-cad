@@ -3574,8 +3574,8 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/971cc263-c87e-44f5-900a-d9f34f13c796"
       (reference "L2") (unit 1) (value "0.47uH") (footprint "custom_inductors:Vishay-IHLP-2020BZ-FP_1.905x2.79-3D_2.0-0-0-MFG")
     )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/f84f41d7-d467-4b7c-865f-99e5ffdb0ecf"
-      (reference "L?") (unit 1) (value "1.5uH") (footprint "Inductor_SMD:L_0805_2012Metric")
+    (path "/3b094808-5035-436e-9542-e9e286dde93f/6f87d822-589c-4894-9956-fd7e0682b01c"
+      (reference "L?") (unit 1) (value "1.5uH") (footprint "custom_inductors:NRS6028T1R5NMGJ")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/64d58bc4-c057-45da-871d-55e2c950fb27"
       (reference "OUT1") (unit 1) (value "TestPoint") (footprint "")
