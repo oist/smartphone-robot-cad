@@ -3566,7 +3566,7 @@
       (reference "JP9") (unit 1) (value "76DISQBAT") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/aea1956d-9cee-4f5b-8f3a-6963f38ee79b"
-      (reference "L1") (unit 1) (value "1.5uH") (footprint "")
+      (reference "L1") (unit 1) (value "1.5uH") (footprint "custom_inductors:NRS6028T1R5NMGJ")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/971cc263-c87e-44f5-900a-d9f34f13c796"
       (reference "L2") (unit 1) (value "0.47uH") (footprint "")
