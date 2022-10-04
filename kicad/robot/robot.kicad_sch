@@ -3802,12 +3802,6 @@
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/7eb9e85e-5d30-4a3e-9f83-e5e9345c26a4"
       (reference "TP11") (unit 1) (value "VBUS") (footprint "")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9c3ea97f-3a16-435e-abe0-77fabde6d5d1"
-      (reference "TP12") (unit 1) (value "TestPoint") (footprint "")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/cbdae035-4758-4684-97a7-dfbc3b02de65"
-      (reference "TP13") (unit 1) (value "TestPoint") (footprint "")
-    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5b49f1bb-2d5b-4a99-9ddc-a49738043b90"
       (reference "TP14") (unit 1) (value "TestPoint") (footprint "")
     )
