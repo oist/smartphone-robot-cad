@@ -3502,12 +3502,6 @@
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/207b83eb-3a06-4244-ba84-98c1d5f62a8e"
       (reference "D2") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/65b3336b-a0a6-4e44-a0bb-680a3bb10c63"
-      (reference "D3") (unit 1) (value "4V") (footprint "")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/4d799505-756a-4b2e-b3cd-bfad7c60b756"
-      (reference "D4") (unit 1) (value "4V") (footprint "")
-    )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/46e55b4d-9037-49bf-851c-2687e9386d67"
       (reference "D5") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
     )
@@ -3882,6 +3876,9 @@
     )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/aa4c94f6-d618-4649-9251-43a427da9a3a"
       (reference "U14") (unit 1) (value "MAX77642ANA+") (footprint "Package_BGA:Maxim-N252B2-1-0-A-MFG")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/87066063-747d-4a39-a1ef-5186219413bc"
+      (reference "U15") (unit 1) (value "ESD122DMYR") (footprint "Diode_SMD:Texas_Instruments-DMY0003A-0-0-MFG")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
