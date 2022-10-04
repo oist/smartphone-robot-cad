@@ -3754,9 +3754,6 @@
     (path "/427922e5-a943-4728-8788-709c0c3b2395/62046766-46b8-4b53-9988-e0b81dd2e455"
       (reference "SDA1V1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
-    (path "/3b7e5198-fb12-4059-9002-c176f652e784/f4114fd8-0985-4ae1-afb0-a0b8017bc246"
-      (reference "SW1") (unit 1) (value "76EXTSM") (footprint "")
-    )
     (path "/9d0a6cc2-bdf4-4c55-84fd-bc8bc83f3452"
       (reference "TP1") (unit 1) (value "SDA_SL") (footprint "")
     )
@@ -3789,6 +3786,9 @@
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/7eb9e85e-5d30-4a3e-9f83-e5e9345c26a4"
       (reference "TP11") (unit 1) (value "VBUS") (footprint "")
+    )
+    (path "/3b7e5198-fb12-4059-9002-c176f652e784/3b8aeff1-c95e-4b6d-969b-27e81fa1bf50"
+      (reference "TP12") (unit 1) (value "SWD") (footprint "TestPoint:TestPoint_2Pads_Pitch2mm_SMD")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/1d4f9a8f-0d7d-4f81-91e4-b61cc8a0ca74"
       (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
