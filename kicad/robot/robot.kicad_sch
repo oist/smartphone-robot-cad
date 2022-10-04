@@ -3530,7 +3530,7 @@
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/2057dbd8-50b3-4cef-9fcf-01b47e34cb17"
-      (reference "IN1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "IN1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/981760ba-3055-4a1e-aa29-3c7e6db1232a"
       (reference "J1") (unit 1) (value "USBC_Receptacle_SMD_RA") (footprint "AltiumImports:CON_USB3.1-C_RCPT_SMD_RA_ACP_12401610E4#2A")
@@ -3578,10 +3578,10 @@
       (reference "L3") (unit 1) (value "1.5uH") (footprint "custom_inductors:NRS6028T1R5NMGJ")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/64d58bc4-c057-45da-871d-55e2c950fb27"
-      (reference "OUT1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "OUT1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/69270d4c-4c67-4c80-a3b3-7a099e15b818"
-      (reference "PGND1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "PGND1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/e17fda7c-211f-4188-9d42-b948f78009dd/6f12684d-410a-4174-bc51-5fa3b60e79e4"
       (reference "Q1") (unit 1) (value "Q_NMOS_GDS") (footprint "")
@@ -3758,10 +3758,10 @@
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/af34423b-1d05-461f-a4c3-d5021b8f860b"
-      (reference "SCL1V1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "SCL1V1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/62046766-46b8-4b53-9988-e0b81dd2e455"
-      (reference "SDA1V1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "SDA1V1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/f4114fd8-0985-4ae1-afb0-a0b8017bc246"
       (reference "SW1") (unit 1) (value "76EXTSM") (footprint "")
@@ -3803,37 +3803,37 @@
       (reference "TP11") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/1d4f9a8f-0d7d-4f81-91e4-b61cc8a0ca74"
-      (reference "TP16") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/77a5cc8d-9d7a-4ebc-b9c7-815a60536618"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/00d3fbad-6fe9-4921-bd0b-c18a8b3e96a7"
-      (reference "TP18") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/6216cf3d-25c5-4ed5-b35f-04cfa55dc2a0"
-      (reference "TP19") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/2d853fc0-793f-4994-9852-d4646db00864"
-      (reference "TP20") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP20") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/a2476ddb-f0ba-4e85-8689-a8ed48353b1d"
-      (reference "TP21") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/4c684768-6bf1-4c64-82dc-de99e90c442a"
-      (reference "TP22") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/b422a6a1-faf9-40b1-a47c-aebbe719dac9"
-      (reference "TP23") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/4700999b-7110-4aa5-b49f-c45fed9f1289"
-      (reference "TP24") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/67bb203d-39a1-4f55-8d95-f474e67ef91f"
-      (reference "TP25") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/ba276703-5fec-4c6e-93a9-9193878314f7"
-      (reference "TP26") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP26") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/8d6caad4-5954-4121-bf86-440ba64403f5"
       (reference "TP27") (unit 1) (value "SWD") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
