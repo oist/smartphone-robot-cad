@@ -3748,6 +3748,9 @@
     (path "/3b094808-5035-436e-9542-e9e286dde93f/daad5cd4-83b6-4f54-98c6-1e6efe22a5ff"
       (reference "R55") (unit 1) (value "14k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/3b7e5198-fb12-4059-9002-c176f652e784/31bdbf58-3550-4196-84a4-19609c35d47c"
+      (reference "R56") (unit 1) (value "10") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
     )
