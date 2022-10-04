@@ -3766,9 +3766,6 @@
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/f4114fd8-0985-4ae1-afb0-a0b8017bc246"
       (reference "SW1") (unit 1) (value "76EXTSM") (footprint "")
     )
-    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/d4339947-f4e3-4678-b4db-f0ac47a9ed9f"
-      (reference "SW2") (unit 1) (value "SW_Push_SPDT") (footprint "")
-    )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/ea8de69d-213e-455e-9b57-7d9341e27ae9"
       (reference "TH2") (unit 1) (value "10k") (footprint "")
     )
@@ -3852,6 +3849,9 @@
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/8d6caad4-5954-4121-bf86-440ba64403f5"
       (reference "TP27") (unit 1) (value "SWD") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+    )
+    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/4301a435-9861-4e14-8e15-276b6400fb51"
+      (reference "TP28") (unit 1) (value "SWD") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
     )
     (path "/0f485ebf-7ed5-45c2-912c-d54f221cae44"
       (reference "U1") (unit 1) (value "WRM483265-10F5-12V-G") (footprint "custom_modules:WRM483265-10F5-12V-G")
