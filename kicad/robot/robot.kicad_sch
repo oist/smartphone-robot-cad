@@ -3827,7 +3827,7 @@
       (reference "TP27") (unit 1) (value "SWD") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/4301a435-9861-4e14-8e15-276b6400fb51"
-      (reference "TP28") (unit 1) (value "SWD") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+      (reference "TP28") (unit 1) (value "SWD") (footprint "TestPoint:TestPoint_2Pads_Pitch2mm_SMD")
     )
     (path "/0f485ebf-7ed5-45c2-912c-d54f221cae44"
       (reference "U1") (unit 1) (value "WRM483265-10F5-12V-G") (footprint "custom_modules:WRM483265-10F5-12V-G")
