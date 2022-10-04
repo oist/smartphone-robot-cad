@@ -3500,7 +3500,7 @@
       (reference "D1") (unit 1) (value "AZ23C5V6-7-F") (footprint "Package_TO_SOT_SMD:Diodes_Inc-SOT23-01_2017-0-MFG")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/207b83eb-3a06-4244-ba84-98c1d5f62a8e"
-      (reference "D2") (unit 1) (value "PTVS20VS1UR") (footprint "")
+      (reference "D2") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/65b3336b-a0a6-4e44-a0bb-680a3bb10c63"
       (reference "D3") (unit 1) (value "4V") (footprint "")
