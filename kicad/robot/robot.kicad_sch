@@ -3466,17 +3466,11 @@
     (path "/3b094808-5035-436e-9542-e9e286dde93f/ba4cf3ec-563d-4ca4-90e0-3bb2e5b92887"
       (reference "C85") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/93500c66-eb69-4791-82a4-b44321bb88e9"
-      (reference "C86") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/437906d5-e15a-496e-ad57-3d868d832f17"
       (reference "C87") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/03c7a703-5266-4b36-9b60-d4aa9869927c"
       (reference "C88") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/3b094808-5035-436e-9542-e9e286dde93f/8dcbee79-e4bc-45aa-ad2e-5cf0c2a22bee"
-      (reference "C89") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/eee8a00a-ab6b-44aa-98a2-f77a74138a24"
       (reference "C90") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3492,6 +3486,12 @@
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/5b51cf0e-6130-4ad6-bc2f-87ff5856f9fd"
       (reference "C94") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/3b094808-5035-436e-9542-e9e286dde93f/581a83bb-49cd-4a15-8fa7-b343ebcafb79"
+      (reference "C?") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/3b094808-5035-436e-9542-e9e286dde93f/9a82f9c2-b55b-41aa-9174-ec220cabd038"
+      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/1fa11097-b90a-4189-9262-7648c1ce75d1"
       (reference "D1") (unit 1) (value "AZ23C5V6-7-F") (footprint "Package_TO_SOT_SMD:Diodes_Inc-SOT23-01_2017-0-MFG")
@@ -3737,7 +3737,7 @@
       (reference "R53") (unit 1) (value "113K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/d2e6c87f-cfe3-4ae1-8b5f-6de584e7bea8"
-      (reference "R54") (unit 1) (value "80.6k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R54") (unit 1) (value "28k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/daad5cd4-83b6-4f54-98c6-1e6efe22a5ff"
       (reference "R55") (unit 1) (value "14k") (footprint "Resistor_SMD:R_0603_1608Metric")
