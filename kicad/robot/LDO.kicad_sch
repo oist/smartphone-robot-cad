@@ -352,6 +352,7 @@
     )
   )
 
+
   (junction (at 96.52 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 2968af9d-fc80-4f16-8d46-75c7c05fea17)
   )
@@ -788,7 +789,7 @@
   (symbol (lib_id "Device:C") (at 198.12 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 581a83bb-49cd-4a15-8fa7-b343ebcafb79)
-    (property "Reference" "C?" (id 0) (at 194.31 95.2499 0)
+    (property "Reference" "C86" (id 0) (at 194.31 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (id 1) (at 194.31 97.7899 0)
@@ -832,7 +833,7 @@
   (symbol (lib_id "Device:C") (at 185.42 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9a82f9c2-b55b-41aa-9174-ec220cabd038)
-    (property "Reference" "C?" (id 0) (at 181.61 95.2499 0)
+    (property "Reference" "C74" (id 0) (at 181.61 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 181.61 97.7899 0)
