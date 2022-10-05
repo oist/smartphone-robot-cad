@@ -3575,7 +3575,7 @@
       (reference "PGND1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/e17fda7c-211f-4188-9d42-b948f78009dd/6f12684d-410a-4174-bc51-5fa3b60e79e4"
-      (reference "Q1") (unit 1) (value "Q_NMOS_GDS") (footprint "")
+      (reference "Q1") (unit 1) (value "Q_NMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/255e32b4-e3ec-4667-83ff-b7085a37c2b9"
       (reference "Q2") (unit 1) (value "EFC8811R-TF") (footprint "custom_transistors:ON_Semiconductor-568AL-10_2013-O-MFG")
