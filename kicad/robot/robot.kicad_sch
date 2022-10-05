@@ -728,7 +728,6 @@
     )
   )
 
-
   (junction (at 73.66 138.43) (diameter 0) (color 0 0 0 0)
     (uuid 02862ee2-b617-424b-aef0-c748d3fce2d5)
   )
@@ -3507,7 +3506,7 @@
       (reference "D6") (unit 1) (value "LED") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/eaa9feaa-7330-423e-bfa2-be79e4e148f4"
-      (reference "D7") (unit 1) (value "D_Schottky") (footprint "")
+      (reference "D7") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:Vishay-SS1P3L-M3_84A-0-0-0")
     )
     (path "/5f6de4c8-0c94-422e-b890-83165e173628"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
