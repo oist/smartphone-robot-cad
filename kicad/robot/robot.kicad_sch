@@ -790,7 +790,7 @@
   (no_connect (at 182.88 127) (uuid 3f3c0d9f-072d-44e6-acf6-6c229b1c7f3e))
   (no_connect (at 182.88 129.54) (uuid 3f3c0d9f-072d-44e6-acf6-6c229b1c7f3f))
   (no_connect (at 29.21 33.02) (uuid e3a3c65d-1231-4524-9472-3a8d5f7fd59e))
-  (no_connect (at 29.21 35.56) (uuid e3a3c65d-1231-4524-9472-3a8d5f7fd59e))
+  (no_connect (at 29.21 35.56) (uuid e3a3c65d-1231-4524-9472-3a8d5f7fd59f))
 
   (bus_entry (at 219.71 86.36) (size -2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3683,6 +3683,9 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/ff44337c-48a6-4a8f-8902-564f56c2366f"
       (reference "IC3") (unit 1) (value "EFC4626R-TR") (footprint "Package_BGA:ON_SEMI_EFCP1010-4DG-020")
     )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/2ea7bf52-efb5-4ac0-8939-5fb5a9a54b02"
+      (reference "IC4") (unit 1) (value "EFC4626R-TR") (footprint "Package_BGA:ON_SEMI_EFCP1010-4DG-020")
+    )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/2057dbd8-50b3-4cef-9fcf-01b47e34cb17"
       (reference "IN1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
@@ -3943,6 +3946,9 @@
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f8d5cea3-d4b3-4395-9d79-4db9d7da5c65"
       (reference "R64") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/df0c5cf0-eba5-4a4a-8973-918332620db2"
+      (reference "R65") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
