@@ -504,11 +504,11 @@
     (property "Sheetname" "USB-C_ExtChg")
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/7eb9e85e-5d30-4a3e-9f83-e5e9345c26a4")
     (attr through_hole)
-    (fp_text reference "TP11" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP11" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 972693dc-acd8-489f-afe1-cac1c402fe08)
     )
-    (fp_text value "VBUS" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "VBUS" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 68ad0a84-5680-4829-8255-66bc27530af3)
     )
@@ -563,11 +563,11 @@
     (property "VIO" "[1.8-3.8V] 1.8V compatible")
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/e931685d-6714-44cb-847c-5e643c8d9a3e")
     (attr smd)
-    (fp_text reference "C98" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C98" (at 0 -1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fa7e5938-0c1e-4bf4-825c-d77e84ffe01f)
     )
-    (fp_text value "4.7uF" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "4.7uF" (at 0 1.68) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a69382da-5800-471d-8827-855ec08f616c)
     )
@@ -607,11 +607,11 @@
     (property "VIO" "[1.8-3.8V] 1.8V compatible")
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/c148ae38-7038-4252-aaa1-562116cfd510")
     (attr smd)
-    (fp_text reference "C101" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C101" (at 0 -1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f0b71b75-1dbf-4481-a4df-a5dacb440ffc)
     )
-    (fp_text value "4.7uF" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "4.7uF" (at 0 1.68) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a85fa2a-3c00-403d-b2c8-efca43d7e957)
     )
@@ -647,11 +647,11 @@
     (property "Sheetname" "USB-C_ExtChg")
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/6ded31c3-4f76-4697-b333-16bf77a83934")
     (attr through_hole)
-    (fp_text reference "TP9" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP9" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 0c4899a8-2486-479e-8881-30fb936649b4)
     )
-    (fp_text value "CC1" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "CC1" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp d7ad701b-e229-4b3a-b4d5-c5aaaf2d3257)
     )
@@ -1038,11 +1038,11 @@
     (property "Sheetname" "USB-C_ExtChg")
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/99bec56a-a074-47e4-8a82-f6a61fa22570")
     (attr through_hole)
-    (fp_text reference "TP7" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP7" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 6602ec3b-5dab-43e3-92c6-d3481c942dba)
     )
-    (fp_text value "D-" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "D-" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp dea1adfd-0fa6-4a02-bb5a-9c9900fde2c4)
     )
@@ -1068,11 +1068,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/cb1ad79f-2208-45bf-8ac5-1f1359c1acc9")
     (attr smd)
-    (fp_text reference "C95" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C95" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03149a3e-3d89-4282-bad1-7b06529915e9)
     )
-    (fp_text value "27pF" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "27pF" (at 0 1.16) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d660bb5-b9f1-404c-9e82-909538790a24)
     )
@@ -1137,11 +1137,11 @@
     (property "Sheetname" "")
     (path "/8c6917a2-6ca3-4f87-8a34-e672e4f71dd6")
     (attr through_hole)
-    (fp_text reference "TP5" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP5" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 7178ae07-e871-40b9-9253-87d8f6f939f7)
     )
-    (fp_text value "SDA_EXT" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "SDA_EXT" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp af2e977e-7e2e-40dd-8852-947f66680652)
     )
@@ -1281,11 +1281,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/58dd37b4-50fb-40a8-9765-2f2daaedee36")
     (attr smd)
-    (fp_text reference "R62" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R62" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e2462182-20e5-4750-88a1-fb2f087fd46a)
     )
-    (fp_text value "16k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "16k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 50473ac2-7058-4f07-afd4-4789237bb931)
     )
@@ -1556,11 +1556,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/f3892f20-6e2f-4ee1-988e-4e1dfa5fe28d")
     (attr smd)
-    (fp_text reference "C89" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C89" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2340c506-9d6e-4653-ac14-71c1bfad1742)
     )
-    (fp_text value "27pF" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "27pF" (at 0 1.16) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40977856-48b8-4990-b51e-71b08533da0f)
     )
@@ -2047,11 +2047,11 @@
     (property "Sheetname" "")
     (path "/4722a872-417e-4932-809e-ee098b91c11a")
     (attr through_hole)
-    (fp_text reference "TP3" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP3" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp ed90fd03-0fe5-4d95-9241-fb650283c4be)
     )
-    (fp_text value "I2C0_SDA" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "I2C0_SDA" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 59fd3aeb-c53f-4e1d-9b1c-29cd8abc80c0)
     )
@@ -2203,11 +2203,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/4ef320ea-a7a9-456a-b9b9-1114cbe31879")
     (attr through_hole)
-    (fp_text reference "TP15" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP15" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp e3e47f13-886d-4430-9363-5b85a70f8527)
     )
-    (fp_text value "CC1" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "CC1" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp b13f34d7-876b-4aba-87b5-6accbe871aba)
     )
@@ -3176,11 +3176,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/88f3246e-c596-40f9-a925-41a7c78bbcb6")
     (attr smd)
-    (fp_text reference "D4" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D4" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 627fb990-7436-4cff-b771-c84100f29227)
     )
-    (fp_text value "LED" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "LED" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0b611ff5-4f01-4866-ad1a-6dafccb5ce18)
     )
@@ -3310,11 +3310,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f8d5cea3-d4b3-4395-9d79-4db9d7da5c65")
     (attr smd)
-    (fp_text reference "R64" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R64" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ba3ead29-9e9e-4c53-9f76-b2cd315bdb82)
     )
-    (fp_text value "5.1k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "5.1k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e9e4d1ab-cafd-4043-9c2b-a7b04fbdcaec)
     )
@@ -3504,7 +3504,7 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/ff44337c-48a6-4a8f-8902-564f56c2366f")
     (solder_mask_margin 0.05)
     (attr smd)
-    (fp_text reference "IC3" (at 0 -1.5) (layer "F.SilkS")
+    (fp_text reference "IC3" (at 0 -1.5) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 4ada7e28-58f3-4b5f-b017-9e2a709d0554)
     )
@@ -3551,11 +3551,11 @@
     (property "Sheetname" "USB-C_ExtChg")
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/bb31c041-e240-4949-8c2a-adb5a3516291")
     (attr through_hole)
-    (fp_text reference "TP10" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP10" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 82786172-bde2-4956-bfcf-71e7feeb5e08)
     )
-    (fp_text value "CC2" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "CC2" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 9a613573-1e37-4958-8687-06eb6902d555)
     )
@@ -3872,11 +3872,11 @@
     (property "Sheetname" "")
     (path "/0e7e881e-bdbe-4793-afa9-1d0a367f5f94")
     (attr through_hole)
-    (fp_text reference "TP2" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP2" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 2b09bb72-3842-4033-8fc1-01989746007e)
     )
-    (fp_text value "SCL_SL" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "SCL_SL" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 14b0676a-d098-4404-9eeb-d6592230932f)
     )
@@ -3942,11 +3942,11 @@
     (property "Sheetname" "USB-C_ExtChg")
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/1e15e122-0b7e-4707-8822-fd187458c9e6")
     (attr through_hole)
-    (fp_text reference "TP8" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP8" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 0db7d21a-b0f0-4d45-bb1b-f50e71cb0315)
     )
-    (fp_text value "D+" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "D+" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 665e35c6-388f-49c8-9dec-f86b6523494f)
     )
@@ -4227,11 +4227,11 @@
     (property "Sheetname" "PowerMux")
     (path "/e17fda7c-211f-4188-9d42-b948f78009dd/6f12684d-410a-4174-bc51-5fa3b60e79e4")
     (attr smd)
-    (fp_text reference "Q1" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "Q1" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 33f19928-b27e-44d9-b7c6-7bda34825fc7)
     )
-    (fp_text value "Q_NMOS_GDS" (at 0 2.4) (layer "F.Fab")
+    (fp_text value "Q_NMOS_GDS" (at 0 2.4) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9740f34-fbf7-4744-83ad-71badf91e7b2)
     )
@@ -7312,11 +7312,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/b6b2e20b-35f6-40c9-9d94-1b7ca82ab3db")
     (attr through_hole)
-    (fp_text reference "TP14" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP14" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp cb0da32e-82d2-4279-aa53-596ce0790996)
     )
-    (fp_text value "D+" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "D+" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp fe599217-f104-41d0-ad37-a0801c3105e2)
     )
@@ -7341,11 +7341,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/d475e771-afcc-40c8-8a38-1f7d42456366")
     (attr smd)
-    (fp_text reference "C103" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C103" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 580a94a8-afc6-40cf-bab6-5904e0dfc252)
     )
-    (fp_text value "0.1uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "0.1uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e159f9a-dcdf-401f-b125-8a3831c05e08)
     )
@@ -7880,11 +7880,11 @@
     (property "VIO" "[1.8-3.8V] 1.8V compatible")
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/648061cb-605c-49c5-a01e-685d9671ea37")
     (attr smd)
-    (fp_text reference "C99" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C99" (at 0 -1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6215b57a-2470-4d38-ac97-462ba1d1bf8f)
     )
-    (fp_text value "4.7uF" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "4.7uF" (at 0 1.68) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 796d1eb0-98ed-4471-87af-2357eea0a2f4)
     )
@@ -8265,11 +8265,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/f42eb9d9-6443-4e6b-b9ec-3453ea69c2b1")
     (attr through_hole)
-    (fp_text reference "TP29" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP29" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 598f127b-e5aa-4675-8a79-688a99d682e5)
     )
-    (fp_text value "CC2" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "CC2" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 21a1d59b-b2b1-4c6a-bca0-6620dd683378)
     )
@@ -8337,11 +8337,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/5529a893-b5c8-4661-8420-2c6c8a2ea270")
     (attr smd)
-    (fp_text reference "R60" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R60" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 751f3a7d-40bd-42b7-b016-a0d1f01881ae)
     )
-    (fp_text value "100k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "100k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d70db706-f474-4735-966e-3bedfff3cc56)
     )
@@ -8382,11 +8382,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/08ca0a05-9b43-4582-843f-2f85131a8bbf")
     (attr through_hole)
-    (fp_text reference "J4" (at -1.524 -3.937) (layer "F.SilkS")
+    (fp_text reference "J4" (at -1.524 -3.937) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ca3162a2-aa60-434b-a3ef-b0db9a0f09fb)
     )
-    (fp_text value "USB4120-03-C_REVA" (at 8.509 3.81) (layer "F.Fab")
+    (fp_text value "USB4120-03-C_REVA" (at 8.509 3.81) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fec8f5dc-19e1-4844-8aa1-f679661205fd)
     )
@@ -8572,11 +8572,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/1c27be27-5c0d-4c52-9187-e799c33f85f7")
     (attr smd)
-    (fp_text reference "C97" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C97" (at 0 -1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58689c55-2dc8-42f6-bc0c-9db6ae4b2d8c)
     )
-    (fp_text value "2.2uF" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "2.2uF" (at 0 1.68) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ac2d4fd9-c3c7-40ae-9a67-5436f576fbfe)
     )
@@ -8713,11 +8713,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/993b19fd-dc20-41b2-b3e4-f79d62c3bd70")
     (attr smd)
-    (fp_text reference "D3" (at 0 -2) (layer "F.SilkS")
+    (fp_text reference "D3" (at 0 -2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 64888084-e0df-4c3f-ac40-ecd642cc266b)
     )
-    (fp_text value "PTVS20VS1UR" (at 0 2) (layer "F.Fab")
+    (fp_text value "PTVS20VS1UR" (at 0 2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e719d19-6a81-476d-8844-e3b08b9ab4f4)
     )
@@ -8858,7 +8858,7 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/26c8e3d6-bf7b-482a-bc5f-027909d63dec")
     (attr smd)
-    (fp_text reference "IC2" (at -1.5 -3) (layer "F.SilkS")
+    (fp_text reference "IC2" (at -1.5 -3) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 7b47170a-6b9c-4f7f-9221-19573ee6f335)
     )
@@ -9945,11 +9945,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/2ad5d205-faaf-4e46-ba22-e24a0382c2a6")
     (attr smd)
-    (fp_text reference "R51" (at 0 -1.82) (layer "F.SilkS")
+    (fp_text reference "R51" (at 0 -1.82) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b1b72726-78a6-46a7-ab0a-1f77e00d4a8c)
     )
-    (fp_text value "10m" (at 0 1.82) (layer "F.Fab")
+    (fp_text value "10m" (at 0 1.82) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d341fd7c-c78d-43ea-9120-15a85581c1fe)
     )
@@ -10187,11 +10187,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/1bd3b277-2f3d-4b58-8bc9-0abe757be7a1")
     (attr smd)
-    (fp_text reference "R59" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R59" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74ccb17b-0662-4418-bef5-0a0abc250429)
     )
-    (fp_text value "100k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "100k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d14cedfe-5658-4e05-aa4f-8deb933b615b)
     )
@@ -10421,11 +10421,11 @@
     (property "temperature range low" "-55°C")
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/eaa9feaa-7330-423e-bfa2-be79e4e148f4")
     (attr through_hole)
-    (fp_text reference "D7" (at -1.805 -1.89) (layer "F.SilkS")
+    (fp_text reference "D7" (at -1.805 -1.89) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
       (tstamp c8d9b8a0-f897-4307-943c-a229140c867a)
     )
-    (fp_text value "D_Schottky" (at 0 0) (layer "F.SilkS")
+    (fp_text value "D_Schottky" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 8f79ae9f-7384-4500-9a48-9fac3098c2aa)
     )
@@ -10468,11 +10468,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/cea91e08-0f63-4b47-a87e-91ed6819125b")
     (attr through_hole)
-    (fp_text reference "TP13" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP13" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 3a2ee5e9-c4ba-4bd0-bbae-3bbc9cb5e560)
     )
-    (fp_text value "D-" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "D-" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp c58d0390-27be-4b34-b114-018b14872ba8)
     )
@@ -11082,11 +11082,11 @@
     (property "Sheetname" "")
     (path "/9d0a6cc2-bdf4-4c55-84fd-bc8bc83f3452")
     (attr through_hole)
-    (fp_text reference "TP1" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP1" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp eacf20df-13c9-4a95-a0ec-d9ab07e9a47c)
     )
-    (fp_text value "SDA_SL" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "SDA_SL" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 4dd43727-9aff-4eca-bcd8-ce9c2a634c0a)
     )
@@ -11394,11 +11394,11 @@
     (property "Sheetname" "")
     (path "/48dc54de-e89a-40be-a85f-62493c210e5c")
     (attr through_hole)
-    (fp_text reference "TP4" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP4" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 1aee47f2-462a-4cd3-9b2f-a063c7673930)
     )
-    (fp_text value "I2C0_SCL" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "I2C0_SCL" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 8df08da2-b14f-4194-b12c-022ec509948b)
     )
@@ -12422,11 +12422,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/dd0dc2d4-3bd3-4a60-8897-5699a37d8139")
     (attr smd)
-    (fp_text reference "R57" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R57" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c59369a8-3a9b-4e1b-8041-5ce320402628)
     )
-    (fp_text value "10k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0228aca8-1e43-49bb-95aa-f5f36cd4537f)
     )
@@ -12508,11 +12508,11 @@
     (property "VIO" "[1.8-3.8V] 1.8V compatible")
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/78f02ebb-336f-49e4-8305-0f01b7a87b0d")
     (attr through_hole)
-    (fp_text reference "L4" (at -2.717 -3.642) (layer "F.SilkS")
+    (fp_text reference "L4" (at -2.717 -3.642) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
       (tstamp 6a9fd537-7727-4703-83b9-4a07bc724029)
     )
-    (fp_text value "0.47uH" (at 0 0) (layer "F.SilkS")
+    (fp_text value "0.47uH" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp c48fa8e0-e0b6-4762-aef7-64c9b1a87e1f)
     )
@@ -12791,11 +12791,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/8e928bd7-07b8-41ee-865a-53f5d76f1a77")
     (attr smd)
-    (fp_text reference "R58" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R58" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58ac4a90-c1f5-4de9-9dee-4c420d87b5c4)
     )
-    (fp_text value "100" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "100" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 92ad106f-0016-4325-98df-4d9cc4d0debd)
     )
@@ -13742,11 +13742,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/b8dc610f-f3ff-4223-af72-1b97711515ce")
     (attr smd)
-    (fp_text reference "R63" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R63" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2f6e2e8-a2bf-4b41-bcf9-ae037ef1597d)
     )
-    (fp_text value "5.1k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "5.1k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 786499b0-ad7d-4dd1-8f40-6352dea7a5cd)
     )
@@ -16694,11 +16694,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/255ed843-b86d-4350-8ee0-05c542a0dab2")
     (attr through_hole)
-    (fp_text reference "TP30" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP30" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 16417c29-733e-4416-bb6f-baef92f793d8)
     )
-    (fp_text value "VBUS" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "VBUS" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 9e5f709f-9a2a-4a12-bed3-e1ec365df19a)
     )
@@ -16945,11 +16945,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/b9a99ca3-5262-4a10-805a-515718115d81")
     (attr smd)
-    (fp_text reference "R61" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R61" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c37eb3c5-badf-49a4-81ab-14cbb420fec2)
     )
-    (fp_text value "100k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "100k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0de7183b-c607-487a-9955-1c3661afb886)
     )
@@ -17147,11 +17147,11 @@
     (property "VIO" "[1.8-3.8V] 1.8V compatible")
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/d333e255-25bb-4f60-a985-691c6959ac21")
     (attr smd)
-    (fp_text reference "C100" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C100" (at 0 -1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d43f4a08-ffa1-4ec7-b1a5-79d5da2b6da3)
     )
-    (fp_text value "10uF" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.68) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 32fd1afa-26dc-4365-b7a2-758117737b08)
     )
@@ -17271,11 +17271,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/b27c7b46-6c87-43d6-b289-d55126b6d1a9")
     (attr smd)
-    (fp_text reference "C105" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C105" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e43ab973-02bc-4a8d-bdfc-78f24ed21fe0)
     )
-    (fp_text value "1uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8b767d7a-7c92-472a-ae18-7b3e7a0b371a)
     )
@@ -17313,11 +17313,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/e85cad0d-7741-466d-9341-d6c68a998bb0")
     (attr smd)
-    (fp_text reference "C104" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C104" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 212b01ed-ebad-4abd-bf2a-08aee7da5611)
     )
-    (fp_text value "0.1uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "0.1uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 969cdd06-256a-4445-903f-c3b35d736ef9)
     )
@@ -17355,11 +17355,11 @@
     (property "Sheetname" "USB-PD-ExtChg")
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/77d48e08-2ae2-4ff2-8ba9-f237554b9eda")
     (attr smd)
-    (fp_text reference "C102" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C102" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c6391fa-7248-4cc2-94ab-884be8946f44)
     )
-    (fp_text value "0.1uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "0.1uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 47068298-e7be-427e-bbdc-20e040d839fd)
     )
@@ -19369,7 +19369,7 @@
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/b99bda80-9484-4d89-94d1-3db4fa50f6e8")
     (solder_mask_margin 0.05)
     (attr smd)
-    (fp_text reference "IC1" (at 0 -1.75) (layer "F.SilkS")
+    (fp_text reference "IC1" (at 0 -1.75) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 77067dd5-7dff-4fb3-86ea-0829a454bb67)
     )
@@ -19546,11 +19546,11 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/4ad5c468-0f9a-4f84-9f06-ff3ec98d094c")
     (attr smd)
-    (fp_text reference "C96" (at 0 -2.3) (layer "F.SilkS")
+    (fp_text reference "C96" (at 0 -2.3) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f69de0b0-7db6-4965-a6e6-be72a2ab1801)
     )
-    (fp_text value "100uF" (at 0 2.3) (layer "F.Fab")
+    (fp_text value "100uF" (at 0 2.3) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp da51aa95-fe20-4bf5-8ec3-ae62b5eb44fb)
     )
@@ -19631,11 +19631,11 @@
     (property "Sheetname" "")
     (path "/58d1a1ac-845d-4c95-aeac-90bdcfc62372")
     (attr through_hole)
-    (fp_text reference "TP6" (at 0.032 -2.2064) (layer "F.SilkS")
+    (fp_text reference "TP6" (at 0.032 -2.2064) (layer "F.SilkS") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp 70d4e4f9-1c53-45e4-ab00-2adbe8a9ad8f)
     )
-    (fp_text value "SCL_EXT" (at 3.2832 2.2064) (layer "F.Fab")
+    (fp_text value "SCL_EXT" (at 3.2832 2.2064) (layer "F.Fab") hide
       (effects (font (size 0.64 0.64) (thickness 0.15)))
       (tstamp d1b289e3-107a-4355-9d2b-a8b0c4018856)
     )
