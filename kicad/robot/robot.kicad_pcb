@@ -1060,7 +1060,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 131e0697-c1f8-456e-aee5-5d70284e85d7)
-    (at 161.03 56.16)
+    (at 100.505 171.459 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "50V")
@@ -1068,15 +1068,15 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/cb1ad79f-2208-45bf-8ac5-1f1359c1acc9")
     (attr smd)
-    (fp_text reference "C95" (at 0 -1.16) (layer "F.SilkS") hide
+    (fp_text reference "C95" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03149a3e-3d89-4282-bad1-7b06529915e9)
     )
-    (fp_text value "27pF" (at 0 1.16) (layer "F.Fab") hide
+    (fp_text value "27pF" (at 0 1.16 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d660bb5-b9f1-404c-9e82-909538790a24)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp b6d26be9-9499-4e41-8e4f-aacf93d97107)
     )
@@ -1090,9 +1090,9 @@
     (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 6b99a2bd-5028-441a-888d-bac63a36d3d5))
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 7ac0c665-535c-4575-a33c-e9c1c07266f2))
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 8ef6bec4-2bde-477b-9e5d-f528e799de60))
-    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 32 "/USB-C_PhonePC/CC2") (pintype "passive") (tstamp 30c1ff5c-327f-4525-97dc-fff2c423baa9))
-    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp f57ff465-8378-4bca-8150-c95c8f8fbff1))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1548,7 +1548,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 189ec43c-945d-4f9b-aded-c9935bb170a1)
-    (at 166.68 54.92)
+    (at 99.489 171.459 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "50V")
@@ -1556,15 +1556,15 @@
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/f3892f20-6e2f-4ee1-988e-4e1dfa5fe28d")
     (attr smd)
-    (fp_text reference "C89" (at 0 -1.16) (layer "F.SilkS") hide
+    (fp_text reference "C89" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2340c506-9d6e-4653-ac14-71c1bfad1742)
     )
-    (fp_text value "27pF" (at 0 1.16) (layer "F.Fab") hide
+    (fp_text value "27pF" (at 0 1.16 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 40977856-48b8-4990-b51e-71b08533da0f)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp ad166c85-215b-40d8-9c64-b21c82d7d8b7)
     )
@@ -1578,9 +1578,9 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp cedef25b-21e5-4d66-813f-023c6837d28b))
     (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp ddcacffa-3858-40c1-b7cd-de32040abd9c))
     (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp f50fd034-ad80-4ad1-b623-5f0d62f89383))
-    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 33 "/USB-C_PhonePC/CC1") (pintype "passive") (tstamp 3fe90a89-b546-4527-96fc-976d9b7b2abf))
-    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp ac2d5d39-d7fe-4b02-9174-1e4920507f17))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2198,7 +2198,7 @@
 
   (footprint "TestPoint:KEYSTONE_5002" (layer "F.Cu")
     (tedit 633B96D9) (tstamp 250db8df-925a-44a5-9b24-203a3088d281)
-    (at 178.17 46.02)
+    (at 97.203 170.697)
     (property "Sheetfile" "usb-c-phonepc.kicad_sch")
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/4ef320ea-a7a9-456a-b9b9-1114cbe31879")
@@ -7307,7 +7307,7 @@
 
   (footprint "TestPoint:KEYSTONE_5002" (layer "F.Cu")
     (tedit 633B96D9) (tstamp 558ded61-a148-40bc-a1bd-100b8dadeeaf)
-    (at 171.74 53.36)
+    (at 99.235 162.569)
     (property "Sheetfile" "usb-c-phonepc.kicad_sch")
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/b6b2e20b-35f6-40c9-9d94-1b7ca82ab3db")
@@ -8260,7 +8260,7 @@
 
   (footprint "TestPoint:KEYSTONE_5002" (layer "F.Cu")
     (tedit 633B96D9) (tstamp 6f932e66-5fbd-493e-a2e3-5198cccf195d)
-    (at 175.83 54.2)
+    (at 97.203 167.649)
     (property "Sheetfile" "usb-c-phonepc.kicad_sch")
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/f42eb9d9-6443-4e6b-b9ec-3453ea69c2b1")
@@ -8372,7 +8372,7 @@
 
   (footprint "Connector_USB:GCT_USB4120-03-C_REVA" (layer "F.Cu")
     (tedit 633CE721) (tstamp 742aa9fb-aa83-4479-aa40-a955b9e50e3c)
-    (at 165.295 47.45)
+    (at 100.644 175.419)
     (property "MANUFACTURER" "GCT")
     (property "MAXIMUM_PACKAGE_HEIGHT" "6.5mm")
     (property "PARTREV" "A")
@@ -8564,7 +8564,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7895b602-3984-4e36-aa29-d01ea05cb7d2)
-    (at 167.47 52.43)
+    (at 103.299 166.125)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "35V")
@@ -8704,7 +8704,7 @@
 
   (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W" (layer "F.Cu")
     (tedit 5EABE247) (tstamp 7aa2f66f-dfb4-4842-8d0a-2f33f7665902)
-    (at 173.355 45.6)
+    (at 103.299 168.157)
     (descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
     (tags "CFP3 SOD-123W")
     (property "Description" "TVS Diode 20V")
@@ -8721,7 +8721,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e719d19-6a81-476d-8844-e3b08b9ab4f4)
     )
-    (fp_text user "${REFERENCE}" (at 0 -2) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.01158 0) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87af4e79-a62d-4348-b872-8be29fe9de8d)
     )
@@ -10463,7 +10463,7 @@
 
   (footprint "TestPoint:KEYSTONE_5002" (layer "F.Cu")
     (tedit 633B96D9) (tstamp a1d0417e-2826-444d-b8a7-cff01ae11f91)
-    (at 176.67 50.11)
+    (at 102.283 162.569)
     (property "Sheetfile" "usb-c-phonepc.kicad_sch")
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/cea91e08-0f63-4b47-a87e-91ed6819125b")
@@ -16689,7 +16689,7 @@
 
   (footprint "TestPoint:KEYSTONE_5002" (layer "F.Cu")
     (tedit 633B96D9) (tstamp eb110367-4566-4971-8f13-de552c1b0b82)
-    (at 172.58 49.27)
+    (at 99.997 165.617)
     (property "Sheetfile" "usb-c-phonepc.kicad_sch")
     (property "Sheetname" "USB-C_PhonePC")
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/255ed843-b86d-4350-8ee0-05c542a0dab2")
@@ -19538,7 +19538,7 @@
 
   (footprint "Capacitor_SMD:C_1210_3225Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fa4320a8-3358-45ef-9338-c1e82f7196c5)
-    (at 162.42 53.05)
+    (at 103.299 170.824)
     (descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Description" "35V")
