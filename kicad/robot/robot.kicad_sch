@@ -3680,9 +3680,6 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/26c8e3d6-bf7b-482a-bc5f-027909d63dec"
       (reference "IC2") (unit 1) (value "AP33771DKZ-13") (footprint "Package_DFN_QFN:AP33771DKZ13")
     )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/2ea7bf52-efb5-4ac0-8939-5fb5a9a54b02"
-      (reference "IC4") (unit 1) (value "EFC4626R-TR") (footprint "Package_BGA:ON_SEMI_EFCP1010-4DG-020")
-    )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/2057dbd8-50b3-4cef-9fcf-01b47e34cb17"
       (reference "IN1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
@@ -3757,6 +3754,12 @@
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/e48542f0-bb91-47d2-a25e-3e86bca89095"
       (reference "Q4") (unit 1) (value "YJL3416A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/227a101e-90b2-4111-ae7b-40059605bbe0"
+      (reference "Q?") (unit 1) (value "YJL3416A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/28a5a02a-2254-401a-a052-3a2eb84c5991"
+      (reference "Q?") (unit 1) (value "YJL3416A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005edae9f0"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -3955,6 +3958,9 @@
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f0d67b71-8133-4487-b44e-e7a12e4689ac"
       (reference "R66") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/3732ce91-4e1c-4fdd-ae9f-8378006e1858"
+      (reference "R?") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
