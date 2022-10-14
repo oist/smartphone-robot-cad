@@ -3947,11 +3947,11 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f8d5cea3-d4b3-4395-9d79-4db9d7da5c65"
       (reference "R64") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/cdd4264f-fce0-40cc-a34f-b71ab67e7b42"
+      (reference "R65") (unit 1) (value "10M") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f0d67b71-8133-4487-b44e-e7a12e4689ac"
       (reference "R66") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/cdd4264f-fce0-40cc-a34f-b71ab67e7b42"
-      (reference "R?") (unit 1) (value "10M") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
@@ -4098,7 +4098,7 @@
       (reference "U15") (unit 1) (value "ESD122DMYR") (footprint "Diode_SMD:Texas_Instruments-DMY0003A-0-0-MFG")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/717c9b0c-0845-4df0-8107-b7929ceb650d"
-      (reference "U?") (unit 1) (value "fpf1048bucx") (footprint "Package_BGA:BGA6N50P3X2_146X96X62N")
+      (reference "U16") (unit 1) (value "fpf1048bucx") (footprint "Package_BGA:BGA6N50P3X2_146X96X62N")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
