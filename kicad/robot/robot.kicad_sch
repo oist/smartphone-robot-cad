@@ -3749,6 +3749,12 @@
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/a571a50d-6a01-4d9f-831e-b2f456a257ba"
       (reference "JP10") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_Pins12Connected")
     )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/34092e52-fe68-43d2-9f4a-0d09196c1d5b"
+      (reference "JP11") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_Pins12Connected")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/51633ee7-87bc-4a2a-8b21-9e0388988c74"
+      (reference "JP12") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_Pins12Connected")
+    )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/aea1956d-9cee-4f5b-8f3a-6963f38ee79b"
       (reference "L1") (unit 1) (value "1.5uH") (footprint "custom_inductors:NRS6028T1R5NMGJ")
     )
@@ -3979,9 +3985,6 @@
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
-    )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/d380ffb1-6d34-4609-8c23-9932a8e97a4b"
-      (reference "S2") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/af34423b-1d05-461f-a4c3-d5021b8f860b"
       (reference "SCL1V1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
