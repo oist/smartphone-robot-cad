@@ -2757,7 +2757,7 @@
     (property "Value" "Jumper_3_Bridged12" (id 1) (at 318.77 153.6699 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 321.31 152.4 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_Pins12Connected" (id 2) (at 321.31 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 321.31 152.4 0)
