@@ -293,6 +293,12 @@
       (property "ki_fp_filters" "RGY14_2P05X2P05" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (symbol "SN74AHC125RGYR_0_0"
+        (pin input line (at 1.27 -29.21 90) (length 5.08) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "PAD" (effects (font (size 1.27 1.27))))
+        )
+      )
       (symbol "SN74AHC125RGYR_0_1"
         (rectangle (start -3.81 19.05) (end 3.81 -24.13)
           (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1198,6 +1204,7 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc125.pdf?ts=1663326066450&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74AHC125%252Fpart-details%252FSN74AHC125RGYR" (id 3) (at 218.44 160.02 0)
       (effects (font (size 1.524 1.524)) hide)
     )
+    (pin "PAD" (uuid 59ecb0e0-2a28-46d7-a88a-6fadba3bd4b7))
     (pin "1" (uuid 76359193-ae2a-4fe1-b171-8c047ab15e0e))
     (pin "10" (uuid 214d86ce-917f-432e-ab56-92bf5367d2cd))
     (pin "11" (uuid b9618376-e4e6-4975-8388-8e538c485f0e))
