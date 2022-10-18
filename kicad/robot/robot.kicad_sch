@@ -394,7 +394,7 @@
       (property "Value" "Jumper_2_Bridged" (id 1) (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "custom_connectors:2.54mm_2pointJumperClosed" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (id 3) (at 0 0 0)
@@ -2528,7 +2528,7 @@
     (uuid 96cd35a0-b3f1-4c92-a7fb-da181eb735a5)
     (property "Reference" "JP1" (id 0) (at 149.86 189.23 0))
     (property "Value" "76VIO" (id 1) (at 149.86 191.77 0))
-    (property "Footprint" "custom_connectors:2.54mm_2pointCurrentTestPoint" (id 2) (at 149.86 195.58 0)
+    (property "Footprint" "custom_connectors:2.54mm_2pointJumperClosed" (id 2) (at 149.86 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 149.86 195.58 0)
@@ -3720,25 +3720,25 @@
       (reference "J4") (unit 1) (value "USB4120-03-C_REVA") (footprint "Connector_USB:GCT_USB4120-03-C_REVA")
     )
     (path "/96cd35a0-b3f1-4c92-a7fb-da181eb735a5"
-      (reference "JP1") (unit 1) (value "76VIO") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP1") (unit 1) (value "76VIO") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/231bfb9c-4c19-4f64-ad52-192d8aabf6d6"
-      (reference "JP2") (unit 1) (value "58VCIN") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP2") (unit 1) (value "58VCIN") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/3b929c85-95cb-4c34-98b6-71649f356763"
-      (reference "JP3") (unit 1) (value "58SYS") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP3") (unit 1) (value "58SYS") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/f9de3935-c707-40a2-bd15-b9c957921dcf"
-      (reference "JP4") (unit 1) (value "58VBUS") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP4") (unit 1) (value "58VBUS") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/6edff239-0a24-4c45-8a10-feaa604c733b"
-      (reference "JP5") (unit 1) (value "58VIO2") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP5") (unit 1) (value "58VIO2") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/be4529cb-52a1-49a7-9886-34c8f8eeb40b"
-      (reference "JP6") (unit 1) (value "58VIO1") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP6") (unit 1) (value "58VIO1") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/a48aac76-a51a-45ea-ac25-d2c6e7dfa121"
-      (reference "JP7") (unit 1) (value "76VIO") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP7") (unit 1) (value "76VIO") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/903e8352-2258-4f09-88aa-864818afe061"
       (reference "JP8") (unit 1) (value "76SUSPND") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
