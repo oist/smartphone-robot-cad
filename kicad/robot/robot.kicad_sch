@@ -472,7 +472,7 @@
       (property "Value" "JS202011SCQN" (id 1) (at 0 -11.43 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "digikey-footprints:Switch_Slide_JS202011SCQN" (id 2) (at 5.08 5.08 0)
+      (property "Footprint" "Button_Switch_SMD:Switch_Slide_JS202011SCQN" (id 2) (at 5.08 5.08 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf" (id 3) (at 5.08 7.62 0)
@@ -2140,7 +2140,7 @@
     (uuid 043d6480-aee2-4e5b-993d-8049353f5353)
     (property "Reference" "S1" (id 0) (at 56.0324 123.19 0))
     (property "Value" "JS202011SCQN" (id 1) (at 56.0324 125.73 0))
-    (property "Footprint" "digikey-footprints:Switch_Slide_JS202011SCQN" (id 2) (at 60.96 130.81 0)
+    (property "Footprint" "Button_Switch_SMD:Switch_Slide_JS202011SCQN" (id 2) (at 60.96 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf" (id 3) (at 60.96 128.27 0)
@@ -3984,7 +3984,7 @@
       (reference "R66") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
-      (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "digikey-footprints:Switch_Slide_JS202011SCQN")
+      (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "Button_Switch_SMD:Switch_Slide_JS202011SCQN")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/af34423b-1d05-461f-a4c3-d5021b8f860b"
       (reference "SCL1V1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
