@@ -3741,10 +3741,10 @@
       (reference "JP7") (unit 1) (value "76VIO") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/903e8352-2258-4f09-88aa-864818afe061"
-      (reference "JP8") (unit 1) (value "76SUSPND") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP8") (unit 1) (value "76SUSPND") (footprint "custom_connectors:2.54mm_2pointJumperOpen")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/92bf32ab-a2c9-4863-9dbf-2be5183c7aa2"
-      (reference "JP9") (unit 1) (value "76DISQBAT") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "JP9") (unit 1) (value "76DISQBAT") (footprint "custom_connectors:2.54mm_2pointJumperOpen")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/a571a50d-6a01-4d9f-831e-b2f456a257ba"
       (reference "JP10") (unit 1) (value "Jumper_3_Bridged12") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_Pins12Connected")
