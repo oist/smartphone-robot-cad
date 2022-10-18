@@ -4071,7 +4071,7 @@
       (reference "TP26") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/8d6caad4-5954-4121-bf86-440ba64403f5"
-      (reference "TP27") (unit 1) (value "SWD") (footprint "custom_connectors:2.54mm_2pointCurrentTestPoint")
+      (reference "TP27") (unit 1) (value "SWD") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/4301a435-9861-4e14-8e15-276b6400fb51"
       (reference "TP28") (unit 1) (value "SWD") (footprint "TestPoint:TestPoint_2Pads_Pitch2mm_SMD")
