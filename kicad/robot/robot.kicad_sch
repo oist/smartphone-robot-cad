@@ -2149,7 +2149,7 @@
     (property "Digi-Key_PN" "401-2002-1-ND" (id 4) (at 60.96 125.73 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
-    (property "MPN" "JS202011SCQN" (id 5) (at 60.96 123.19 0)
+    (property "MPN" "" (id 5) (at 60.96 123.19 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Category" "Switches" (id 6) (at 60.96 120.65 0)
@@ -2173,6 +2173,9 @@
     (property "Status" "Active" (id 12) (at 60.96 105.41 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
+    (property "Part Number" "JS202011SCQN" (id 13) (at 55.88 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9de15be4-c2f2-4216-b4e6-a77cb8d32c60))
     (pin "2" (uuid 16973767-fb6e-4a07-997b-117fcbbbd9a6))
     (pin "3" (uuid cd0c10cf-5224-488e-bcbd-c019759ce63f))
@@ -2187,13 +2190,16 @@
     (property "Reference" "TP2" (id 0) (at 34.29 143.5099 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "SCL_SL" (id 1) (at 34.29 143.51 90)
+    (property "Value" "TP5002" (id 1) (at 34.29 143.51 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:KEYSTONE_5002" (id 2) (at 39.37 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 39.37 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "SCL_SL" (id 4) (at 39.37 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4ba903ed-7b75-4001-95d3-b7270ff5598f))
@@ -2383,13 +2389,16 @@
     (property "Reference" "TP3" (id 0) (at 78.74 125.7299 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "I2C0_SDA" (id 1) (at 78.74 125.73 90)
+    (property "Value" "TP5002" (id 1) (at 78.74 125.73 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:KEYSTONE_5002" (id 2) (at 73.66 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 73.66 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "I2C0_SDA" (id 4) (at 73.66 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b2982c7d-c027-4879-a07a-d404504beb07))
@@ -2401,13 +2410,16 @@
     (property "Reference" "TP4" (id 0) (at 78.74 135.8899 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "I2C0_SCL" (id 1) (at 78.74 135.89 90)
+    (property "Value" "TP5002" (id 1) (at 78.74 135.89 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:KEYSTONE_5002" (id 2) (at 73.66 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 73.66 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "I2C0_SCL" (id 4) (at 73.66 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3515688d-60c8-4932-99f4-2d54622fc207))
@@ -2419,7 +2431,7 @@
     (property "Reference" "TP6" (id 0) (at 114.3 143.5099 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "SCL_EXT" (id 1) (at 114.3 143.51 90)
+    (property "Value" "TP5002" (id 1) (at 114.3 143.51 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:KEYSTONE_5002" (id 2) (at 109.22 148.59 0)
@@ -2428,7 +2440,7 @@
     (property "Datasheet" "~" (id 3) (at 109.22 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Male pin headers (2.54mm pitch)" (id 4) (at 109.22 143.51 0)
+    (property "Description" "SCL_EXT" (id 4) (at 109.22 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f94538a6-d6f7-4d80-b41a-97a6e973e19d))
@@ -2508,7 +2520,7 @@
     (property "Reference" "TP5" (id 0) (at 114.3 133.3499 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "SDA_EXT" (id 1) (at 114.3 133.35 90)
+    (property "Value" "TP5002" (id 1) (at 114.3 133.35 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:KEYSTONE_5002" (id 2) (at 109.22 138.43 0)
@@ -2517,7 +2529,7 @@
     (property "Datasheet" "~" (id 3) (at 109.22 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Male pin headers (2.54mm pitch)" (id 4) (at 109.22 133.35 0)
+    (property "Description" "SDA_EXT" (id 4) (at 109.22 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3953027b-a785-4e08-90f6-da1fef1c3e61))
@@ -2527,7 +2539,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 96cd35a0-b3f1-4c92-a7fb-da181eb735a5)
     (property "Reference" "JP1" (id 0) (at 149.86 189.23 0))
-    (property "Value" "76VIO" (id 1) (at 149.86 191.77 0))
+    (property "Value" "Jumper_Bridged" (id 1) (at 149.86 191.77 0))
     (property "Footprint" "custom_connectors:2.54mm_2pointJumperClosed" (id 2) (at 149.86 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2547,13 +2559,16 @@
     (property "Reference" "TP1" (id 0) (at 34.29 133.3499 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Value" "SDA_SL" (id 1) (at 34.29 133.35 90)
+    (property "Value" "TP5002" (id 1) (at 34.29 133.35 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:KEYSTONE_5002" (id 2) (at 39.37 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 39.37 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "SDA_SL" (id 4) (at 39.37 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 52741b53-8848-46b8-97e0-e7b23434a33d))
@@ -3675,13 +3690,13 @@
       (reference "D3") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/88f3246e-c596-40f9-a925-41a7c78bbcb6"
-      (reference "D4") (unit 1) (value "LED") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
+      (reference "D4") (unit 1) (value "LED_R") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/46e55b4d-9037-49bf-851c-2687e9386d67"
       (reference "D5") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/762e0510-85d3-459b-8c4d-1e65fdfbe944"
-      (reference "D6") (unit 1) (value "LED") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
+      (reference "D6") (unit 1) (value "LED_YG") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/eaa9feaa-7330-423e-bfa2-be79e4e148f4"
       (reference "D7") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:Vishay-SS1P3L-M3_84A-0-0-0")
@@ -3698,20 +3713,8 @@
     (path "/1a606569-f8d7-4bec-95df-06e55eba6c4b"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/b99bda80-9484-4d89-94d1-3db4fa50f6e8"
-      (reference "IC1") (unit 1) (value "TPS61253AYFFR") (footprint "Package_BGA:Texas_Instruments-YFF0009-BGA9C40P3X3_119X129X62")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/26c8e3d6-bf7b-482a-bc5f-027909d63dec"
-      (reference "IC2") (unit 1) (value "AP33771DKZ-13") (footprint "Package_DFN_QFN:AP33771DKZ13")
-    )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/2057dbd8-50b3-4cef-9fcf-01b47e34cb17"
-      (reference "IN1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
-    )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/981760ba-3055-4a1e-aa29-3c7e6db1232a"
       (reference "J1") (unit 1) (value "USBC_Receptacle_SMD_RA") (footprint "AltiumImports:CON_USB3.1-C_RCPT_SMD_RA_ACP_12401610E4#2A")
-    )
-    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f30f0ba"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/ecc897b0-6ac4-49be-bbc9-30d61dbfb43b"
       (reference "J3") (unit 1) (value "67996-412HLF") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
@@ -3720,7 +3723,7 @@
       (reference "J4") (unit 1) (value "USB4120-03-C_REVA") (footprint "Connector_USB:GCT_USB4120-03-C_REVA")
     )
     (path "/96cd35a0-b3f1-4c92-a7fb-da181eb735a5"
-      (reference "JP1") (unit 1) (value "76VIO") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
+      (reference "JP1") (unit 1) (value "Jumper_Bridged") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/231bfb9c-4c19-4f64-ad52-192d8aabf6d6"
       (reference "JP2") (unit 1) (value "Jumper_Bridged") (footprint "custom_connectors:2.54mm_2pointJumperClosed")
@@ -3767,12 +3770,6 @@
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/78f02ebb-336f-49e4-8305-0f01b7a87b0d"
       (reference "L4") (unit 1) (value "0.47uH") (footprint "custom_inductors:Vishay-IHLP-2020BZ-FP_1.905x2.79-3D_2.0-0-0-MFG")
     )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/64d58bc4-c057-45da-871d-55e2c950fb27"
-      (reference "OUT1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
-    )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/69270d4c-4c67-4c80-a3b3-7a099e15b818"
-      (reference "PGND1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
-    )
     (path "/e17fda7c-211f-4188-9d42-b948f78009dd/6f12684d-410a-4174-bc51-5fa3b60e79e4"
       (reference "Q1") (unit 1) (value "Q_NMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
@@ -3784,6 +3781,12 @@
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/e48542f0-bb91-47d2-a25e-3e86bca89095"
       (reference "Q4") (unit 1) (value "YJL3416A") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/26751ada-a465-4d23-bd5c-65c01d2153ea"
+      (reference "Q5") (unit 1) (value "SN74AHC125RGYR") (footprint "Ultra_Librarian:SN74AHC125RGYR")
+    )
+    (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/12cfa333-3ffc-4011-bca3-4bf5aadf8313"
+      (reference "Q6") (unit 1) (value "SN74AHC125RGYR") (footprint "Ultra_Librarian:SN74AHC125RGYR")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005edae9f0"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -3986,101 +3989,113 @@
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "Button_Switch_SMD:Switch_Slide_JS202011SCQN")
     )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/af34423b-1d05-461f-a4c3-d5021b8f860b"
-      (reference "SCL1V1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
-    )
-    (path "/427922e5-a943-4728-8788-709c0c3b2395/62046766-46b8-4b53-9988-e0b81dd2e455"
-      (reference "SDA1V1") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
-    )
     (path "/9d0a6cc2-bdf4-4c55-84fd-bc8bc83f3452"
-      (reference "TP1") (unit 1) (value "SDA_SL") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP1") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/0e7e881e-bdbe-4793-afa9-1d0a367f5f94"
-      (reference "TP2") (unit 1) (value "SCL_SL") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP2") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/4722a872-417e-4932-809e-ee098b91c11a"
-      (reference "TP3") (unit 1) (value "I2C0_SDA") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP3") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/48dc54de-e89a-40be-a85f-62493c210e5c"
-      (reference "TP4") (unit 1) (value "I2C0_SCL") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP4") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/8c6917a2-6ca3-4f87-8a34-e672e4f71dd6"
-      (reference "TP5") (unit 1) (value "SDA_EXT") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP5") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/58d1a1ac-845d-4c95-aeac-90bdcfc62372"
-      (reference "TP6") (unit 1) (value "SCL_EXT") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP6") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/99bec56a-a074-47e4-8a82-f6a61fa22570"
-      (reference "TP7") (unit 1) (value "D-") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP7") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/1e15e122-0b7e-4707-8822-fd187458c9e6"
-      (reference "TP8") (unit 1) (value "D+") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP8") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/6ded31c3-4f76-4697-b333-16bf77a83934"
-      (reference "TP9") (unit 1) (value "CC1") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP9") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/bb31c041-e240-4949-8c2a-adb5a3516291"
-      (reference "TP10") (unit 1) (value "CC2") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP10") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/682bfd9a-06ea-4239-a569-efb470bd2019/7eb9e85e-5d30-4a3e-9f83-e5e9345c26a4"
-      (reference "TP11") (unit 1) (value "VBUS") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP11") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/3b8aeff1-c95e-4b6d-969b-27e81fa1bf50"
-      (reference "TP12") (unit 1) (value "SWD") (footprint "TestPoint:TestPoint_2Pads_Pitch2mm_SMD")
+      (reference "TP12") (unit 1) (value "TP2PinPads") (footprint "TestPoint:TestPoint_2Pads_Pitch2mm_SMD")
     )
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/cea91e08-0f63-4b47-a87e-91ed6819125b"
-      (reference "TP13") (unit 1) (value "D-") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP13") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/b6b2e20b-35f6-40c9-9d94-1b7ca82ab3db"
-      (reference "TP14") (unit 1) (value "D+") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP14") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/4ef320ea-a7a9-456a-b9b9-1114cbe31879"
-      (reference "TP15") (unit 1) (value "CC1") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP15") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/28625150-0964-4e55-bb45-830cfaa72d85"
-      (reference "TP16") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP16") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/9dc1099a-65fb-4f4a-b389-dccf26d7f156"
-      (reference "TP17") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP17") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/c3a92277-ed56-48fc-a4f4-f0fb9326c624"
-      (reference "TP18") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP18") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/44668b64-d39e-4b79-9f8b-6618ad15554a"
-      (reference "TP19") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP19") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/ad0466c0-3d45-4f93-a3d7-fbe553539ce0"
-      (reference "TP20") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP20") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/6f76a8d3-7b78-42d3-9bf8-fc4c0f2866c3"
-      (reference "TP21") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP21") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/3d2001cb-5c95-4516-a2ff-522da074d7f1"
-      (reference "TP22") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP22") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/b422a6a1-faf9-40b1-a47c-aebbe719dac9"
-      (reference "TP23") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP23") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/4700999b-7110-4aa5-b49f-c45fed9f1289"
-      (reference "TP24") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP24") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/67bb203d-39a1-4f55-8d95-f474e67ef91f"
-      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP25") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/ba276703-5fec-4c6e-93a9-9193878314f7"
-      (reference "TP26") (unit 1) (value "TestPoint") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP26") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/8d6caad4-5954-4121-bf86-440ba64403f5"
-      (reference "TP27") (unit 1) (value "SWD") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "TP27") (unit 1) (value "2PinHeader") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/4301a435-9861-4e14-8e15-276b6400fb51"
-      (reference "TP28") (unit 1) (value "SWD") (footprint "TestPoint:TestPoint_2Pads_Pitch2mm_SMD")
+      (reference "TP28") (unit 1) (value "TP2PinPads") (footprint "TestPoint:TestPoint_2Pads_Pitch2mm_SMD")
     )
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/f42eb9d9-6443-4e6b-b9ec-3453ea69c2b1"
-      (reference "TP29") (unit 1) (value "CC2") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP29") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/255ed843-b86d-4350-8ee0-05c542a0dab2"
-      (reference "TP30") (unit 1) (value "VBUS") (footprint "TestPoint:KEYSTONE_5002")
+      (reference "TP30") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/af34423b-1d05-461f-a4c3-d5021b8f860b"
+      (reference "TP31") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/62046766-46b8-4b53-9988-e0b81dd2e455"
+      (reference "TP32") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/69270d4c-4c67-4c80-a3b3-7a099e15b818"
+      (reference "TP33") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/64d58bc4-c057-45da-871d-55e2c950fb27"
+      (reference "TP34") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
+    )
+    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f30f0ba"
+      (reference "TP35") (unit 1) (value "2PinHeader") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/427922e5-a943-4728-8788-709c0c3b2395/2057dbd8-50b3-4cef-9fcf-01b47e34cb17"
+      (reference "TP36") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/0f485ebf-7ed5-45c2-912c-d54f221cae44"
       (reference "U1") (unit 1) (value "WRM483265-10F5-12V-G") (footprint "custom_modules:WRM483265-10F5-12V-G")
@@ -4100,17 +4115,11 @@
     (path "/427922e5-a943-4728-8788-709c0c3b2395/1da5e6b5-92ec-4684-a44b-09177a0dcaa9"
       (reference "U6") (unit 1) (value "MAX77857") (footprint "Package_BGA:WLP-35_7x5_2.828x2.028mm")
     )
-    (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/26751ada-a465-4d23-bd5c-65c01d2153ea"
-      (reference "U7") (unit 1) (value "SN74AHC125RGYR") (footprint "Ultra_Librarian:SN74AHC125RGYR")
-    )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/df6ae306-f524-4c53-b3ce-1940358a563f"
       (reference "U8") (unit 1) (value "DRV8830DRCR") (footprint "Snapeda:IC_DRV8830DRCR")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/c2cb58a1-4de0-47ee-88c2-79ba45123197"
       (reference "U9") (unit 1) (value "DRV8830DRCR") (footprint "Snapeda:IC_DRV8830DRCR")
-    )
-    (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/12cfa333-3ffc-4011-bca3-4bf5aadf8313"
-      (reference "U10") (unit 1) (value "SN74AHC125RGYR") (footprint "Ultra_Librarian:SN74AHC125RGYR")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/78232b99-c956-450b-b53a-91302584837c"
       (reference "U11") (unit 1) (value "MAX77958EWV+T") (footprint "Ultra_Librarian:MAX77958EWV&plus_T")
@@ -4129,6 +4138,12 @@
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/717c9b0c-0845-4df0-8107-b7929ceb650d"
       (reference "U16") (unit 1) (value "fpf1048bucx") (footprint "Package_BGA:BGA6N50P3X2_146X96X62N")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/b99bda80-9484-4d89-94d1-3db4fa50f6e8"
+      (reference "U17") (unit 1) (value "TPS61253AYFFR") (footprint "Package_BGA:Texas_Instruments-YFF0009-BGA9C40P3X3_119X129X62")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/26c8e3d6-bf7b-482a-bc5f-027909d63dec"
+      (reference "U18") (unit 1) (value "AP33771DKZ-13") (footprint "Package_DFN_QFN:AP33771DKZ13")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
