@@ -1222,7 +1222,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 59.69 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 2bf0cbd2-8875-4398-9a9e-805aa672ffd8)
     (property "Reference" "R27" (id 0) (at 62.23 139.6999 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1300,7 +1300,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 59.69 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6eb8a384-c383-45b3-b471-2f252e76a5f8)
     (property "Reference" "R26" (id 0) (at 62.23 68.5799 0)
       (effects (font (size 1.27 1.27)) (justify left))

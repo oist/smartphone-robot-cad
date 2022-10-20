@@ -3789,7 +3789,7 @@
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005edac067"
-      (reference "R2") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R2") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005ede0881"
       (reference "R3") (unit 1) (value "27") (footprint "Resistor_SMD:R_0402_1005Metric")
