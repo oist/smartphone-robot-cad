@@ -3993,7 +3993,7 @@
       (reference "R55") (unit 1) (value "14k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/31bdbf58-3550-4196-84a4-19609c35d47c"
-      (reference "R56") (unit 1) (value "10") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R56") (unit 1) (value "110") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/dd0dc2d4-3bd3-4a60-8897-5699a37d8139"
       (reference "R57") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
