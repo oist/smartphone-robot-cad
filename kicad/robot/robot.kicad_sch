@@ -3732,7 +3732,7 @@
       (reference "D3") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/88f3246e-c596-40f9-a925-41a7c78bbcb6"
-      (reference "D4") (unit 1) (value "LED_R") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
+      (reference "D4") (unit 1) (value "LED_B") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/46e55b4d-9037-49bf-851c-2687e9386d67"
       (reference "D5") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
@@ -3999,7 +3999,7 @@
       (reference "R56") (unit 1) (value "110") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/dd0dc2d4-3bd3-4a60-8897-5699a37d8139"
-      (reference "R57") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R57") (unit 1) (value "360") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/8e928bd7-07b8-41ee-865a-53f5d76f1a77"
       (reference "R58") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
