@@ -4014,7 +4014,7 @@
       (reference "R61") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/58dd37b4-50fb-40a8-9765-2f2daaedee36"
-      (reference "R62") (unit 1) (value "16k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R62") (unit 1) (value "45.3k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/b8dc610f-f3ff-4223-af72-1b97711515ce"
       (reference "R63") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0603_1608Metric")
