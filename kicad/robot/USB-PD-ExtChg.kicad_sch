@@ -1088,7 +1088,7 @@
     (property "Datasheet" "~" (id 3) (at 313.69 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "15W" (id 4) (at 313.69 199.39 0)
+    (property "Description" "20uA. 1/16W ok" (id 4) (at 313.69 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Stackpole Electronics" (id 5) (at 313.69 199.39 0)

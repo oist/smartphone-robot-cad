@@ -2725,6 +2725,9 @@
     (property "Datasheet" "~" (id 3) (at 44.45 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "micro amps. 1/16W ok" (id 4) (at 44.45 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid fcb8d0cc-952b-4410-9575-884ef1880d67))
     (pin "2" (uuid c20ae4f6-6eda-41d1-a39c-2c3345b2fa5b))
   )
@@ -2775,6 +2778,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 44.45 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "micro amps. 1/16W ok" (id 4) (at 44.45 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 11ae51fc-f208-47b8-a28a-90878adb12fd))
@@ -3969,10 +3975,10 @@
       (reference "R28") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/f24672bc-2a5f-42bf-8b82-e6ab4bf0d058"
-      (reference "R29") (unit 1) (value "0.4") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R29") (unit 1) (value "0.39") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/b3f96b04-7b7b-45b7-8c9a-38ce7531267c"
-      (reference "R30") (unit 1) (value "0.4") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R30") (unit 1) (value "0.39") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/4bf796fd-fdb4-45d1-808a-a634d5f4571e/783bdc6d-796b-40b8-bd63-6fa5918d22e8"
       (reference "R31") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -4014,7 +4020,7 @@
       (reference "R43") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/43942a78-120f-4a97-9cb9-2137365cc28b"
-      (reference "R44") (unit 1) (value "5m") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R44") (unit 1) (value "5m") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/dd171f59-154f-4a73-a90a-8bb4a5fc62b5"
       (reference "R45") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
