@@ -3750,13 +3750,13 @@
       (reference "C80") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/603f5feb-db32-4e3b-9dbd-12944a625088"
-      (reference "C81") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C81") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/3b7e5198-fb12-4059-9002-c176f652e784/d7c20807-5a49-45d9-b0b0-037bd77b3c56"
-      (reference "C82") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    (path "/3b7e5198-fb12-4059-9002-c176f652e784/656a7a3e-e0df-4344-836f-fbdb620ded05"
+      (reference "C82") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/3b7e5198-fb12-4059-9002-c176f652e784/3b84df3b-2741-49de-a43f-9f09b71c4d6f"
-      (reference "C83") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    (path "/3b7e5198-fb12-4059-9002-c176f652e784/89d76ff9-49a9-4588-be34-e78c9cc45195"
+      (reference "C83") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/f4b2b7f9-a30d-4922-9789-c7dd20aa71c0"
       (reference "C84") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
