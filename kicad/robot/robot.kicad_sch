@@ -2676,7 +2676,7 @@
     (property "Reference" "C1" (id 0) (at 210.82 35.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100uF" (id 1) (at 210.82 38.0999 0)
+    (property "Value" "22uF" (id 1) (at 210.82 38.0999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (id 2) (at 207.9752 41.91 0)
@@ -2685,7 +2685,7 @@
     (property "Datasheet" "~" (id 3) (at 207.01 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "16V" (id 4) (at 210.82 40.6399 0)
+    (property "Description" "10V" (id 4) (at 210.82 40.6399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid d9770f64-79ef-44e5-8adb-d07f970e915d))
@@ -3510,7 +3510,7 @@
       (reference "BT1") (unit 2) (value "DNP") (footprint "custom_modules:battery26650_thermistor")
     )
     (path "/b1561f5a-81ce-4cd6-855d-7a819176b7c3"
-      (reference "C1") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
+      (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005ed96b87"
       (reference "C2") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3594,7 +3594,7 @@
       (reference "C28") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/6e40a191-897a-4919-b141-fc9cb6e49c15"
-      (reference "C29") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C29") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/427922e5-a943-4728-8788-709c0c3b2395/b65f37b7-6fe7-4979-8802-4541bf5c87ea"
       (reference "C30") (unit 1) (value "0.22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3773,9 +3773,6 @@
     (path "/3b094808-5035-436e-9542-e9e286dde93f/03c7a703-5266-4b36-9b60-d4aa9869927c"
       (reference "C88") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/f3892f20-6e2f-4ee1-988e-4e1dfa5fe28d"
-      (reference "C89") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/3b094808-5035-436e-9542-e9e286dde93f/eee8a00a-ab6b-44aa-98a2-f77a74138a24"
       (reference "C90") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -3788,23 +3785,11 @@
     (path "/3b094808-5035-436e-9542-e9e286dde93f/0210ba30-4d72-47aa-b53c-b276c57bc31c"
       (reference "C93") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/cb1ad79f-2208-45bf-8ac5-1f1359c1acc9"
-      (reference "C95") (unit 1) (value "27pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/4ad5c468-0f9a-4f84-9f06-ff3ec98d094c"
-      (reference "C96") (unit 1) (value "100uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
-    )
     (path "/52a489a4-f6fb-4299-9c3e-5d7f7b1079be/1c27be27-5c0d-4c52-9187-e799c33f85f7"
-      (reference "C97") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/e931685d-6714-44cb-847c-5e643c8d9a3e"
-      (reference "C98") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
-    )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/648061cb-605c-49c5-a01e-685d9671ea37"
-      (reference "C99") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C97") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/d333e255-25bb-4f60-a985-691c6959ac21"
-      (reference "C100") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C100") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/c148ae38-7038-4252-aaa1-562116cfd510"
       (reference "C101") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
