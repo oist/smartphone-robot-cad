@@ -1368,7 +1368,7 @@
     (property "Reference" "R66" (id 0) (at 309.88 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DNP" (id 1) (at 309.88 130.8099 0)
+    (property "Value" "10k" (id 1) (at 309.88 130.8099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 305.562 129.54 90)

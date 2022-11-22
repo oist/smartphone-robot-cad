@@ -4110,7 +4110,7 @@
       (reference "R65") (unit 1) (value "10M") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/f0d67b71-8133-4487-b44e-e7a12e4689ac"
-      (reference "R66") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R66") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "Button_Switch_SMD:Switch_Slide_JS202011SCQN")
