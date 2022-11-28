@@ -723,7 +723,6 @@
     )
   )
 
-
   (junction (at 63.5 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 02862ee2-b617-424b-aef0-c748d3fce2d5)
   )
@@ -3501,12 +3500,6 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/b27c7b46-6c87-43d6-b289-d55126b6d1a9"
       (reference "C105") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/bccfcf4d-86ff-4bc5-ae6a-389e306362be"
-      (reference "D2") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
-    )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/62e3d0a4-3cf3-4359-bdd2-33d9384e4dd7"
-      (reference "D3") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
-    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/88f3246e-c596-40f9-a925-41a7c78bbcb6"
       (reference "D4") (unit 1) (value "LED_B") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
@@ -3978,11 +3971,17 @@
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/fe7c9d59-c2df-470c-8a8f-0cb5c0e5ae38"
       (reference "U23") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
     )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/b78c2d7c-ebd9-415e-8436-194b0f3d3134"
+      (reference "U24") (unit 1) (value "TVS0500DRV") (footprint "Package_SON:TVS0500DRVR")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/e47e1701-edf5-4829-a366-8c5ea660aeff"
+      (reference "U25") (unit 1) (value "TVS0500DRV") (footprint "Package_SON:TVS0500DRVR")
+    )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/57516f2c-2453-46e0-9619-5c659bd2be88"
-      (reference "U?") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+      (reference "U26") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9174614f-332b-4256-a54b-fd8a215bf855"
-      (reference "U?") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+      (reference "U27") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
