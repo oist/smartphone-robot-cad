@@ -3978,6 +3978,12 @@
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/fe7c9d59-c2df-470c-8a8f-0cb5c0e5ae38"
       (reference "U23") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
     )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/57516f2c-2453-46e0-9619-5c659bd2be88"
+      (reference "U?") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+    )
+    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/9174614f-332b-4256-a54b-fd8a215bf855"
+      (reference "U?") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+    )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
     )
