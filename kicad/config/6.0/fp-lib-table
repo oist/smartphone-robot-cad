@@ -141,4 +141,5 @@
   (lib (name "Ultra_Librarian")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/Ultra_Librarian.pretty")(options "")(descr ""))
   (lib (name "Source_Footprints")(type "KiCad")(uri "/home/christopher/git/smartphone-robot/hardware/kicad/digikey-kicad-library/src/Source_Footprints")(options "")(descr ""))
   (lib (name "digikey-footprints")(type "KiCad")(uri "/home/christopher/git/smartphone-robot/hardware/kicad/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "Package_X1SON")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/Package_X1SON.pretty")(options "")(descr ""))
 )
