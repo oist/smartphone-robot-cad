@@ -1,9 +1,3 @@
-#
-# Example python script to generate a BOM from a KiCad generic netlist
-#
-# Example: Sorted and Grouped CSV BOM
-#
-
 """
     @package
     Output: CSV (comma-separated)
@@ -12,7 +6,7 @@
     Fields: Ref, Qnty, Value, Cmp name, Footprint, Description, Vendor
 
     Command line:
-    python "pathToFile/bom_csv_grouped_by_value_with_fp.py" "%I" "%O.csv"
+    python3 [myproject.xml] [output.csv] [number of boards]"
 """
 
 # Import the KiCad python helper module and the csv formatter
@@ -87,8 +81,11 @@ for group in grouped:
         refs += component.getRef() + ","
         c = component
         quantity = len(group)
-        if sys.argv[3].isnumeric():
-            totalQty = quantity * int(sys.argv[3])
+        if len(sys.argv) > 3:
+            if sys.argv[3].isnumeric():
+                totalQty = quantity * int(sys.argv[3])
+        else:
+            totalQty = quantity
         try:
             stock = int(c.getField("Stock"))
         except:
@@ -97,8 +94,15 @@ for group in grouped:
 
 
     refs = refs.removesuffix(",")
-    # Fill in the component groups common data
-    if c.getValue() != "DNP" and c.getField("Part Number") != "N/A" and (totalQty - stock) > 0:
-        out.writerow([refs, quantity, c.getValue(), c.getField("Manufacturer"), c.getField("Part Number"),
-                      c.getDescription()])
+
+    if len(sys.argv) <= 3: # Number of boards not given
+        if c.getValue() != "DNP" and c.getField("Part Number") != "N/A" and (totalQty - stock) > 0:
+            out.writerow([refs, quantity, c.getValue(), c.getField("Manufacturer"), c.getField("Part Number"),
+                          c.getDescription()])
+
+    else:
+        # Fill in the component groups common data
+        if c.getValue() != "DNP" and c.getField("Part Number") != "N/A" and (totalQty - stock) > 0:
+            out.writerow([refs, quantity, c.getValue(), c.getField("Manufacturer"), c.getField("Part Number"),
+                          c.getDescription()])
 
