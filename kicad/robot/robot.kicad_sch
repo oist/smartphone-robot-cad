@@ -3700,10 +3700,10 @@
       (reference "R31") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/f3ff3b07-4f79-4550-846a-93a6a028db76"
-      (reference "R32") (unit 1) (value "1") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R32") (unit 1) (value "10") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/be938a43-1ca7-42d4-8701-6c556b175f1c"
-      (reference "R33") (unit 1) (value "1") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R33") (unit 1) (value "10") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/91ae85d5-3c46-4880-b745-296ba28478f3"
       (reference "R34") (unit 1) (value "2.2k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -3824,12 +3824,6 @@
     )
     (path "/58d1a1ac-845d-4c95-aeac-90bdcfc62372"
       (reference "TP6") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/13b83799-04fd-44e8-9cf8-bc8887006cfb"
-      (reference "TP7") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
-    )
-    (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/79cbf7ec-213b-4f51-9357-65c85d163026"
-      (reference "TP8") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/2b537e3b-6cc2-44d3-a8dc-78684cbef2b1"
       (reference "TP9") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
@@ -3957,8 +3951,8 @@
     (path "/3b094808-5035-436e-9542-e9e286dde93f/aa4c94f6-d618-4649-9251-43a427da9a3a"
       (reference "U14") (unit 1) (value "MAX77642ANA+") (footprint "Package_BGA:Maxim-N252B2-1-0-A-MFG")
     )
-    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/7104fd10-451a-4923-a6af-987b8b227de5"
-      (reference "U15") (unit 1) (value "ESD122DMYR") (footprint "Diode_SMD:Texas_Instruments-DMY0003A-0-0-MFG")
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/38126180-b9c5-4f4c-a386-42fefe138d18"
+      (reference "U15") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/717c9b0c-0845-4df0-8107-b7929ceb650d"
       (reference "U16") (unit 1) (value "fpf1048bucx") (footprint "Package_BGA:BGA6N50P3X2_146X96X62N")
@@ -3968,6 +3962,21 @@
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/26c8e3d6-bf7b-482a-bc5f-027909d63dec"
       (reference "U18") (unit 1) (value "AP33771DKZ-13") (footprint "Package_DFN_QFN:AP33771DKZ13")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/c504aae2-55b4-402a-9f4a-2d2d1abf0f51"
+      (reference "U19") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/732905c8-cb84-4adb-81f0-48f030cf5832"
+      (reference "U20") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/709bbe14-9e3f-4e95-8e5c-c9ae2bf2f883"
+      (reference "U21") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/a3ded428-4b6e-480a-9c0c-ebd20a6e1139"
+      (reference "U22") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
+    )
+    (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/fe7c9d59-c2df-470c-8a8f-0cb5c0e5ae38"
+      (reference "U23") (unit 1) (value "TPD1E05U06") (footprint "Package_X1SON:TPD1E05U06DPYR")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005f0dd35c"
       (reference "Y1") (unit 1) (value "ABLS-12.000MHZ-B4-T") (footprint "RP2040_minimal:Crystal_SMD_HC49-US")
