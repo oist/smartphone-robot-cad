@@ -3540,9 +3540,6 @@
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/88f3246e-c596-40f9-a925-41a7c78bbcb6"
       (reference "D4") (unit 1) (value "LED_B") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
-    (path "/3b7e5198-fb12-4059-9002-c176f652e784/46e55b4d-9037-49bf-851c-2687e9386d67"
-      (reference "D5") (unit 1) (value "PTVS20VS1UR") (footprint "Diode_SMD:Nexperia_CFP3_SOD-123W")
-    )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/762e0510-85d3-459b-8c4d-1e65fdfbe944"
       (reference "D6") (unit 1) (value "LED_YG") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
