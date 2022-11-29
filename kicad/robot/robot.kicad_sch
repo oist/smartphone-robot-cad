@@ -723,7 +723,6 @@
     )
   )
 
-
   (junction (at 63.5 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 02862ee2-b617-424b-aef0-c748d3fce2d5)
   )
@@ -3175,11 +3174,11 @@
     (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/f8d116f4-4078-40e3-8462-b60a813b8ccb"
       (reference "#FLG0106") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/996250ef-4317-4766-9480-1bb0621fa127"
-      (reference "BT1") (unit 1) (value "DNP") (footprint "custom_modules:battery26650_thermistor")
+    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/752b2d4e-6b04-4ff8-b7fe-4ea00f9e8782"
+      (reference "BT1") (unit 1) (value "BatteryHolder_26650") (footprint "custom_modules:battery26650_holderOnly")
     )
-    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/8c870b01-38d5-4742-b525-e0b198f5d2d2"
-      (reference "BT1") (unit 2) (value "DNP") (footprint "custom_modules:battery26650_thermistor")
+    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/0bd86b86-b1c3-4ae6-b20b-54681467bcbc"
+      (reference "BT2") (unit 1) (value "Battery_Cell_NoContacts") (footprint "custom_modules:battery26650")
     )
     (path "/b1561f5a-81ce-4cd6-855d-7a819176b7c3"
       (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3765,6 +3764,9 @@
     )
     (path "/043d6480-aee2-4e5b-993d-8049353f5353"
       (reference "S1") (unit 1) (value "JS202011SCQN") (footprint "Button_Switch_SMD:Switch_Slide_JS202011SCQN")
+    )
+    (path "/aaf20b87-68dc-43c9-a7d3-4ceda8b87424/5e8efdf3-ce47-4432-add0-9f89d5910085"
+      (reference "TH1") (unit 1) (value "Thermistor") (footprint "custom_modules:battery26650_thermistor")
     )
     (path "/9d0a6cc2-bdf4-4c55-84fd-bc8bc83f3452"
       (reference "TP1") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
