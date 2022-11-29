@@ -2182,7 +2182,7 @@
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (id 3) (at 78.74 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "W25Q128JVS" (id 4) (at 78.74 129.54 0)
+    (property "Part Number" "W25Q128JVSIQ" (id 4) (at 78.74 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Winbond" (id 5) (at 78.74 129.54 0)
