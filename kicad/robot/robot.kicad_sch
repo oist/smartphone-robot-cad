@@ -2512,6 +2512,12 @@
     (property "Datasheet" "~" (id 3) (at 139.7 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Sullins" (id 4) (at 139.7 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "QPC02SXGN-RC" (id 5) (at 139.7 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 139.7 158.75 0) (unit 1)

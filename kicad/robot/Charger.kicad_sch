@@ -2125,6 +2125,12 @@
     (property "Datasheet" "~" (id 3) (at 33.02 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Manufacturer" "Sullins" (id 4) (at 33.02 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Part Number" "QPC02SXGN-RC" (id 5) (at 33.02 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "Device:C") (at 205.74 102.87 0) (mirror y) (unit 1)
