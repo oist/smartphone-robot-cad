@@ -3547,7 +3547,7 @@
       (reference "D6") (unit 1) (value "LED_YG") (footprint "Diode_SMD:D_0603_1608Metric_Harvatek")
     )
     (path "/3b7e5198-fb12-4059-9002-c176f652e784/eaa9feaa-7330-423e-bfa2-be79e4e148f4"
-      (reference "D7") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:Vishay-SS1P3L-M3_84A-0-0-0")
+      (reference "D7") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:SD2114S040S8R0")
     )
     (path "/5f6de4c8-0c94-422e-b890-83165e173628"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
