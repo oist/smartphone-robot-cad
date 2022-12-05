@@ -2199,7 +2199,7 @@
     (in_bom yes) (on_board yes)
     (uuid 0f485ebf-7ed5-45c2-912c-d54f221cae44)
     (property "Reference" "U1" (id 0) (at 52.07 36.83 0))
-    (property "Value" "WRM483265-10F5-12V-G" (id 1) (at 52.07 36.83 0)
+    (property "Value" "DNP" (id 1) (at 52.07 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "custom_modules:WRM483265-10F5-12V-G" (id 2) (at 52.07 36.83 0)
@@ -3959,7 +3959,7 @@
       (reference "TP36") (unit 1) (value "TP5002") (footprint "TestPoint:KEYSTONE_5002")
     )
     (path "/0f485ebf-7ed5-45c2-912c-d54f221cae44"
-      (reference "U1") (unit 1) (value "WRM483265-10F5-12V-G") (footprint "custom_modules:WRM483265-10F5-12V-G")
+      (reference "U1") (unit 1) (value "DNP") (footprint "custom_modules:WRM483265-10F5-12V-G")
     )
     (path "/b17a9dbb-4562-473a-b13f-bbad723355f8/00000000-0000-0000-0000-00005eda5f2c"
       (reference "U2") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
