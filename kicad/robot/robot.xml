@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/christopher/git/smartphone-robot/hardware/kicad/robot/robot.kicad_sch</source>
-    <date>Wed 30 Nov 2022 12:58:02 PM JST</date>
+    <date>Fri 02 Dec 2022 12:56:04 PM JST</date>
     <tool>Eeschema 6.0.9-8da3e8f707~116~ubuntu20.04.1</tool>
     <textvar name="1"/>
     <textvar name="2"/>
@@ -3963,9 +3963,10 @@
       <tstamps>9174614f-332b-4256-a54b-fd8a215bf855</tstamps>
     </comp>
     <comp ref="BT1">
-      <value>BatteryHolder_26650</value>
+      <value>DNP</value>
       <footprint>custom_modules:battery26650_holderOnly</footprint>
       <fields>
+        <field name="Description">BatteryHolder_26650</field>
         <field name="Manufacturer">Uxcell</field>
         <field name="Part Number">a15042300ux0145</field>
         <field name="Price">266.67</field>
@@ -3976,6 +3977,7 @@
       <property name="Website" value="https://item.rakuten.co.jp/sotenco/a15042300ux0145/"/>
       <property name="Price" value="266.67"/>
       <property name="Part Number" value="a15042300ux0145"/>
+      <property name="Description" value="BatteryHolder_26650"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -3983,9 +3985,10 @@
       <tstamps>752b2d4e-6b04-4ff8-b7fe-4ea00f9e8782</tstamps>
     </comp>
     <comp ref="BT2">
-      <value>Battery_Cell_NoContacts</value>
+      <value>DNP</value>
       <footprint>custom_modules:battery26650</footprint>
       <fields>
+        <field name="Description">Battery_Cell_NoContacts</field>
         <field name="Manufacturer">Suprise Collection</field>
         <field name="Part Number">26650-5000-1</field>
         <field name="Price">1380</field>
@@ -3996,6 +3999,7 @@
       <property name="Website" value="https://item.rakuten.co.jp/surprise-collection/26650s/"/>
       <property name="Price" value="1380"/>
       <property name="Part Number" value="26650-5000-1"/>
+      <property name="Description" value="Battery_Cell_NoContacts"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -4431,15 +4435,17 @@
       <tstamps>c0493975-258e-48f2-b8a8-47f86a2dacf5</tstamps>
     </comp>
     <comp ref="TH1">
-      <value>Thermistor</value>
+      <value>DNP</value>
       <footprint>custom_modules:battery26650_thermistor</footprint>
       <fields>
+        <field name="Description">Thermistor</field>
         <field name="Manufacturer">Semitec</field>
         <field name="Part Number">103AT-5-1P-FT</field>
       </fields>
       <libsource lib="Device" part="Thermistor" description="Temperature dependent resistor"/>
       <property name="Manufacturer" value="Semitec"/>
       <property name="Part Number" value="103AT-5-1P-FT"/>
+      <property name="Description" value="Thermistor"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -4729,13 +4735,13 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="Description">10V</field>
-        <field name="Manufacturer">N/A</field>
-        <field name="Part Number">N/A</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Part Number">DNP</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
-      <property name="Manufacturer" value="N/A"/>
-      <property name="Part Number" value="N/A"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="Part Number" value="DNP"/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>
       <property name="VIO" value="VIO [1.62-5.5] (1.8V compatible)"/>
