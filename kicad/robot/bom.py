@@ -8,14 +8,11 @@ from pathlib import Path
 # the command line option. If the file doesn't exist, execution will stop
 net = kicad_netlist_reader.netlist("robot.xml")
 
-bomFile = Path('robot_bom.csv')
-toBuy = Path('toBuy.csv')
-
 batch = 5
 
 try:
-    bomFile = open(str(bomFile), 'w')
-    toBuy = open(str(toBuy), 'w')
+    bomFile = open(str(Path('robot_bom.csv')), 'w')
+    toBuy = open(str(Path('toBuy.csv')), 'w')
 except IOError:
     e = "Can't open output file for writing: "
     print(__file__, ":", e, sys.stderr)
@@ -25,8 +22,9 @@ except IOError:
 out_bomFile = csv.writer(bomFile, lineterminator='\n', delimiter=';', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_toBuy = csv.writer(toBuy, lineterminator='\n', delimiter=';', quotechar='\"', quoting=csv.QUOTE_ALL)
 
-out_bomFile.writerow(['Ref', 'Qty', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
-out_toBuy.writerow(['Ref', 'Qty', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
+for f in [out_bomFile, out_toBuy]:
+    f.writerow(['Ref', 'Qty Single Board', 'Batch Size', 'Qty Total Batch', 'Stock', 'Need to Buy', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
+
 
 # Get all of the components in groups of matching parts + values
 # (see ky_generic_netlist_reader.py)
@@ -42,22 +40,44 @@ for group in grouped:
         refs += component.getRef() + ","
         c = component
         quantity = len(group)
+        if c.getValue() == "DNP":
+            quantity = 0
         totalQty = quantity * batch
         try:
             stock = int(c.getField("Stock"))
         except:
             stock = 0
+        toBuyCnt = (quantity * batch) - stock
+        if toBuyCnt < 0:
+            toBuyCnt = 0
 
     refs = refs.removesuffix(",")
 
     # Normal BOM
-    if c.getValue() != "DNP" and c.getField("Part Number") != "N/A":
-        out_bomFile.writerow([refs, quantity, c.getValue(), c.getField("Manufacturer"), c.getField("Part Number"),
-                      c.getDescription(), c.getFootprint()])
+    out_bomFile.writerow([refs,
+                          quantity,
+                          batch,
+                          totalQty,
+                          stock,
+                          toBuyCnt,
+                          c.getValue(),
+                          c.getField("Manufacturer"),
+                          c.getField("Part Number"),
+                          c.getDescription(),
+                          c.getFootprint()])
 
     # To Buy BOM
     # Fill in the component groups common data
-    if c.getValue() != "DNP" and c.getField("Part Number") != "N/A" and (totalQty - stock) > 0:
-        out_toBuy.writerow([refs, quantity, c.getValue(), c.getField("Manufacturer"), c.getField("Part Number"),
-                      c.getDescription(), c.getFootprint()])
+    if c.getValue() != "DNP" and c.getField("Part Number") != "N/A" and toBuyCnt > 0:
+        out_toBuy.writerow([refs,
+                          quantity,
+                          batch,
+                          totalQty,
+                          stock,
+                          toBuyCnt,
+                          c.getValue(),
+                          c.getField("Manufacturer"),
+                          c.getField("Part Number"),
+                          c.getDescription(),
+                          c.getFootprint()])
 
