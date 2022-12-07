@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/christopher/git/smartphone-robot/hardware/kicad/robot/robot.kicad_sch</source>
-    <date>Fri 02 Dec 2022 12:56:04 PM JST</date>
+    <date>Wed 07 Dec 2022 03:53:10 PM JST</date>
     <tool>Eeschema 6.0.9-8da3e8f707~116~ubuntu20.04.1</tool>
     <textvar name="1"/>
     <textvar name="2"/>
@@ -556,7 +556,7 @@
       <tstamps>58d1a1ac-845d-4c95-aeac-90bdcfc62372</tstamps>
     </comp>
     <comp ref="U1">
-      <value>WRM483265-10F5-12V-G</value>
+      <value>DNP</value>
       <footprint>custom_modules:WRM483265-10F5-12V-G</footprint>
       <datasheet>https://www.renesas.com/us/en/document/dst/p9221-r3-datasheet?language=en&amp;r=394816</datasheet>
       <fields>

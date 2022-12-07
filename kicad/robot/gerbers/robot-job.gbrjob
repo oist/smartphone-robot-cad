@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.0.9-8da3e8f707~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-12-01T12:52:43+09:00"
+    "CreationDate": "2022-12-07T16:06:54+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -124,6 +124,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Red",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -170,6 +171,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Red",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
