@@ -4007,7 +4007,7 @@
       (reference "U16") (unit 1) (value "fpf1048bucx") (footprint "Package_BGA:BGA6N50P3X2_146X96X62N")
     )
     (path "/b1182274-8387-45c9-b9a4-abcd767ed6f2/b99bda80-9484-4d89-94d1-3db4fa50f6e8"
-      (reference "U17") (unit 1) (value "TPS61253AYFFR") (footprint "Package_BGA:Texas_Instruments-YFF0009-BGA9C40P3X3_119X129X62")
+      (reference "U17") (unit 1) (value "TPS61253AYFFT") (footprint "Package_BGA:Texas_Instruments-YFF0009-BGA9C40P3X3_119X129X62")
     )
     (path "/3fab603d-ed65-41bd-8de1-51639e39cb06/26c8e3d6-bf7b-482a-bc5f-027909d63dec"
       (reference "U18") (unit 1) (value "AP33771DKZ-13") (footprint "Package_DFN_QFN:AP33771DKZ13")
