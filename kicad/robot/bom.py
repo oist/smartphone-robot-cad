@@ -1,4 +1,6 @@
 # Import the KiCad python helper module and the csv formatter
+import math
+
 import kicad_netlist_reader
 import csv
 import sys
@@ -47,7 +49,8 @@ for group in grouped:
             stock = int(c.getField("Stock"))
         except:
             stock = 0
-        toBuyCnt = (quantity * batch) - stock
+
+        toBuyCnt = totalQty - stock
         if toBuyCnt < 0:
             toBuyCnt = 0
 
