@@ -209,7 +209,7 @@
   },
   "erc": {
     "erc_exclusions": [
-      "multiple_net_names|2082800|304800|4aaba99b-8da5-4dae-b1ae-2d1df7fcb741|6d6b34e0-2785-42df-a34c-ee8719ce3100|||"
+      "multiple_net_names|2082800|241300|4aaba99b-8da5-4dae-b1ae-2d1df7fcb741|6d6b34e0-2785-42df-a34c-ee8719ce3100|||"
     ],
     "meta": {
       "version": 0
