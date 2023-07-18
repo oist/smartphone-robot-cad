@@ -132,7 +132,6 @@
   (lib (name "Valve")(type "KiCad")(uri "${KISYSMOD}/Valve.pretty")(options "")(descr "Valve"))
   (lib (name "Varistor")(type "KiCad")(uri "${KISYSMOD}/Varistor.pretty")(options "")(descr "Varistor"))
   (lib (name "custom_modules")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/custom_modules.pretty")(options "")(descr ""))
-  (lib (name "digikey-footprints")(type "KiCad")(uri "/home/christopher/git/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
   (lib (name "custom_amplifiers")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/custom_amplifiers.pretty")(options "")(descr ""))
   (lib (name "custom_connectors")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/custom_connectors.pretty")(options "")(descr ""))
   (lib (name "custom_inductors")(type "KiCad")(uri "${KICAD6_FOOTPRINT_DIR}/custom_inductors.pretty")(options "")(descr ""))
