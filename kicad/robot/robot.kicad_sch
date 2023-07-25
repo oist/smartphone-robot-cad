@@ -2540,7 +2540,7 @@
     (property "Value" "DNP" (at 28.575 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "custom_modules:WRM483265-10F5-12V-G" (at 28.575 36.83 0)
+    (property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical" (at 28.575 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.renesas.com/us/en/document/dst/p9221-r3-datasheet?language=en&r=394816" (at 28.575 36.83 0)
