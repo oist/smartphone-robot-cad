@@ -24,17 +24,20 @@
   },
   "environment": {
     "vars": {
-      "DIGIKEY_FOOTPRINT_DIR": "/home/bo/git/smartphone-robot/hardware/kicad/digikey-kicad-library/digikey-footprints.pretty",
-      "DIGIKEY_SYMBOL_DIR": "/home/bo/git/smartphone-robot/hardware/kicad/digikey-kicad-library/digikey-symbols",
-      "KICAD6_3DMODEL_DIR": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-packages3D",
-      "KICAD6_3RD_PARTY": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-packages3D/3rd-party",
-      "KICAD6_FOOTPRINT_DIR": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-footprints",
-      "KICAD6_SYMBOL_DIR": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-symbols",
-      "KICAD_SYMBOL_DIR": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-symbols",
-      "KISYS3DMOD": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-packages3D",
-      "KISYSMOD": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-footprints",
-      "REMOTE_3DMODEL_PATH": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-packages3D/",
-      "TESTING": "/home/bo/git/smartphone-robot/hardware/kicad/kicad-packages3D/"
+      "DIGIKEY_FOOTPRINT_DIR": "/home/bo/git/robot-pcb/kicad/digikey-kicad-library/digikey-footprints.pretty",
+      "DIGIKEY_SYMBOL_DIR": "/home/bo/git/robot-pcb/kicad/digikey-kicad-library/digikey-symbols",
+      "KICAD6_3DMODEL_DIR": "/home/bo/git/robot-pcb/kicad/kicad-packages3D",
+      "KICAD6_3RD_PARTY": "/home/bo/git/robot-pcb/kicad/kicad-packages3D/3rd-party",
+      "KICAD6_FOOTPRINT_DIR": "/home/bo/git/robot-pcb/kicad/kicad-footprints",
+      "KICAD6_SYMBOL_DIR": "/home/bo/git/robot-pcb/kicad/kicad-symbols",
+      "KICAD7_3DMODEL_DIR": "/home/bo/git/robot-pcb/kicad/kicad-packages3D",
+      "KICAD7_FOOTPRINT_DIR": "/home/bo/git/robot-pcb/kicad/kicad-footprints",
+      "KICAD7_SYMBOL_DIR": "/home/bo/git/robot-pcb/kicad/kicad-symbols",
+      "KICAD_SYMBOL_DIR": "/home/bo/git/robot-pcb/kicad/kicad-symbols",
+      "KISYS3DMOD": "/home/bo/git/robot-pcb/kicad/kicad-packages3D",
+      "KISYSMOD": "/home/bo/git/robot-pcb/kicad/kicad-footprints",
+      "REMOTE_3DMODEL_PATH": "/home/bo/git/robot-pcb/kicad/kicad-packages3D/",
+      "TESTING": "/home/bo/git/robot-pcb/kicad/kicad-packages3D/"
     }
   },
   "graphics": {
@@ -81,6 +84,6 @@
     "pdf_viewer_name": "",
     "text_editor": "nano -w",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/bo/.config/kicad"
+    "working_dir": "/home/bo/.config/kicad/7.0"
   }
 }
