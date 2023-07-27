@@ -3150,7 +3150,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 307.34 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid f0d67b71-8133-4487-b44e-e7a12e4689ac)
     (property "Reference" "R66" (at 309.88 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))

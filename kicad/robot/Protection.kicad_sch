@@ -1862,7 +1862,7 @@
   )
 
   (symbol (lib_id "Device:Battery_Cell_NoContacts") (at 96.52 154.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0bd86b86-b1c3-4ae6-b20b-54681467bcbc)
     (property "Reference" "BT2" (at 99.06 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -2488,7 +2488,7 @@
   )
 
   (symbol (lib_id "Device:Thermistor") (at 104.14 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 5e8efdf3-ce47-4432-add0-9f89d5910085)
     (property "Reference" "TH1" (at 107.95 152.3999 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2593,7 +2593,7 @@
   )
 
   (symbol (lib_id "Device:BatteryHolder_26650") (at 100.33 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 752b2d4e-6b04-4ff8-b7fe-4ea00f9e8782)
     (property "Reference" "BT1" (at 92.71 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
