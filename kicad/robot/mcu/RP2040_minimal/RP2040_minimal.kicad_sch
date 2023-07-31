@@ -3465,7 +3465,7 @@
     (property "Value" "TL3305AF260QG" (at 36.322 123.436 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "TL3305AF160QG" (at 125.4 118.11 0)
+    (property "Footprint" "Button_Switch_SMD:TL3305AF160QG" (at 125.4 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf" (at 225.4 118.11 0)
