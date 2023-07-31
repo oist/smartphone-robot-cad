@@ -84,6 +84,6 @@
     "pdf_viewer_name": "",
     "text_editor": "nano -w",
     "use_system_pdf_viewer": true,
-    "working_dir": "/home/bo/.config/kicad/7.0"
+    "working_dir": "/media/christopher/HDD/git/robot-pcb/kicad/robot"
   }
 }
