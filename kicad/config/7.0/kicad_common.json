@@ -72,7 +72,9 @@
     "sash_pos": 439
   },
   "session": {
-    "pinned_fp_libs": [],
+    "pinned_fp_libs": [
+      "robot"
+    ],
     "pinned_symbol_libs": [],
     "remember_open_files": false
   },
