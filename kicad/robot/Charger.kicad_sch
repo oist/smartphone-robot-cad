@@ -1214,7 +1214,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ce4cc5db-111b-446f-b762-1fe33ada2eb6)
   )
-  (hierarchical_label "STAT" (shape input) (at 53.34 139.7 180) (fields_autoplaced)
+  (hierarchical_label "SUSPND" (shape input) (at 53.34 139.7 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid d019f4b2-8d6b-495c-a732-61cbb05123c0)
   )

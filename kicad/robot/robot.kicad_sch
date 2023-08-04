@@ -4289,9 +4289,9 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid fe91aa2a-7dac-462d-b4a4-2d3b76e32675)
     )
-    (pin "STAT" input (at 176.53 55.88 0)
+    (pin "SUSPND" input (at 176.53 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid bf4bd699-9320-4448-8edb-a7dbd386af3a)
+      (uuid 39dd65ec-9701-411e-9b9e-fed6c50d9eb0)
     )
     (instances
       (project "robot"
