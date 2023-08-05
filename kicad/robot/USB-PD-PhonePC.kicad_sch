@@ -3760,7 +3760,7 @@
     (property "Footprint" "robot:GCT_USB4151-GF-C_REVA" (at 71.12 151.13 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "Datasheet" "" (at 71.12 151.13 0)
+    (property "Datasheet" "https://gct.co/files/drawings/usb4151.pdf" (at 71.12 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "STANDARD" "Manufacturer Recommendations" (at 71.12 151.13 0)
