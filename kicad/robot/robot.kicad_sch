@@ -2324,11 +2324,11 @@
     (property "Manufacturer" "TDK" (at 28.575 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "" (uuid cb0d637f-47e2-4a74-b346-e10bdaee1825))
+    (pin "" (uuid cb0d637f-47e2-4a74-b346-e10bdaee1825))
     (pin "1" (uuid 8b3e4635-ae14-4a58-80ce-2c22e15e275a))
     (pin "2" (uuid 0a686bca-1151-4830-9da1-173d0307e356))
     (pin "3" (uuid 2abb3ad1-917f-4df6-99c8-5f2df790e41e))
-    (pin "" (uuid 8d7d9d05-9503-4edf-b0bb-b0a3f814df48))
-    (pin "" (uuid cb0d637f-47e2-4a74-b346-e10bdaee1825))
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089"
