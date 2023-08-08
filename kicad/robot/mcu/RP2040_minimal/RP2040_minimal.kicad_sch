@@ -4010,7 +4010,7 @@
     (property "Value" "Conn_01x05" (at 321.945 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "robot:PinSocket_1x05_P1.00mm_Vertical" (at 321.945 138.43 0)
+    (property "Footprint" "robot:PinSocket_1x05_P2.54mm_Vertical" (at 321.945 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 321.945 138.43 0)
