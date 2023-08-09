@@ -208,7 +208,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|660400|2247900|00000000-0000-0000-0000-00005f0dd35c|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|698500|647700|aa4c94f6-d618-4649-9251-43a427da9a3a|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|1524000|2197100|685e1db0-f4c0-4967-b197-72bbf8ed1a5c|e28365bc-5a61-4bf4-ab85-6658323ea3ae|||",
+      "multiple_net_names|1625600|1435100|a996dd69-1444-4e70-b36e-5626b846f78d|a5dee0d4-12ee-4b66-be1d-e9f69f8d7c3e|||",
+      "multiple_net_names|2082800|203200|eb3b636a-4dea-4e2d-8914-6693710608ee|6d6b34e0-2785-42df-a34c-ee8719ce3100|||",
+      "multiple_net_names|2082800|241300|4aaba99b-8da5-4dae-b1ae-2d1df7fcb741|6d6b34e0-2785-42df-a34c-ee8719ce3100|||"
+    ],
     "meta": {
       "version": 0
     },
