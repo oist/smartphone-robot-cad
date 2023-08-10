@@ -77,7 +77,7 @@
   (pad "24" smd rect (at -1.25 -1.925) (size 0.3 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ab0cdd21-5249-40ae-a4e9-fd0e4e10b79a))
   (pad "25" smd rect (at 0 0) (size 2.7 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 74a5b0e5-e19f-4323-bffa-91a68dbce8ee))
   (model "${KIPRJMOD}/packages3D/Diodes-WQFN-4040-24-AP33771DKZ-13.stp"
-    (offset (xyz 0 0 1))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
