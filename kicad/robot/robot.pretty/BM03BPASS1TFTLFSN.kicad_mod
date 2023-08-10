@@ -52,7 +52,7 @@
   (pad "3" smd rect (at -2 -3.075) (size 1 2.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3444941c-bb1d-4f2c-8116-08a3b160fb4a))
   (pad "MP1" smd rect (at 4.35 1.575) (size 1.8 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2776ccf5-bb6b-41d3-b7ad-7155724d7e4c))
   (pad "MP2" smd rect (at -4.35 1.575) (size 1.8 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b070f949-b79d-4cf0-94e3-857c6b54cf5d))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/BM03B-PASS-1-TF.step"
+  (model "${KIPRJMOD}/packages3D/BM03B-PASS-1-TF.step"
     (offset (xyz 0 -0.225 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

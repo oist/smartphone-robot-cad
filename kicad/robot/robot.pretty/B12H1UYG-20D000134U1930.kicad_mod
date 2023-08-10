@@ -35,7 +35,7 @@
     (thermal_bridge_angle 45) (tstamp 2161a94d-10bc-4879-b217-47e64ef594a6))
   (pad "2" smd roundrect (at 0 0.761) (size 1 0.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12)
     (thermal_bridge_angle 45) (tstamp 60f7fbed-9ba3-4146-bbfa-cbab85b7d9d1))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/B12H1UYG-20D000134U1930-BodyMultiTransform.step"
+  (model "${KIPRJMOD}/packages3D/B12H1UYG-20D000134U1930-BodyMultiTransform.step"
     (offset (xyz -0.3 -0.85 0.35))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))

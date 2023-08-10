@@ -65,12 +65,12 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d0a10902-c2e9-4521-8cc2-3ac91f040ff3))
   (pad "1" thru_hole roundrect (at 0 0) (size 2.7 2.7) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.092593) (tstamp 280b8e40-312d-4c75-9a20-8b81ac38c39b))
   (pad "2" thru_hole circle (at 3.96 0) (size 2.7 2.7) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 603353f8-72f6-47cb-8f22-486c398a985a))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/B2P-VH.step"
+  (model "${KIPRJMOD}/packages3D/B2P-VH.step"
     (offset (xyz 1.97 -0.55 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/VHR-2N.stp"
+  (model "${KIPRJMOD}/packages3D/VHR-2N.stp"
     (offset (xyz 2 -3.8 10))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 180))

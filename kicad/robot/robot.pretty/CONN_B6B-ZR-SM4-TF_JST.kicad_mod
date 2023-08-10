@@ -77,7 +77,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/06ZR-8M-P.step"
+  (model "${KIPRJMOD}/packages3D/06ZR-8M-P.step"
     (offset (xyz 0 -0.88 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 180))

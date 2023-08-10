@@ -36,7 +36,7 @@
   (fp_line (start 1.016 -0.5) (end 1.016 0.5)
     (stroke (width 0.15) (type solid)) (layer "F.Fab") (tstamp 547a89d4-e074-4932-bdfb-fe90ac2f7e21))
   (pad "1" smd roundrect (at 0 0) (size 1.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6d1725ac-a682-467a-b920-d0030bba137f))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/RCUCTE.stp"
+  (model "${KIPRJMOD}/packages3D/RCUCTE.stp"
     (offset (xyz 0 0 0.57))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

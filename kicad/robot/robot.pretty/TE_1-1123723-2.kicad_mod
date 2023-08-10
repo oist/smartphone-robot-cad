@@ -67,12 +67,12 @@
     (stroke (width 0.4) (type solid)) (fill none) (layer "F.Fab") (tstamp 65a466ae-9552-4c0f-8230-e4e1744ab143))
   (pad "1" thru_hole rect (at 0 0) (size 2.475 2.475) (drill 1.65) (layers "*.Cu" "*.Mask") (tstamp 859d465e-269b-4d8f-b811-9ee3f5813bc1))
   (pad "2" thru_hole circle (at 3.96 0) (size 2.475 2.475) (drill 1.65) (layers "*.Cu" "*.Mask") (tstamp b9e98220-0cb7-4ce9-8afe-44e777cc60e9))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/1-1123723-2.step"
+  (model "${KIPRJMOD}/packages3D/1-1123723-2.step"
     (offset (xyz 2 0 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/2132813-2.stp"
+  (model "${KIPRJMOD}/packages3D/2132813-2.stp"
     (offset (xyz 2 0.5 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 0))

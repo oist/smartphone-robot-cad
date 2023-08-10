@@ -52,7 +52,7 @@
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp c704fedd-800d-4f33-bf88-3158eeaf28e4))
   (pad "1" thru_hole oval (at -37.13 0) (size 2.5 3.6) (drill oval 1 1.7 (offset 0 0.05)) (layers "*.Cu" "*.Mask") (tstamp 2e3d1fc2-6960-42cf-a2e0-088700cafb32))
   (pad "2" thru_hole oval (at 37.13 0) (size 2.5 3.6) (drill oval 1 1.7 (offset 0 0.05)) (layers "*.Cu" "*.Mask") (tstamp e6f2546a-859b-4e48-8523-8cecfc3c70ed))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/BatteryHolder_BLM_1x26650.wrl"
+  (model "${KIPRJMOD}/packages3D/BatteryHolder_BLM_1x26650.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -46,7 +46,7 @@
   (pad "8" smd roundrect (at 0.538 -0.25 90) (size 0.25 0.825) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp ee8c7eb3-3717-43d1-a3e5-6148fc495d89))
   (pad "9" smd roundrect (at 0.663 -0.75 90) (size 0.25 0.575) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp e08ff904-0dbc-41bf-a146-bf929723d5b8))
   (pad "10" smd roundrect (at 0 -0.913) (size 0.25 0.575) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp e993e139-f5cd-45f6-8491-e46bd16d5758))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/TPS22998RYZR.stp"
+  (model "${KIPRJMOD}/packages3D/TPS22998RYZR.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

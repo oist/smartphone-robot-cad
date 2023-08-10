@@ -55,7 +55,7 @@
   (pad "4" smd roundrect (at -2.5 -1.2 90) (size 1.6 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12) (tstamp f2fc65fa-3334-42cd-a2a8-c1a332e08e72))
   (pad "5" smd roundrect (at 0 -1.2 90) (size 1.6 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12) (tstamp 09c3deeb-a61b-457b-9eff-a3fdf83bfa4d))
   (pad "6" smd roundrect (at 2.5 -1.2 90) (size 1.6 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.12) (tstamp 20dc441d-5a0b-47e5-9a79-646161ca77ed))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/JS202011JCQN--3DModel-STEP-1.step"
+  (model "${KIPRJMOD}/packages3D/JS202011JCQN--3DModel-STEP-1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

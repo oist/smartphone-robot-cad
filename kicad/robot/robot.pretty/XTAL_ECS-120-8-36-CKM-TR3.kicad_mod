@@ -31,7 +31,7 @@
   (pad "2" smd rect (at 0.85 0.65 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp afb3e832-6b1f-4324-9888-b8f30d0d8c6d))
   (pad "3" smd rect (at 0.85 -0.65 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 752dbad2-c0ec-4bf1-874b-d7a2f37ae612))
   (pad "4" smd rect (at -0.85 -0.65 90) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a93472d1-b61a-48af-adfd-61158db7c25a))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/ECS-120-8-36-CKM-TR3.step"
+  (model "${KIPRJMOD}/packages3D/ECS-120-8-36-CKM-TR3.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

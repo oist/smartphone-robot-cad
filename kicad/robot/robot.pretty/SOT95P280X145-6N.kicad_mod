@@ -37,7 +37,7 @@
   (pad "4" smd roundrect (at 1.25 0.95 180) (size 1.17 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.06) (tstamp 665d2cc2-3ed9-4cfd-9587-70ff73306806))
   (pad "5" smd roundrect (at 1.25 0 180) (size 1.17 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.06) (tstamp b5187725-edc1-45ea-be36-c88c987015f0))
   (pad "6" smd roundrect (at 1.25 -0.95 180) (size 1.17 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.06) (tstamp 6a0e7353-4608-4ada-8141-8e06eb46bc64))
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/AP2502KTR-G1.step"
+  (model "${KIPRJMOD}/packages3D/AP2502KTR-G1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
