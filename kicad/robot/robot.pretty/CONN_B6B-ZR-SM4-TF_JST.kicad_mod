@@ -62,12 +62,12 @@
   (pad "6" smd rect (at 3.75 1.0965 180) (size 0.7112 3.4036) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 22bfb75d-8800-48e4-b9bd-02d8557f4561))
   (pad "MP" smd rect (at -5.800001 -0.853501 180) (size 1.6002 2.3876) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 64ec5c49-d0f3-4d32-86bc-ba15e30a130a))
   (pad "MP" smd rect (at 5.800001 -0.853501 180) (size 1.6002 2.3876) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7a31254b-98ba-4e68-ab8e-d24c25160ea4))
-  (model "${KICAD6_3DMODEL_DIR}/custom/connectors/jst/JST_-_B6B-ZR-SM4-TF(LF)(SN).step"
+  (model "${KIPRJMOD}/packages3D/JST_-_B6B-ZR-SM4-TF(LF)(SN).step"
     (offset (xyz 0 0.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
-  (model "${KICAD6_3DMODEL_DIR}/custom/MicroMotor-motor.step"
+  (model "${KIPRJMOD}/packages3D/MicroMotor-motor.step"
     (offset (xyz 0 -27 6))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -90 0))

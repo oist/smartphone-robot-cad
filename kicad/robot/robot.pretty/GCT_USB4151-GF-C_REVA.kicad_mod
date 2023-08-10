@@ -126,7 +126,7 @@
   (pad "S3" thru_hole oval (at 1.75 -2.8 180) (size 2 1) (drill oval 1.4 0.5) (layers "*.Cu" "*.Mask") (tstamp 3178b7e7-44ef-4965-9a6c-192b28811c66))
   (pad "S4" thru_hole oval (at 4.01 0 180) (size 1.7 0.85) (drill oval 0.8 0.5) (layers "*.Cu" "*.Mask") (tstamp abd93154-9aee-47d6-b587-2c343e41990a))
   (pad "S5" thru_hole oval (at 0 2.8 180) (size 2.2 1.1) (drill oval 1.8 0.5) (layers "*.Cu" "*.Mask") (tstamp bfa1882b-83c9-4a01-9e1f-a6ffaff57525))
-  (model "${KICAD6_3DMODEL_DIR}/custom/connectors/usb/USB4151-GF-C_REVA.step"
+  (model "${KIPRJMOD}/packages3D/USB4151-GF-C_REVA.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
