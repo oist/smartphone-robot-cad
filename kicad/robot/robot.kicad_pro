@@ -74,6 +74,7 @@
         "lib_footprint_mismatch|90675000|103150000|34ed063c-7877-47a8-a3ec-50199ed2afcd|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|90675000|105175000|6f739330-564c-4cc1-9f67-a1e5a6693861|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|90675000|99100000|d0ddbd47-ed89-4aa2-b5eb-6202ac43c0c0|00000000-0000-0000-0000-000000000000"
+        "items_not_allowed|103810000|153780000|742aa9fb-aa83-4479-aa40-a955b9e50e3c|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -103,12 +104,12 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
