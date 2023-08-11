@@ -87,6 +87,8 @@
     (stroke (width 0.1) (type solid)) (layer "Eco2.User") (tstamp ee960880-22fe-4123-a326-501294d0bfde))
   (fp_line (start 4.6 5.25) (end 4.6 -5.25)
     (stroke (width 0.1) (type solid)) (layer "Eco2.User") (tstamp 4d267785-4ddb-4da2-8163-0c1cfe2e8338))
+  (fp_rect (start -5.2 -5.7) (end 5.2 5.6)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 4e6249e3-0306-4ede-9f0b-3a7e711ba3d3))
   (pad "" np_thru_hole circle (at -3.6 -4.339999) (size 0.65 0.65) (drill 0.65) (layers "F&B.Cu" "*.Mask")
     (solder_paste_margin -0.325) (tstamp c51e57fb-a7a2-4fd2-9ae6-273ea656e6e7))
   (pad "" np_thru_hole oval (at 3.6 -4.339999) (size 0.95 0.65) (drill oval 0.95 0.65) (layers "F&B.Cu" "*.Mask")
