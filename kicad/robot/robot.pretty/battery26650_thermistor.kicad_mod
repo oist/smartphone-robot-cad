@@ -18,6 +18,8 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 1028f52e-2d73-400f-83ca-9639b177f4b9)
   )
+  (fp_rect (start -28.6 -1.9) (end -27 1.9)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 42cdcc4b-c17a-4e69-b00f-2643e0853448))
   (fp_line (start -39.375 -14.375) (end 39.375 -14.375)
     (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 25a2730b-839a-48da-bf4d-0e79d6be141c))
   (fp_line (start -39.375 14.375) (end -39.375 -14.375)

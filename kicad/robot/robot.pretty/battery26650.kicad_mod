@@ -11,7 +11,7 @@
   (property "dnp" "")
   (property "ki_description" "Single-cell battery")
   (property "ki_keywords" "battery cell")
-  (attr exclude_from_pos_files)
+  (attr exclude_from_pos_files allow_missing_courtyard)
   (fp_text reference "REF**" (at 0.025 -16.256) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 89ca84b9-d614-4411-8205-bba1a1bb6837)
