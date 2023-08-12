@@ -1,0 +1,7 @@
+(version 1)
+
+(rule "power_3A minimum track widths"
+	(layer outer)
+	(condition "A.NetClass == 'power_3A'")
+	(constraint track_width (min 7mm))
+)
