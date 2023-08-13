@@ -1088,7 +1088,7 @@
     (property "Manufacturer" "Stackpole Electronics" (at 173.99 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "RMCF0603JG100K" (at 173.99 135.89 0)
+    (property "Part Number" "RMCF0603FT100K" (at 173.99 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c0b223b3-d430-4d14-bf42-8c6332eb2760))
