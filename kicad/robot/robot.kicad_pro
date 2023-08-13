@@ -548,8 +548,17 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Charger/BATT": "power_3A",
+      "/Charger/V_IN": "power_3A",
+      "/PowerMux/VIN_A": "power_3A",
+      "/PowerMux/VOUT": "power_3A",
+      "/Protection/PACK+": "power_3A",
       "/USB-PD-ExtChg/VBUS_EXT": "power_3A",
       "/USB-PD-ExtChg/VOUT": "power_3A",
+      "Net-(BT1-+)": "power_3A",
+      "Net-(C62-Pad1)": "power_3A",
+      "Net-(D7-Cathode)": "power_3A",
+      "Net-(IC1-VBIAS)": "power_3A",
       "Net-(Q3-D)": "power_3A",
       "Net-(Q3-S)": "power_3A"
     },
