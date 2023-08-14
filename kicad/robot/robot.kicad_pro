@@ -438,7 +438,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "robot"
+    ]
   },
   "meta": {
     "filename": "robot.kicad_pro",
