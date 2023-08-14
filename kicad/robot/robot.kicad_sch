@@ -3725,7 +3725,7 @@
     (property "Value" "NetTie_2" (at 163.83 140.335 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "robot:NetTie-_SMD_Pad6mil" (at 166.37 144.78 0)
+    (property "Footprint" "robot:NetTie-_SMD_Pad0.3mm" (at 166.37 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 166.37 144.78 0)
