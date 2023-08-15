@@ -588,12 +588,7 @@
       "Net-(U6-BST1)": "power_2A",
       "Net-(U6-BST2)": "power_2A"
     },
-    "netclass_patterns": [
-      {
-        "netclass": "power_3A",
-        "pattern": "*VBUS_EXT"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
