@@ -5,7 +5,7 @@
   (paper "A")
 
   (lib_symbols
-    (symbol "Device:NetTie_2" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:NetTie_2" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
       (property "Reference" "NT" (at 0 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -375,7 +375,7 @@
         )
       )
     )
-    (symbol "robot:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "robot:MountingHole" (pin_names (offset 1.016)) (in_bom no) (on_board yes)
       (property "Reference" "H" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -2473,7 +2473,7 @@
   )
 
   (symbol (lib_id "robot:MountingHole") (at 259.08 199.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1a606569-f8d7-4bec-95df-06e55eba6c4b)
     (property "Reference" "H4" (at 261.62 198.2216 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2541,7 +2541,7 @@
   )
 
   (symbol (lib_id "robot:MountingHole") (at 259.08 209.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 263f4e8a-c8c6-4b42-9f10-d86da0e087f6)
     (property "Reference" "H6" (at 261.62 208.3816 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3048,7 +3048,7 @@
   )
 
   (symbol (lib_id "robot:MountingHole") (at 259.08 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 5f6de4c8-0c94-422e-b890-83165e173628)
     (property "Reference" "H1" (at 261.62 182.9816 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3151,7 +3151,7 @@
   )
 
   (symbol (lib_id "robot:MountingHole") (at 259.08 194.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 6a8b1a63-02f5-4fe3-83b6-a54e232fd22b)
     (property "Reference" "H3" (at 261.62 193.1416 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3710,7 +3710,7 @@
   )
 
   (symbol (lib_id "robot:MountingHole") (at 259.08 204.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a4d06684-eebb-49b5-9d76-c4c32a641feb)
     (property "Reference" "H5" (at 261.62 203.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4574,7 +4574,7 @@
   )
 
   (symbol (lib_id "robot:MountingHole") (at 259.08 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid fa18cb13-01cb-48a5-940b-8ee573be2458)
     (property "Reference" "H2" (at 261.62 188.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))

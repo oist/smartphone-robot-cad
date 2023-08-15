@@ -5,7 +5,7 @@
   (paper "B")
 
   (lib_symbols
-    (symbol "Device:NetTie_2" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:NetTie_2" (pin_numbers hide) (pin_names (offset 0) hide) (in_bom no) (on_board yes)
       (property "Reference" "NT" (at 0 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -3036,7 +3036,7 @@
   )
 
   (symbol (lib_id "robot:TestPoint") (at 394.97 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fe8fcb4-f260-4be7-a2c7-820b67f82a7c)
     (property "Reference" "TP29" (at 397.51 76.708 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3339,7 +3339,7 @@
   )
 
   (symbol (lib_id "robot:TestPoint") (at 43.18 133.35 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77367058-7b23-4b7b-afc3-42bf31250b00)
     (property "Reference" "TP28" (at 39.878 130.81 90)
       (effects (font (size 1.27 1.27)))
