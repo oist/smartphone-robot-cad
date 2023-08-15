@@ -549,9 +549,7 @@
       "Net-(IC1-VBIAS)": "power_3A",
       "Net-(L4-Pad2)": "power_1A",
       "Net-(Q3-D)": "power_3A",
-      "Net-(Q3-S)": "power_3A",
-      "Net-(U6-BST1)": "power_2A",
-      "Net-(U6-BST2)": "power_2A"
+      "Net-(Q3-S)": "power_3A"
     },
     "netclass_patterns": []
   },
