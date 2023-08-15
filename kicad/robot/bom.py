@@ -8,7 +8,7 @@ from pathlib import Path
 
 # Generate an instance of a generic netlist, and load the netlist tree from
 # the command line option. If the file doesn't exist, execution will stop
-net = kicad_netlist_reader.netlist("robot.xml")
+net = kicad_netlist_reader.netlist(sys.argv[1])
 
 batch = 5
 
@@ -21,11 +21,36 @@ except IOError:
     f = sys.stdout
 
 # Create a new csv writer object to use as the output formatter
-out_bomFile = csv.writer(bomFile, lineterminator='\n', delimiter=';', quotechar='\"', quoting=csv.QUOTE_ALL)
-out_toBuy = csv.writer(toBuy, lineterminator='\n', delimiter=';', quotechar='\"', quoting=csv.QUOTE_ALL)
+out_bomFile = csv.writer(bomFile, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
+out_toBuy = csv.writer(toBuy, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 
-for f in [out_bomFile, out_toBuy]:
-    f.writerow(['Ref', 'Qty Single Board', 'Batch Size', 'Qty Total Batch', 'Stock', 'Need to Buy', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
+# out_bomFile.writerow(['Ref', 'Qty Single Board', 'Batch Size', 'Qty Total Batch', 'Stock', 'Need to Buy', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
+out_bomFile.writerow([
+                    'Manufacturer', 
+                    'Part Number',
+                    'Ref',
+                    'Qty Single Board', 
+                    'Description', 
+                    'Part Number', 
+                    'Batch Size',
+                    'Qty Total Batch', 
+                    'Stock', 
+                    'Need to Buy', 
+                    'Value', 
+                    'Footprint'])
+out_toBuy.writerow([
+                    'Manufacturer', 
+                    'Part Number',
+                    'Ref',
+                    'Qty Single Board', 
+                    'Description', 
+                    'Part Number', 
+                    'Batch Size',
+                    'Qty Total Batch', 
+                    'Stock', 
+                    'Need to Buy', 
+                    'Value', 
+                    'Footprint'])
 
 
 # Get all of the components in groups of matching parts + values
@@ -39,10 +64,9 @@ for group in grouped:
     # Add the reference of every component in the group and keep a reference
     # to the component so that the other data can be filled in once per group
     for component in group:
-        refs += component.getRef() + ","
-        c = component
+        refs += component.getRef() + ";"
         quantity = len(group)
-        if c.getValue() == "DNP":
+        if component.getValue() == "N/A":
             quantity = 0
         totalQty = quantity * batch
         try:
@@ -57,30 +81,32 @@ for group in grouped:
     refs = refs.removesuffix(",")
 
     # Normal BOM
-    out_bomFile.writerow([refs,
+    out_bomFile.writerow([component.getField("Manufacturer"),
+                          component.getField("Part Number"),
+                          refs,
                           quantity,
+                          component.getDescription(),
+                          component.getField("Part Number"),
                           batch,
                           totalQty,
                           stock,
                           toBuyCnt,
-                          c.getValue(),
-                          c.getField("Manufacturer"),
-                          c.getField("Part Number"),
-                          c.getDescription(),
-                          c.getFootprint()])
+                          component.getValue(),
+                          component.getFootprint()])
 
     # To Buy BOM
     # Fill in the component groups common data
-    if c.getValue() != "DNP" and c.getField("Part Number") != "N/A" and toBuyCnt > 0:
-        out_toBuy.writerow([refs,
+    if component.getField("Part Number") != "N/A" and toBuyCnt > 0:
+        out_toBuy.writerow([component.getField("Manufacturer"),
+                          component.getField("Part Number"),
+                          refs,
                           quantity,
+                          component.getDescription(),
+                          component.getField("Part Number"),
                           batch,
                           totalQty,
                           stock,
                           toBuyCnt,
-                          c.getValue(),
-                          c.getField("Manufacturer"),
-                          c.getField("Part Number"),
-                          c.getDescription(),
-                          c.getFootprint()])
+                          component.getValue(),
+                          component.getFootprint()])
 
