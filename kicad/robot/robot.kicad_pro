@@ -530,6 +530,7 @@
       "/MOTORS/OUT_P2": "power_2A",
       "/MOTORS/VCC": "power_2A",
       "/PowerMux/VIN_A": "power_3A",
+      "/PowerMux/VIN_B": "power_3A",
       "/PowerMux/VOUT": "power_3A",
       "/Protection/PACK+": "power_3A",
       "/SYS": "power_3A",
