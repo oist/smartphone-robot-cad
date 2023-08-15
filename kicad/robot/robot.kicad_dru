@@ -38,4 +38,4 @@
 
 (rule "Allowing Small WLP/BGA traces"
 	(constraint track_width (min 0.1mm) (opt 0.127mm))
-	(condition "A.insideCourtyard('U6') || A.insideCourtyard('U4')"))
+	(condition "A.insideCourtyard('U6') || A.insideCourtyard('U4') || A.insideCourtyard('U17') || A.insideCourtyard('U16')"))
