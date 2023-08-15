@@ -4953,10 +4953,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 9c84bdfa-e233-4ae9-9b43-2ed29b4b85e1)
     )
-    (pin "SYS" input (at 162.56 144.78 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 17f7dd02-5006-4e77-84c4-04a79e312093)
-    )
     (pin "SDA_SL" input (at 135.89 163.83 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5d7ddf61-ef7c-4951-ac32-a64d1d75fcfa)
@@ -4988,6 +4984,10 @@
     (pin "DP1" input (at 162.56 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid caaa6e8d-0333-4562-b62f-d3408834746b)
+    )
+    (pin "USB_Phone_SYS" input (at 162.56 144.78 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid cc1431e4-2138-4375-a9bb-85a3dc095c4b)
     )
     (instances
       (project "robot"
