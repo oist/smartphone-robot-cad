@@ -75,7 +75,9 @@
     "pinned_fp_libs": [
       "robot"
     ],
-    "pinned_symbol_libs": [],
+    "pinned_symbol_libs": [
+      "robot"
+    ],
     "remember_open_files": false
   },
   "system": {
