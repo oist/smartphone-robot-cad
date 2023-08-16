@@ -1761,7 +1761,7 @@
   )
 
   (symbol (lib_id "robot:C") (at 266.7 93.98 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid e6153a48-eb68-4cbc-92ef-c36cfd4df38e)
     (property "Reference" "C74" (at 262.89 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
