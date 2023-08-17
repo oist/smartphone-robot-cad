@@ -14,7 +14,7 @@ batch = 5
 
 try:
     bomFile = open(str(Path('robot_bom.csv')), 'w')
-    toBuy = open(str(Path('toBuy.csv')), 'w')
+    toBuy = open(str(Path('DNPtoBuy.csv')), 'w')
 except IOError:
     e = "Can't open output file for writing: "
     print(__file__, ":", e, sys.stderr)
@@ -31,11 +31,10 @@ out_bomFile.writerow([
                     'Ref',
                     'Qty Single Board', 
                     'Description', 
-                    'Part Number', 
                     'Batch Size',
                     'Qty Total Batch', 
-                    'Stock', 
-                    'Need to Buy', 
+                    #'Stock', 
+                    #'Need to Buy', 
                     'Value', 
                     'Footprint'])
 out_toBuy.writerow([
@@ -44,11 +43,10 @@ out_toBuy.writerow([
                     'Ref',
                     'Qty Single Board', 
                     'Description', 
-                    'Part Number', 
                     'Batch Size',
                     'Qty Total Batch', 
-                    'Stock', 
-                    'Need to Buy', 
+                    #'Stock', 
+                    #'Need to Buy', 
                     'Value', 
                     'Footprint'])
 
@@ -66,47 +64,47 @@ for group in grouped:
     for component in group:
         refs += component.getRef() + ";"
         quantity = len(group)
-        if component.getValue() == "N/A":
-            quantity = 0
         totalQty = quantity * batch
-        try:
-            stock = int(c.getField("Stock"))
-        except:
-            stock = 0
+       # try:
+       #     stock = int(c.getField("Stock"))
+       # except:
+       #     stock = 0
 
-        toBuyCnt = totalQty - stock
-        if toBuyCnt < 0:
-            toBuyCnt = 0
+       # toBuyCnt = totalQty - stock
+       # if toBuyCnt < 0:
+       #     toBuyCnt = 0
 
     refs = refs.removesuffix(",")
 
-    # Normal BOM
-    out_bomFile.writerow([component.getField("Manufacturer"),
+    if component.getExcludeFromBOM():
+        print("Excluding " + component.getRef() + " from BOM")
+    if component.getExcludeFromBoard():
+        print("Excluding " + component.getRef() + " from Board")
+    # BOM excluding DNP parts 
+    if not component.getDNP():
+        out_bomFile.writerow([component.getField("Manufacturer"),
                           component.getField("Part Number"),
                           refs,
                           quantity,
                           component.getDescription(),
-                          component.getField("Part Number"),
                           batch,
                           totalQty,
-                          stock,
-                          toBuyCnt,
+                          #stock,
+                          #toBuyCnt,
                           component.getValue(),
                           component.getFootprint()])
 
-    # To Buy BOM
-    # Fill in the component groups common data
-    if component.getField("Part Number") != "N/A" and toBuyCnt > 0:
+    # DNP Self Populating Parts to Buy on my own
+    else:
         out_toBuy.writerow([component.getField("Manufacturer"),
                           component.getField("Part Number"),
                           refs,
                           quantity,
                           component.getDescription(),
-                          component.getField("Part Number"),
                           batch,
                           totalQty,
-                          stock,
-                          toBuyCnt,
+                          #stock,
+                          #toBuyCnt,
                           component.getValue(),
                           component.getFootprint()])
 
