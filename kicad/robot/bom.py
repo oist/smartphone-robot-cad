@@ -15,6 +15,7 @@ batch = 5
 try:
     bomFile = open(str(Path('robot_bom.csv')), 'w')
     toBuy = open(str(Path('DNPtoBuy.csv')), 'w')
+    nextPCB = open(str(Path('nextPCB.csv')), 'w')
 except IOError:
     e = "Can't open output file for writing: "
     print(__file__, ":", e, sys.stderr)
@@ -23,6 +24,7 @@ except IOError:
 # Create a new csv writer object to use as the output formatter
 out_bomFile = csv.writer(bomFile, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_toBuy = csv.writer(toBuy, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
+out_nextPCB = csv.writer(nextPCB, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 
 # out_bomFile.writerow(['Ref', 'Qty Single Board', 'Batch Size', 'Qty Total Batch', 'Stock', 'Need to Buy', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
 out_bomFile.writerow([
@@ -49,11 +51,18 @@ out_toBuy.writerow([
                     #'Need to Buy', 
                     'Value', 
                     'Footprint'])
-
+out_nextPCB.writerow(['',
+                    'Manufacturer Part Number',
+                    'Qty', 
+                    'Designator',
+                    'Customer Supply', 
+                    'Customer Remark', 
+                    'Manufacturer'])
 
 # Get all of the components in groups of matching parts + values
 # (see ky_generic_netlist_reader.py)
 grouped = net.groupComponents()
+part_idx: int = 1
 
 # Output all of the component information
 for group in grouped:
@@ -83,28 +92,38 @@ for group in grouped:
     # BOM excluding DNP parts 
     if not component.getDNP():
         out_bomFile.writerow([component.getField("Manufacturer"),
-                          component.getField("Part Number"),
-                          refs,
-                          quantity,
-                          component.getDescription(),
-                          batch,
-                          totalQty,
-                          #stock,
-                          #toBuyCnt,
-                          component.getValue(),
-                          component.getFootprint()])
+            component.getField("Part Number"),
+            refs,
+            quantity,
+            component.getDescription(),
+            batch,
+            totalQty,
+            #stock,
+            #toBuyCnt,
+            component.getValue(),
+            component.getFootprint()])
+
+        out_nextPCB.writerow([
+            part_idx,
+            component.getField("Part Number"),
+            quantity,
+            refs,
+            0,
+            component.getDescription(),
+            component.getField("Manufacturer")
+            ])
+        part_idx=part_idx+1
 
     # DNP Self Populating Parts to Buy on my own
     else:
         out_toBuy.writerow([component.getField("Manufacturer"),
-                          component.getField("Part Number"),
-                          refs,
-                          quantity,
-                          component.getDescription(),
-                          batch,
-                          totalQty,
-                          #stock,
-                          #toBuyCnt,
-                          component.getValue(),
-                          component.getFootprint()])
-
+            component.getField("Part Number"),
+            refs,
+            quantity,
+            component.getDescription(),
+            batch,
+            totalQty,
+            #stock,
+            #toBuyCnt,
+            component.getValue(),
+            component.getFootprint()])

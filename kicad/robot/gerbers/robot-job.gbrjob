@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.6-7.0.6~ubuntu22.04.1"
     },
-    "CreationDate": "2023-08-18T16:08:42-04:00"
+    "CreationDate": "2023-08-18T17:19:56-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -98,11 +98,6 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "robot-User_Comments.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "robot-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
@@ -115,26 +110,6 @@
     {
       "Path": "robot-M6 Assembly Bottom.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "robot-M1 Board Outline.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "robot-M2 Board Dimensions.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "robot-M3 3D STEP Top.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "robot-M4 3D STEP Bottom.gbr",
-      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],

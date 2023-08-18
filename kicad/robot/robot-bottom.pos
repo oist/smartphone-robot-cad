@@ -1,0 +1,24 @@
+### Footprint positions - created on Fri 18 Aug 2023 05:20:04 PM EDT ###
+### Printed by KiCad version 7.0.6-7.0.6~ubuntu22.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                     Package                        PosX       PosY       Rot  Side
+BT1       DNP                     battery26650_holderOnly     35.8650    79.9665    0.0000  bottom
+C7        0.1uF                   C_0402_1005Metric            9.3602    63.8177    0.0000  bottom
+C11       0.1uF                   C_0402_1005Metric            4.9650    70.3015    0.0000  bottom
+C14       0.1uF                   C_0402_1005Metric            6.4602    63.8177  180.0000  bottom
+C17       10uF                    C_0603_1608Metric            4.2650    68.5015    0.0000  bottom
+C18       27pF                    C_0402_1005Metric           66.3650    89.5815   90.0000  bottom
+C19       27pF                    C_0402_1005Metric           61.8850    91.6015  180.0000  bottom
+C37       0.1uF                   C_0402_1005Metric           14.0650    68.9015   90.0000  bottom
+J3        Conn_01x06_MountingPin  CONN_B6B-ZR-SM4-TF_JST      29.3650    57.6265   90.0000  bottom
+J4        USB4120-03-C_REVA       GCT_USB4151-GF-C_REVA       35.8650    36.9515  180.0000  bottom
+J5        Conn_01x06_MountingPin  CONN_B6B-ZR-SM4-TF_JST      42.3650    57.6265  -90.0000  bottom
+R23       100                     R_0603_1608Metric           17.6650    68.9015    0.0000  bottom
+R90       0                       R_0603_1608Metric           58.9400    68.5015    0.0000  bottom
+SW1       SW_SPST                 MOLEX_picoblade_SMT_2pin    35.8650    59.6265   90.0000  bottom
+U26       TPD1E05U06              TPD1E05U06DPYR              67.3650    89.3515   90.0000  bottom
+U27       TPD1E05U06              TPD1E05U06DPYR              62.3150    89.5015    0.0000  bottom
+U28       TPD1E05U06              TPD1E05U06DPYR              66.0650    91.8015  180.0000  bottom
+U29       TPD1E05U06              TPD1E05U06DPYR              64.6650    91.5515    0.0000  bottom
+## End
