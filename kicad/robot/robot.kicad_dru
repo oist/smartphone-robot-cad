@@ -15,7 +15,7 @@
 (rule "power_2A minimum track widths 1oz outer layer"
 	(layer outer)
 	(condition "A.NetClass == 'power_2A'")
-	(constraint track_width (min 0.8mm))
+	(constraint track_width (min 0.8mm) (opt 0.8mm))
 )
 
 (rule "power_2A minimum track widths 0.5oz inner layers"
