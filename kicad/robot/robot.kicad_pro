@@ -559,6 +559,7 @@
       "/VBoost": "power_2A",
       "Net-(BT1-+)": "power_3A",
       "Net-(C100-Pad1)": "power_1A",
+      "Net-(C101-Pad1)": "power_1A",
       "Net-(C30-Pad2)": "power_2A",
       "Net-(C31-Pad1)": "power_2A",
       "Net-(C62-Pad1)": "power_3A",
