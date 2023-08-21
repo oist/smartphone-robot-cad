@@ -98,7 +98,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
-  (model "/home/bo/git/robot-pcb/kicad/robot/packages3D/C_1206_3216Metric.wrl"
+  (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
