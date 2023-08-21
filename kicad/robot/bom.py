@@ -47,8 +47,8 @@ out_toBuy.writerow([
                     'Description', 
                     'Batch Size',
                     'Qty Total Batch', 
-                    #'Stock', 
-                    #'Need to Buy', 
+                    'Stock', 
+                    'Need to Buy', 
                     'Value', 
                     'Footprint'])
 out_nextPCB.writerow(['',
@@ -74,14 +74,15 @@ for group in grouped:
         refs += component.getRef() + ";"
         quantity = len(group)
         totalQty = quantity * batch
-       # try:
-       #     stock = int(c.getField("Stock"))
-       # except:
-       #     stock = 0
+        try:
+            stock = int(component.getField("Stock"))
+            print("Stock: " + str(stock) + " for " + component.getField("Part Number"))
+        except:
+            stock = 0
 
-       # toBuyCnt = totalQty - stock
-       # if toBuyCnt < 0:
-       #     toBuyCnt = 0
+        toBuyCnt = totalQty - stock
+        if toBuyCnt < 0:
+            toBuyCnt = 0
 
     refs = refs.removesuffix(",")
 
@@ -123,7 +124,7 @@ for group in grouped:
             component.getDescription(),
             batch,
             totalQty,
-            #stock,
-            #toBuyCnt,
+            stock,
+            toBuyCnt,
             component.getValue(),
             component.getFootprint()])
