@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/media/christopher/HDD/git/robot-pcb/kicad/robot/robot.kicad_sch</source>
-    <date>Fri 18 Aug 2023 05:21:55 PM EDT</date>
+    <date>Mon 21 Aug 2023 06:43:46 PM EDT</date>
     <tool>Eeschema 7.0.6-7.0.6~ubuntu22.04.1</tool>
     <textvar name="1"/>
     <textvar name="2"/>
@@ -2861,12 +2861,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="BoostRegulator"/>
       <property name="Sheetfile" value="boostRegulator.kicad_sch"/>
@@ -5280,12 +5280,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
@@ -5302,12 +5302,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
@@ -5346,12 +5346,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
@@ -5368,12 +5368,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
@@ -5390,12 +5390,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
@@ -5997,12 +5997,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>
@@ -6064,12 +6064,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>
@@ -6086,12 +6086,12 @@
       <fields>
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Part Number">GRM21BR60E107ME15K</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
-      <property name="Part Number" value="GRM31CD80J107MEA8K"/>
+      <property name="Part Number" value="GRM21BR60E107ME15K"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>

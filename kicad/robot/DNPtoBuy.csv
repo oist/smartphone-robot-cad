@@ -2,7 +2,7 @@
 "Uxcell","a15042300ux0145","BT1;","1","","5","5","DNP","robot:battery26650_holderOnly"
 "Suprise Collection","26650-5000-1","BT2;","1","Single-cell battery","5","5","DNP","robot:battery26650"
 "Murata","GRM31CD80J107MEA8K","C74;C86;C89;C90;","4","Unpolarized capacitor","5","20","100uF","robot:CP_Elec_APXJ100ARA271MF61G"
-"Murata","GRM31CD80J107MEA8K","C79;C91;C96;C98;C106;C107;C108;","7","Unpolarized capacitor","5","35","100uF","robot:C_0805_2012Metric"
+"Murata","GRM21BR60E107ME15K","C79;C91;C96;C98;C106;C107;C108;","7","Unpolarized capacitor","5","35","100uF","robot:C_0805_2012Metric"
 "Murata","GRM155R61E105KA12D","C99;","1","Unpolarized capacitor","5","5","1uF","robot:C_0402_1005Metric"
 "JST","A06ZR06ZR28H51B","J6;J7;","2","","5","10","MotorCable",""
 "Adafruit","4639","M1;M2;","2","","5","10","~",""

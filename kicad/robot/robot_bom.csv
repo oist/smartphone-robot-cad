@@ -9,7 +9,7 @@
 "Samsung","CL10A225KP8NNNC","C28;C49;","2","Unpolarized capacitor","5","10","2.2uF","robot:C_0603_1608Metric"
 "Samsung","CL10B224KA8NNNC","C30;C31;","2","Unpolarized capacitor","5","10","0.22uF","robot:C_0603_1608Metric"
 "Samsung Electro-Mechanics","CL21A476MRYNNNE","C81;","1","Unpolarized capacitor","5","5","47uF","robot:C_0805_2012Metric"
-"Murata","GRM31CD80J107MEA8K","C82;C83;","2","Unpolarized capacitor","5","10","100uF","robot:C_0805_2012Metric"
+"Murata","GRM21BR60E107ME15K","C82;C83;","2","Unpolarized capacitor","5","10","100uF","robot:C_0805_2012Metric"
 "Samsung","CL05B103KA5NNNC","C84;","1","Unpolarized capacitor","5","5","10nF","robot:C_0402_1005Metric"
 "Harvatek Corporation","B12H1USD-20D000234U1930","D1;","1","Light emitting diode","5","5","LED-RED","robot:B12H1UYG-20D000134U1930"
 "Harvatek Corporation","B12H1UYG-20D000134U1930","D2;","1","Light emitting diode","5","5","LED-YG","robot:B12H1UYG-20D000134U1930"
