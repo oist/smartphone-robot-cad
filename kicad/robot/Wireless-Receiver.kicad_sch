@@ -1918,8 +1918,8 @@
     (property "V_Max" "25V" (at 161.29 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75542a6b-79a5-4f13-ae3a-1a6df1dc758e))
-    (pin "2" (uuid b3cb8c2f-5dfb-4e69-afe6-ffda89bc9734))
+    (pin "1" (uuid fdf63a59-7522-4c15-9c8a-56e368526f02))
+    (pin "2" (uuid 7c580c7e-7d7a-4f8e-abd8-2439712ef8d2))
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/d5c9d5c0-7de4-474c-9ba2-6b466f104c70"
@@ -2224,8 +2224,8 @@
     (property "V_Max" "25V" (at 161.29 138.43 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b71daf42-6494-4c5b-ae7f-d796a1dda295))
-    (pin "2" (uuid bb37c828-60c9-4f53-b5cc-ea183f20388e))
+    (pin "1" (uuid 0b507da5-94ab-4f7f-a9ac-27f831b8548c))
+    (pin "2" (uuid e141e8e3-9f10-458f-bbd2-61a7b8c0fd88))
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/d5c9d5c0-7de4-474c-9ba2-6b466f104c70"
@@ -3060,8 +3060,8 @@
     (property "V_Max" "16V" (at 161.29 130.81 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 239b6718-77e0-4d74-a631-58699ebd332c))
-    (pin "2" (uuid d5e3847b-4ec9-4a33-ad9a-3650403b85d2))
+    (pin "1" (uuid 009fad35-2630-4a28-8477-d3728b0e4ee3))
+    (pin "2" (uuid 15c4a29b-2934-492f-a0aa-0a3498c9b086))
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/d5c9d5c0-7de4-474c-9ba2-6b466f104c70"
@@ -3232,8 +3232,8 @@
     (property "V_Max" "25V" (at 161.29 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c94174e-08d3-49dd-89ce-5d9435fded03))
-    (pin "2" (uuid 6576b14c-151b-4e0b-b67b-60b01e88e64b))
+    (pin "1" (uuid 783f48dc-15b6-48a1-82be-0e5d01d6fe80))
+    (pin "2" (uuid 62c1b761-a4b2-4036-8add-5fa210a4f69d))
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/d5c9d5c0-7de4-474c-9ba2-6b466f104c70"
