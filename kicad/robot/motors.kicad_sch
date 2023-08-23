@@ -1683,9 +1683,6 @@
     (property "Part Number" "4639" (at 252.095 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 252.095 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
@@ -2011,9 +2008,6 @@
     (property "Part Number" "4939" (at 215.265 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 215.265 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
@@ -2276,9 +2270,6 @@
     (property "Part Number" "4639" (at 215.265 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 215.265 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (instances
       (project "robot"
         (path "/0c7b298e-2d07-4b1f-b033-e95f02d45089/4bf796fd-fdb4-45d1-808a-a634d5f4571e"
@@ -2392,9 +2383,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Part Number" "4939" (at 252.095 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Sim.Enable" "0" (at 252.095 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
