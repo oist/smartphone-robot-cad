@@ -232,7 +232,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1403350|2082800|65e57121-e41d-44c1-9ce0-990eb76f7823|ccafc844-1f69-499d-9916-c1ce66c01344|||",
+      "multiple_net_names|2089150|127000|21f7fe09-e5fd-4ef0-811c-17e70a0bc95e|6d6b34e0-2785-42df-a34c-ee8719ce3100|||",
+      "multiple_net_names|2108200|1447800|26e07bf7-d932-4519-a2bc-6de0481d98d0|3d3f74ca-8e05-4810-85e8-37491b66aef8|||",
+      "multiple_net_names|2603500|1244600|3ea2bddb-d2ca-417c-ad50-b40e91b6beb8|363c0602-7481-4706-b4ed-9f2908f17c20|||",
+      "multiple_net_names|4102100|1333500|3ea2bddb-d2ca-417c-ad50-b40e91b6beb8|495fe616-0194-48a1-ab84-7c5f9f8b246e|||",
+      "pin_to_pin|1974850|127000|3273a8d8-a2b2-4413-a7fb-fd8f80817c10|2d9aaac2-a8ff-48a0-a403-33276fd64f2e|/0c7b298e-2d07-4b1f-b033-e95f02d45089|/0c7b298e-2d07-4b1f-b033-e95f02d45089|/0c7b298e-2d07-4b1f-b033-e95f02d45089/b1182274-8387-45c9-b9a4-abcd767ed6f2"
+    ],
     "meta": {
       "version": 0
     },
@@ -720,6 +727,10 @@
     [
       "427922e5-a943-4728-8788-709c0c3b2395",
       "BoostRegulator"
+    ],
+    [
+      "d5c9d5c0-7de4-474c-9ba2-6b466f104c70",
+      "Wireless-Receiver"
     ],
     [
       "b17a9dbb-4562-473a-b13f-bbad723355f8",
