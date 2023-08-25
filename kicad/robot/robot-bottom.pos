@@ -1,4 +1,4 @@
-### Footprint positions - created on Fri 25 Aug 2023 04:36:22 PM EDT ###
+### Footprint positions - created on Fri 25 Aug 2023 05:49:39 PM EDT ###
 ### Printed by KiCad version 7.0.6-7.0.6~ubuntu22.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -8,8 +8,8 @@ C7        0.1uF                   C_0402_1005Metric            9.3602    63.8177
 C11       0.1uF                   C_0402_1005Metric            4.9650    70.3015    0.0000  bottom
 C14       0.1uF                   C_0402_1005Metric            6.4602    63.8177  180.0000  bottom
 C17       10uF                    C_0603_1608Metric            4.2650    68.5015    0.0000  bottom
-C18       27pF                    C_0402_1005Metric           66.3650    89.5815   90.0000  bottom
-C19       27pF                    C_0402_1005Metric           61.8850    91.6015  180.0000  bottom
+C18       27pF                    C_0402_1005Metric           66.6150    89.0515    0.0000  bottom
+C19       27pF                    C_0402_1005Metric           61.1350    89.0515  180.0000  bottom
 C37       0.1uF                   C_0402_1005Metric           14.0650    68.9015   90.0000  bottom
 C113      0.1uF                   C_0402_1005Metric           49.6150    97.1815  -90.0000  bottom
 C114      0.1uF                   C_0402_1005Metric           53.4150    97.1815  -90.0000  bottom
@@ -32,8 +32,8 @@ J5        Conn_01x06_MountingPin  CONN_B6B-ZR-SM4-TF_JST      42.3650    57.6265
 R23       100                     R_0603_1608Metric           17.6650    68.9015    0.0000  bottom
 R90       0                       R_0603_1608Metric           58.9400    68.5015    0.0000  bottom
 SW1       SW_SPST                 MOLEX_picoblade_SMT_2pin    35.8650    59.6265   90.0000  bottom
-U26       TPD1E05U06              TPD1E05U06DPYR              67.3650    89.3515   90.0000  bottom
-U27       TPD1E05U06              TPD1E05U06DPYR              62.3150    89.5015    0.0000  bottom
-U28       TPD1E05U06              TPD1E05U06DPYR              66.0650    91.8015  180.0000  bottom
-U29       TPD1E05U06              TPD1E05U06DPYR              64.6650    91.5515    0.0000  bottom
+U26       TPD1E05U06              TPD1E05U06DPYR              66.5150    89.9515    0.0000  bottom
+U27       TPD1E05U06              TPD1E05U06DPYR              61.6650    89.9515  180.0000  bottom
+U28       TPD1E05U06              TPD1E05U06DPYR              66.6650    91.7515    0.0000  bottom
+U29       TPD1E05U06              TPD1E05U06DPYR              62.1650    91.7515  180.0000  bottom
 ## End
