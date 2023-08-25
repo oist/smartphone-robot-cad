@@ -2978,7 +2978,7 @@
     (property "Part Number" "GRM155R61E105KA12D" (at 336.55 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Stock" "" (at 336.55 131.445 0)
+    (property "Stock" "10" (at 336.55 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid efe600f4-d1a7-4a88-a1d8-e4dc305b29ea))
