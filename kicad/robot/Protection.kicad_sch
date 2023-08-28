@@ -3331,7 +3331,7 @@
     (property "Description" "BatteryHolder_26650" (at 46.99 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Stock" "" (at 46.99 152.4 0)
+    (property "Stock" "5" (at 46.99 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 70198c83-b1c0-4dbb-b243-9416385b8cbe))
