@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/media/christopher/HDD/git/robot-pcb/kicad/robot/robot.kicad_sch</source>
-    <date>Thu 24 Aug 2023 08:46:18 PM EDT</date>
+    <date>Fri 25 Aug 2023 06:06:00 PM EDT</date>
     <tool>Eeschema 7.0.6-7.0.6~ubuntu22.04.1</tool>
     <textvar name="1"/>
     <textvar name="2"/>
@@ -501,11 +501,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -555,11 +556,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -574,12 +576,13 @@
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Notes">Normally Open. Close when needed with 0Ohm resistor. </field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
       <property name="Notes" value="Normally Open. Close when needed with 0Ohm resistor. "/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="dnp"/>
@@ -595,12 +598,13 @@
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Notes">Normally Open. Close when needed with 0Ohm resistor. </field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
       <property name="Notes" value="Normally Open. Close when needed with 0Ohm resistor. "/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="dnp"/>
@@ -615,11 +619,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -633,11 +638,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -651,11 +657,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -669,11 +676,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -687,11 +695,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -705,11 +714,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -723,11 +733,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -741,11 +752,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="robot.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1058,12 +1070,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1138,12 +1151,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1198,12 +1212,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1218,12 +1233,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1339,11 +1355,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1357,11 +1374,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1375,11 +1393,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1393,11 +1412,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value="LDOs"/>
       <property name="Sheetfile" value="LDO.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1473,12 +1493,13 @@
         <field name="Description">16V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="16V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -1494,12 +1515,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -1536,12 +1558,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -1557,12 +1580,13 @@
         <field name="Description">6.3V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="6.3V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -1578,12 +1602,13 @@
         <field name="Description">6.3V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="6.3V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -1599,12 +1624,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -1620,12 +1646,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -1935,11 +1962,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -2011,11 +2039,12 @@
       <fields>
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
       <property name="Sheetfile" value="USB-PD-PhonePC.kicad_sch"/>
       <property name="VIO" value="[1.8-3.8V] 1.8V compatible"/>
@@ -2450,12 +2479,13 @@
         <field name="Description">25V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="25V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="PowerMux"/>
       <property name="Sheetfile" value="powerMux.kicad_sch"/>
       <property name="I_InMax" value="3.0A"/>
@@ -2471,12 +2501,13 @@
         <field name="Description">25V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="25V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="PowerMux"/>
       <property name="Sheetfile" value="powerMux.kicad_sch"/>
       <property name="I_InMax" value="3.0A"/>
@@ -2716,12 +2747,13 @@
         <field name="Description"> 10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value=" 10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="BoostRegulator"/>
       <property name="Sheetfile" value="boostRegulator.kicad_sch"/>
       <property name="VIO" value="VIO &lt; 2V (e.g. 1.8V)"/>
@@ -2842,12 +2874,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="BoostRegulator"/>
       <property name="Sheetfile" value="boostRegulator.kicad_sch"/>
       <property name="VIO" value="VIO &lt; 2V (e.g. 1.8V)"/>
@@ -3023,12 +3058,14 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
-        <field name="V_Max">25V</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="V_Max" value="25V"/>
+      <property name="V_Max" value="6.3V"/>
+      <property name="Stock" value="20"/>
       <property name="Sheetname" value="Wireless-Receiver"/>
       <property name="Sheetfile" value="Wireless-Receiver.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3057,7 +3094,7 @@
     </comp>
     <comp ref="C111">
       <value>1.5nF</value>
-      <footprint>robot:C_0603_1608Metric</footprint>
+      <footprint>robot:C_0402_1005Metric</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GCM155R71H152KA37D</field>
@@ -3317,12 +3354,14 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
-        <field name="V_Max">25V</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="V_Max" value="25V"/>
+      <property name="V_Max" value="6.3V"/>
+      <property name="Stock" value="20"/>
       <property name="Sheetname" value="Wireless-Receiver"/>
       <property name="Sheetfile" value="Wireless-Receiver.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3336,12 +3375,14 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
         <field name="V_Max">16V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
       <property name="V_Max" value="16V"/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="Wireless-Receiver"/>
       <property name="Sheetfile" value="Wireless-Receiver.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3355,12 +3396,14 @@
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
-        <field name="V_Max">25V</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="V_Max" value="25V"/>
+      <property name="V_Max" value="6.3V"/>
+      <property name="Stock" value="20"/>
       <property name="Sheetname" value="Wireless-Receiver"/>
       <property name="Sheetfile" value="Wireless-Receiver.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3663,23 +3706,6 @@
       <sheetpath names="/Wireless-Receiver/" tstamps="/d5c9d5c0-7de4-474c-9ba2-6b466f104c70/"/>
       <tstamps>4b91caa9-e6de-4cf0-8d73-236948450d18</tstamps>
     </comp>
-    <comp ref="J8">
-      <value>Conn_01x02</value>
-      <footprint>robot:THT_Pitch5mm_Drill1.2mm</footprint>
-      <fields>
-        <field name="Manufacturer">N/A</field>
-        <field name="Part Number">N/A</field>
-      </fields>
-      <libsource lib="robot" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Manufacturer" value="N/A"/>
-      <property name="Part Number" value="N/A"/>
-      <property name="Sheetname" value="Wireless-Receiver"/>
-      <property name="Sheetfile" value="Wireless-Receiver.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Wireless-Receiver/" tstamps="/d5c9d5c0-7de4-474c-9ba2-6b466f104c70/"/>
-      <tstamps>92fa2214-3784-4401-9259-6c5355aa8cb5</tstamps>
-    </comp>
     <comp ref="L5">
       <value>8uH</value>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Wurth%20Electronics%20PDFs/760308102207.pdf</datasheet>
@@ -3786,7 +3812,7 @@
     </comp>
     <comp ref="R101">
       <value>6.8k</value>
-      <footprint>robot:R_0603_1608Metric</footprint>
+      <footprint>robot:R_0402_1005Metric</footprint>
       <fields>
         <field name="Manufacturer">YAGEO</field>
         <field name="Part Number">RC0402FR-136K8L</field>
@@ -4022,12 +4048,13 @@
         <field name="Description">2.5V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="2.5V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="mcu/RP2040_minimal/RP2040_minimal.kicad_sch"/>
       <property name="VIO" value="Default to [2.5-3.3V] but can change via VOLTAGE_SELECT register"/>
@@ -4064,12 +4091,13 @@
         <field name="Description">6.3V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="6.3V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="mcu/RP2040_minimal/RP2040_minimal.kicad_sch"/>
       <property name="VIO" value="Default to [2.5-3.3V] but can change via VOLTAGE_SELECT register"/>
@@ -4450,12 +4478,13 @@
         <field name="Manufacturer">Stackpole Electronics</field>
         <field name="Notes">Normally Open. Close when needed with 0Ohm resistor. </field>
         <field name="Part Number">RMCF0603ZT0R00</field>
+        <field name="Stock">15</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Manufacturer" value="Stackpole Electronics"/>
       <property name="Part Number" value="RMCF0603ZT0R00"/>
       <property name="Notes" value="Normally Open. Close when needed with 0Ohm resistor. "/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="15"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="mcu/RP2040_minimal/RP2040_minimal.kicad_sch"/>
       <property name="VIO" value="Default to [2.5-3.3V] but can change via VOLTAGE_SELECT register"/>
@@ -4852,12 +4881,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="dnp"/>
@@ -4873,12 +4903,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="dnp"/>
@@ -4894,12 +4925,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="dnp"/>
@@ -4915,12 +4947,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="dnp"/>
@@ -4973,10 +5006,12 @@
       <fields>
         <field name="Manufacturer">JST</field>
         <field name="Part Number">A06ZR06ZR28H51B</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="A06ZR06ZR28H51B" description=""/>
       <property name="Manufacturer" value="JST"/>
       <property name="Part Number" value="A06ZR06ZR28H51B"/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="exclude_from_board"/>
@@ -4990,10 +5025,12 @@
       <fields>
         <field name="Manufacturer">JST</field>
         <field name="Part Number">A06ZR06ZR28H51B</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="A06ZR06ZR28H51B" description=""/>
       <property name="Manufacturer" value="JST"/>
       <property name="Part Number" value="A06ZR06ZR28H51B"/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="exclude_from_board"/>
@@ -5059,12 +5096,13 @@
         <field name="Description">1/4W</field>
         <field name="Manufacturer">Panasonic</field>
         <field name="Part Number">ERJ-3RQJR39V</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="R" description="Resistor"/>
       <property name="Description" value="1/4W"/>
       <property name="Manufacturer" value="Panasonic"/>
       <property name="Part Number" value="ERJ-3RQJR39V"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="dnp"/>
@@ -5080,12 +5118,13 @@
         <field name="Description">1/4W</field>
         <field name="Manufacturer">Panasonic</field>
         <field name="Part Number">ERJ-3RQJR39V</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="R" description="Resistor"/>
       <property name="Description" value="1/4W"/>
       <property name="Manufacturer" value="Panasonic"/>
       <property name="Part Number" value="ERJ-3RQJR39V"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="dnp"/>
@@ -5120,12 +5159,13 @@
         <field name="Description">1/4W</field>
         <field name="Manufacturer">Panasonic</field>
         <field name="Part Number">ERJ-3RQJR39V</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="R" description="Resistor"/>
       <property name="Description" value="1/4W"/>
       <property name="Manufacturer" value="Panasonic"/>
       <property name="Part Number" value="ERJ-3RQJR39V"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -5140,12 +5180,13 @@
         <field name="Description">1/4W</field>
         <field name="Manufacturer">Panasonic</field>
         <field name="Part Number">ERJ-3RQJR39V</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="R" description="Resistor"/>
       <property name="Description" value="1/4W"/>
       <property name="Manufacturer" value="Panasonic"/>
       <property name="Part Number" value="ERJ-3RQJR39V"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="MOTORS"/>
       <property name="Sheetfile" value="motors.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -5373,12 +5414,13 @@
         <field name="Description">25V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="25V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="USB-PD-ExtChg"/>
       <property name="Sheetfile" value="USB-PD-ExtChg.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -5810,12 +5852,13 @@
         <field name="Description">BatteryHolder_26650</field>
         <field name="Manufacturer">Uxcell</field>
         <field name="Part Number">a15042300ux0145</field>
+        <field name="Stock">5</field>
       </fields>
       <libsource lib="robot" part="BatteryHolder_26650" description=""/>
       <property name="Manufacturer" value="Uxcell"/>
       <property name="Part Number" value="a15042300ux0145"/>
       <property name="Description" value="BatteryHolder_26650"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="5"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -5852,12 +5895,13 @@
         <field name="Description">6.3V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="6.3V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -6104,12 +6148,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -6126,12 +6173,13 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -6148,12 +6196,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -6170,12 +6221,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -6192,12 +6246,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -6475,10 +6532,12 @@
       <fields>
         <field name="Manufacturer">Adam Tech</field>
         <field name="Part Number">SW-R3-1A-A-1-2</field>
+        <field name="Stock">5</field>
       </fields>
       <libsource lib="robot" part="SW-R3-1A-A-1-2" description=""/>
       <property name="Manufacturer" value="Adam Tech"/>
       <property name="Part Number" value="SW-R3-1A-A-1-2"/>
+      <property name="Stock" value="5"/>
       <property name="Sheetname" value="Protection"/>
       <property name="Sheetfile" value="Protection.kicad_sch"/>
       <property name="VIO" value="VIO [1.2-5.5] (3.3V compatible)"/>
@@ -6601,12 +6660,13 @@
         <field name="Description">6.3V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61E105KA12D</field>
+        <field name="Stock">10</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="6.3V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM155R61E105KA12D"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="10"/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>
       <property name="VIO" value="VIO [1.62-5.5] (1.8V compatible)"/>
@@ -6799,12 +6859,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>
       <property name="VIO" value="VIO [1.62-5.5] (1.8V compatible)"/>
@@ -6866,12 +6929,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>
       <property name="VIO" value="VIO [1.62-5.5] (1.8V compatible)"/>
@@ -6888,12 +6954,15 @@
         <field name="Description">10V</field>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM31CD80J107MEA8K</field>
+        <field name="Stock">20</field>
+        <field name="V_Max">6.3V</field>
       </fields>
       <libsource lib="robot" part="C" description="Unpolarized capacitor"/>
       <property name="Description" value="10V"/>
       <property name="Manufacturer" value="Murata"/>
       <property name="Part Number" value="GRM31CD80J107MEA8K"/>
-      <property name="Stock" value=""/>
+      <property name="Stock" value="20"/>
+      <property name="V_Max" value="6.3V"/>
       <property name="Sheetname" value="Charger"/>
       <property name="Sheetfile" value="Charger.kicad_sch"/>
       <property name="VIO" value="VIO [1.62-5.5] (1.8V compatible)"/>
@@ -9482,7 +9551,6 @@
       <node ref="C122" pin="2" pintype="passive"/>
       <node ref="C123" pin="2" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="L5" pin="2" pinfunction="2" pintype="input"/>
       <node ref="U1" pin="B1" pinfunction="AC2_1" pintype="passive"/>
       <node ref="U1" pin="B2" pinfunction="AC2_2" pintype="passive"/>
@@ -9502,7 +9570,6 @@
       <node ref="C119" pin="1" pintype="passive"/>
       <node ref="C121" pin="1" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="L5" pin="1" pinfunction="1" pintype="input"/>
     </net>
     <net code="143" name="Net-(D9-K)">

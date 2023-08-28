@@ -118,14 +118,15 @@ for group in grouped:
 
     # DNP Self Populating Parts to Buy on my own
     else:
-        out_toBuy.writerow([component.getField("Manufacturer"),
-            component.getField("Part Number"),
-            refs,
-            quantity,
-            component.getDescription(),
-            batch,
-            totalQty,
-            stock,
-            toBuyCnt,
-            component.getValue(),
-            component.getFootprint()])
+        if toBuyCnt > 0:
+            out_toBuy.writerow([component.getField("Manufacturer"),
+                component.getField("Part Number"),
+                refs,
+                quantity,
+                component.getDescription(),
+                batch,
+                totalQty,
+                stock,
+                toBuyCnt,
+                component.getValue(),
+                component.getFootprint()])
