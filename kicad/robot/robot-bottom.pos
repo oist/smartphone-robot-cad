@@ -1,4 +1,4 @@
-### Footprint positions - created on Fri 25 Aug 2023 05:49:39 PM EDT ###
+### Footprint positions - created on Tue 05 Sep 2023 07:31:53 PM EDT ###
 ### Printed by KiCad version 7.0.6-7.0.6~ubuntu22.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -27,7 +27,7 @@ C125      100uF                   C_1206_3216Metric           53.1650    91.2515
 C126      1uF                     C_0402_1005Metric           50.7650    88.1015  180.0000  bottom
 C128      47nF                    C_0402_1005Metric           50.2150    95.3265   90.0000  bottom
 J3        Conn_01x06_MountingPin  CONN_B6B-ZR-SM4-TF_JST      29.3650    57.6265   90.0000  bottom
-J4        USB4120-03-C_REVA       GCT_USB4151-GF-C_REVA       35.8650    36.9515  180.0000  bottom
+J4        USB4151-GF-C            GCT_USB4151-GF-C_REVA       35.8650    36.9515  180.0000  bottom
 J5        Conn_01x06_MountingPin  CONN_B6B-ZR-SM4-TF_JST      42.3650    57.6265  -90.0000  bottom
 R23       100                     R_0603_1608Metric           17.6650    68.9015    0.0000  bottom
 R90       0                       R_0603_1608Metric           58.9400    68.5015    0.0000  bottom

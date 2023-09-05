@@ -1,4 +1,4 @@
-### Footprint positions - created on Fri 25 Aug 2023 05:49:39 PM EDT ###
+### Footprint positions - created on Tue 05 Sep 2023 07:31:53 PM EDT ###
 ### Printed by KiCad version 7.0.6-7.0.6~ubuntu22.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -286,7 +286,7 @@ U2        W25Q128JVS               SOIC-8_5.23x5.23mm_P1.27mm                   
 U3        RP2040                   RP2040-QFN-56                                        7.7654    66.0452    0.0000  top
 U4        NCP3901                  NCP3901                                             42.9550    80.8463  180.0000  top
 U5        LSF0102DCTR              SOP65P400X130-8N                                    33.4079    62.6082   90.0000  top
-U6        MAX77857                 WLP-35_7x5_2.828x2.028mm                            41.4089    62.5447    0.0000  top
+U6        MAX77857BEWB+            WLP-35_7x5_2.828x2.028mm                            41.4089    62.5447    0.0000  top
 U7        AP2502KTR-G1             SOT95P280X145-6N                                    22.1750    95.6315   90.0000  top
 U8        DRV8830DRCR              IC_DRV8830DRCR                                      39.8950    44.9515  180.0000  top
 U9        DRV8830DRCR              IC_DRV8830DRCR                                      26.5761    47.1100  180.0000  top
