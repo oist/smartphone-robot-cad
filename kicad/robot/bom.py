@@ -16,6 +16,7 @@ try:
     bomFile = open(str(Path('robot_bom.csv')), 'w')
     toBuy = open(str(Path('DNPtoBuy.csv')), 'w')
     nextPCB = open(str(Path('nextPCB.csv')), 'w')
+    pcbway = open(str(Path('pcbway.csv')), 'w')
 except IOError:
     e = "Can't open output file for writing: "
     print(__file__, ":", e, sys.stderr)
@@ -25,6 +26,7 @@ except IOError:
 out_bomFile = csv.writer(bomFile, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_toBuy = csv.writer(toBuy, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_nextPCB = csv.writer(nextPCB, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
+out_pcbway = csv.writer(pcbway, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 
 # out_bomFile.writerow(['Ref', 'Qty Single Board', 'Batch Size', 'Qty Total Batch', 'Stock', 'Need to Buy', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
 out_bomFile.writerow([
@@ -51,13 +53,24 @@ out_toBuy.writerow([
                     'Need to Buy', 
                     'Value', 
                     'Footprint'])
-out_nextPCB.writerow(['',
+out_nextPCB.writerow(['Part Index',
                     'Manufacturer Part Number',
                     'Qty', 
                     'Designator',
                     'Customer Supply', 
                     'Customer Remark', 
                     'Manufacturer'])
+out_pcbway.writerow(['Item #',
+                    'Designator',
+                    'Qty', 
+                    'Manufacturer',
+                    'Mfg Part #',
+                    'Description / Value',
+                    'Package/Footprint',
+                     'Type',
+                    'Your Instruction / Notes', 
+                    'Customer Supply', 
+                    ])
 
 # Get all of the components in groups of matching parts + values
 # (see ky_generic_netlist_reader.py)
@@ -114,6 +127,18 @@ for group in grouped:
             0,
             component.getDescription(),
             component.getField("Manufacturer")
+            ])
+        out_pcbway.writerow([
+            part_idx,
+            refs,
+            quantity,
+            component.getField("Manufacturer"),
+            component.getField("Part Number"),
+            component.getDescription(),
+            component.getFootprint(),
+            component.getField("Type"),
+            component.getDescription(),
+            stock
             ])
         part_idx=part_idx+1
 
