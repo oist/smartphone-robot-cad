@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/media/christopher/HDD/git/robot-pcb/kicad/robot/robot.kicad_sch</source>
-    <date>Fri 25 Aug 2023 06:06:00 PM EDT</date>
+    <source>/home/bo/gitSSD/robot-pcb/kicad/robot/robot.kicad_sch</source>
+    <date>Thu 28 Sep 2023 11:24:55 AM EDT</date>
     <tool>Eeschema 7.0.6-7.0.6~ubuntu22.04.1</tool>
     <textvar name="1"/>
     <textvar name="2"/>
@@ -1725,15 +1725,15 @@
       <tstamps>c148ae38-7038-4252-aaa1-562116cfd510</tstamps>
     </comp>
     <comp ref="J4">
-      <value>USB4120-03-C_REVA</value>
+      <value>USB4151-GF-C</value>
       <footprint>robot:GCT_USB4151-GF-C_REVA</footprint>
       <datasheet>https://gct.co/files/drawings/usb4151.pdf</datasheet>
       <fields>
         <field name="Manufacturer">GCT</field>
-        <field name="Part Number">USB4120-03-C</field>
+        <field name="Part Number">USB4151-GF-C</field>
       </fields>
       <libsource lib="robot" part="USB4151-GF-C_REVA" description=""/>
-      <property name="Part Number" value="USB4120-03-C"/>
+      <property name="Part Number" value="USB4151-GF-C"/>
       <property name="Manufacturer" value="GCT"/>
       <property name="Stock" value=""/>
       <property name="Sheetname" value="USB-PD-PhonePC"/>
@@ -3034,16 +3034,16 @@
       <tstamps>2f6a9a9b-88fc-481c-92cf-ee894efc5f1f</tstamps>
     </comp>
     <comp ref="U6">
-      <value>MAX77857</value>
+      <value>MAX77857BEWB+</value>
       <footprint>robot:WLP-35_7x5_2.828x2.028mm</footprint>
       <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX77857.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Maxim</field>
-        <field name="Part Number">MAX77857</field>
+        <field name="Part Number">MAX77857BEWB+</field>
         <field name="Stock">19</field>
       </fields>
       <libsource lib="robot" part="MAX77857" description=""/>
-      <property name="Part Number" value="MAX77857"/>
+      <property name="Part Number" value="MAX77857BEWB+"/>
       <property name="Manufacturer" value="Maxim"/>
       <property name="Stock" value="19"/>
       <property name="Sheetname" value="BoostRegulator"/>
@@ -8462,7 +8462,7 @@
       <uri>/home/bo/git/robot-pcb/kicad/kicad-symbols/Device.kicad_sym</uri>
     </library>
     <library logical="robot">
-      <uri>/media/christopher/HDD/git/robot-pcb/kicad/robot/robot.kicad_sym</uri>
+      <uri>/home/bo/gitSSD/robot-pcb/kicad/robot/robot.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

@@ -35,7 +35,7 @@ out_bomFile.writerow([
                     'Description', 
                     'Batch Size',
                     'Qty Total Batch', 
-                    #'Stock', 
+                    'Customer Stock', 
                     #'Need to Buy', 
                     'Value', 
                     'Footprint'])
@@ -91,20 +91,21 @@ for group in grouped:
     if component.getExcludeFromBoard():
         print("Excluding " + component.getRef() + " from Board")
 
-    out_bomFile.writerow([component.getField("Manufacturer"),
-        component.getField("Part Number"),
-        refs,
-        quantity,
-        component.getDescription(),
-        batch,
-        totalQty,
-        #stock,
-        #toBuyCnt,
-        component.getValue(),
-        component.getFootprint()])
 
     # BOM excluding DNP parts 
     if not component.getDNP():
+        out_bomFile.writerow([component.getField("Manufacturer"),
+            component.getField("Part Number"),
+            refs,
+            quantity,
+            component.getDescription(),
+            batch,
+            totalQty,
+            stock,
+            #toBuyCnt,
+            component.getValue(),
+            component.getFootprint()])
+
         out_nextPCB.writerow([
             part_idx,
             component.getField("Part Number"),
