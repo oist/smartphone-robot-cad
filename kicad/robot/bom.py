@@ -17,6 +17,7 @@ try:
     toBuy = open(str(Path('DNPtoBuy.csv')), 'w')
     nextPCB = open(str(Path('nextPCB.csv')), 'w')
     pcbway = open(str(Path('pcbway.csv')), 'w')
+    sierra = open(str(Path('sierra.csv')), 'w')
 except IOError:
     e = "Can't open output file for writing: "
     print(__file__, ":", e, sys.stderr)
@@ -27,6 +28,7 @@ out_bomFile = csv.writer(bomFile, lineterminator='\n', delimiter=',', quotechar=
 out_toBuy = csv.writer(toBuy, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_nextPCB = csv.writer(nextPCB, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_pcbway = csv.writer(pcbway, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
+out_sierra = csv.writer(sierra, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 
 # out_bomFile.writerow(['Ref', 'Qty Single Board', 'Batch Size', 'Qty Total Batch', 'Stock', 'Need to Buy', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
 out_bomFile.writerow([
@@ -69,6 +71,19 @@ out_pcbway.writerow(['Item #',
                     'Package/Footprint',
                      'Type',
                     'Your Instruction / Notes', 
+                    'Customer Supply', 
+                    ])
+out_sierra.writerow(['Item #',
+                    'Qty', 
+                    'Mfg Part #',
+                    'Do Not Install',
+                    'Designator',
+                    'Vendor',
+                    'Vendor Part Number',
+                    'Value',
+                    'Size / Footprint',
+                    'Part description/specs',
+                    'Manufacturer',
                     'Customer Supply', 
                     ])
 
@@ -138,6 +153,20 @@ for group in grouped:
             component.getFootprint(),
             component.getField("Type"),
             component.getDescription(),
+            stock
+            ])
+        out_sierra.writerow([
+            part_idx,
+            quantity,
+            component.getField("Part Number"),
+            component.getDNP(),
+            refs,
+            '',
+            '',
+            component.getValue(),
+            component.getFootprint(),
+            component.getDescription(),
+            component.getField("Manufacturer"),
             stock
             ])
         part_idx=part_idx+1
