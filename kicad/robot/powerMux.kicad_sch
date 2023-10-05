@@ -1063,7 +1063,7 @@
     (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/ncp3901-d.pdf" (at 142.24 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "NCP3901" (at 142.24 101.6 0)
+    (property "Part Number" "NCP3901FCCT1G" (at 142.24 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "onsemi" (at 142.24 101.6 0)
