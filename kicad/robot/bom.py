@@ -18,6 +18,7 @@ try:
     nextPCB = open(str(Path('nextPCB.csv')), 'w')
     pcbway = open(str(Path('pcbway.csv')), 'w')
     sierra = open(str(Path('sierra.csv')), 'w')
+    jlc = open(str(Path('jlc.csv')), 'w')
 except IOError:
     e = "Can't open output file for writing: "
     print(__file__, ":", e, sys.stderr)
@@ -29,6 +30,7 @@ out_toBuy = csv.writer(toBuy, lineterminator='\n', delimiter=',', quotechar='\"'
 out_nextPCB = csv.writer(nextPCB, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_pcbway = csv.writer(pcbway, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 out_sierra = csv.writer(sierra, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
+out_jlc = csv.writer(jlc, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 
 # out_bomFile.writerow(['Ref', 'Qty Single Board', 'Batch Size', 'Qty Total Batch', 'Stock', 'Need to Buy', 'Value', 'Manufacturer', 'Part Number', 'Description', 'Footprint', 'Type'])
 out_bomFile.writerow([
@@ -86,6 +88,12 @@ out_sierra.writerow(['Item #',
                     'Manufacturer',
                     'Customer Supply', 
                     ])
+out_jlc.writerow([
+                    'Comment', 
+                    'Designator',
+                    'Footprint',
+                    'JLCPCB Part #（optional)'
+                    ])
 
 # Get all of the components in groups of matching parts + values
 # (see ky_generic_netlist_reader.py)
@@ -99,7 +107,7 @@ for group in grouped:
     # Add the reference of every component in the group and keep a reference
     # to the component so that the other data can be filled in once per group
     for component in group:
-        refs += component.getRef() + ";"
+        refs += component.getRef() + ","
         quantity = len(group)
         totalQty = quantity * batch
         try:
@@ -168,6 +176,12 @@ for group in grouped:
             component.getDescription(),
             component.getField("Manufacturer"),
             stock
+            ])
+        out_jlc.writerow([
+            component.getDescription(),
+            refs,
+            component.getFootprint(),
+            component.getField("Part Number"),
             ])
         part_idx=part_idx+1
 

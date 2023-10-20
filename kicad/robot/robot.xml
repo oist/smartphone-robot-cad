@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/bo/gitSSD/robot-pcb/kicad/robot/robot.kicad_sch</source>
-    <date>Thu 28 Sep 2023 12:39:46 PM EDT</date>
+    <date>Thu 05 Oct 2023 05:33:29 PM EDT</date>
     <tool>Eeschema 7.0.6-7.0.6~ubuntu22.04.1</tool>
     <textvar name="1"/>
     <textvar name="2"/>
@@ -2862,12 +2862,12 @@
       <datasheet>https://www.onsemi.com/pdf/datasheet/ncp3901-d.pdf</datasheet>
       <fields>
         <field name="Manufacturer">onsemi</field>
-        <field name="Part Number">NCP3901</field>
+        <field name="Part Number">NCP3901FCCT1G</field>
         <field name="Stock">19</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="robot" part="NCP3901" description=""/>
-      <property name="Part Number" value="NCP3901"/>
+      <property name="Part Number" value="NCP3901FCCT1G"/>
       <property name="Manufacturer" value="onsemi"/>
       <property name="Stock" value="19"/>
       <property name="Type" value="SMD"/>
@@ -5998,17 +5998,17 @@
       <tstamps>9f21eec6-afff-449d-ae3f-228ab6ef937d</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>YJL3416A</value>
+      <value>AS2312</value>
       <footprint>robot:SOT-23</footprint>
-      <datasheet>https://www.21yangjie.com/style/pdf/low-voltage-mosfet/YJL3416A.pdf</datasheet>
+      <datasheet>https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3133/AS2312.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">Yangjie Electronic Technology </field>
-        <field name="Part Number">YJL3416A</field>
+        <field name="Manufacturer">ANBON SEMICONDUCTOR (INT'L) LIMITED</field>
+        <field name="Part Number">AS2312</field>
         <field name="Type">SMD</field>
       </fields>
       <libsource lib="robot" part="YJL3416A" description="20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523"/>
-      <property name="Part Number" value="YJL3416A"/>
-      <property name="Manufacturer" value="Yangjie Electronic Technology "/>
+      <property name="Part Number" value="AS2312"/>
+      <property name="Manufacturer" value="ANBON SEMICONDUCTOR (INT'L) LIMITED"/>
       <property name="Stock" value=""/>
       <property name="Type" value="SMD"/>
       <property name="Sheetname" value="USB-PD-ExtChg"/>
