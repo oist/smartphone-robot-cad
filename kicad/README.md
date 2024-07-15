@@ -1,5 +1,10 @@
+# Smartphone Robot PCB and Schematic Design
+The schematic and PCB design for the smartphone robot was done in KiCAD.
+
+The most recent version was created in Kicad v7 so be sure to use that when opening the project else you may run into compatibility issues.
+
 # Cloning the Repo
-Currently this repo is an OIST internal repo, so read access is only given to specific users. Add external users for collaboration. 
+Currently this repo is an OIST internal repo, so read access is only given to specific users. Add external users for collaboration.
 
 Note this repo uses a central library management system. Symbols, footprints, and models are maintained on a personal fork of the central kicad library repos. These forks are maintained as submodules within the kicad-symbols, kicad-footprints, and kicad-packages3D respectively under:
 
@@ -30,7 +35,7 @@ source KICAD_CONFIG_HOME=[path_to_repo]/config
 kicad
 ```
 
-Note this will use blank (default or empty)  configurations, so feel free to copy/paste your personal configurations into this `config` directory as all files other than `sym-lib-table` and `fp-lib-table` are ignored by the `.gitignore` file. 
+Note this will use blank (default or empty)  configurations, so feel free to copy/paste your personal configurations into this `config` directory as all files other than `sym-lib-table` and `fp-lib-table` are ignored by the `.gitignore` file.
 
 # Additional References
 - [Good discussion on KiCAD Collaboration and Versioning](https://forum.kicad.info/t/working-collaborately-on-projects-using-git/16114/11)
