@@ -1,12 +1,12 @@
 [submodule "kicad/kicad-symbols"]
-	path = kicad/kicad-symbols
+	path = pcb/kicad-symbols
 	url = git@gitlab.com:topherbuckley/kicad-symbols.git
 [submodule "kicad/kicad-footprints"]
-	path = kicad/kicad-footprints
+	path = pcb/kicad-footprints
 	url = git@gitlab.com:topherbuckley/kicad-footprints.git
 [submodule "kicad/kicad-packages3D"]
-	path = kicad/kicad-packages3D
+	path = pcb/kicad-packages3D
 	url = git@gitlab.com:topherbuckley/kicad-packages3D.git
 [submodule "kicad/digikey-kicad-library"]
-	path = kicad/digikey-kicad-library
+	path = pcb/digikey-kicad-library
 	url = git@github.com:topherbuckley/digikey-kicad-library.git
