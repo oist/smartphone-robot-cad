@@ -37,6 +37,9 @@ kicad
 
 Note this will use blank (default or empty)  configurations, so feel free to copy/paste your personal configurations into this `config` directory as all files other than `sym-lib-table` and `fp-lib-table` are ignored by the `.gitignore` file.
 
+# LED Inidications
+<img src="media/LEDs.png" alt="drawing" height="1080"/>
+
 # Additional References
 - [Good discussion on KiCAD Collaboration and Versioning](https://forum.kicad.info/t/working-collaborately-on-projects-using-git/16114/11)
 - [Nice tools for versioning](https://jnavila.github.io/plotkicadsch/)
